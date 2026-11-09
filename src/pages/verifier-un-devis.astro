@@ -1,0 +1,153 @@
+---
+// Outil gratuit « Vérifier un devis » : une page dédiée pour se classer sur la question. Textes Google et FAQ dans src/data/pages/verifier-un-devis.json.
+import Base from '../layouts/Base.astro';
+import Faq from '../components/Faq.astro';
+import { L } from '../lib/links';
+import d from '../data/pages/verifier-un-devis.json';
+const here = Astro.url.pathname;
+const app = { "@context": "https://schema.org", "@type": "WebApplication", name: "Vérifier un devis de travaux — Travaux Sans Piège", applicationCategory: "UtilitiesApplication", operatingSystem: "Web", url: "https://travauxsanspiege.fr/verifier-un-devis/", isAccessibleForFree: true, offers: { "@type": "Offer", price: "0", priceCurrency: "EUR" }, description: d.description, publisher: { "@type": "Organization", name: "Kaërt Groupe", url: "https://kaertgroupe.com" } };
+---
+<Base title={d.title} description={d.description} path="/verifier-un-devis/">
+<script type="application/ld+json" slot="head" set:html={JSON.stringify(app)} />
+<div class="wrap crumbs"><a href={L('/', here)}>Accueil</a> › Vérifier un devis</div>
+
+<section class="outil" id="outil" style="padding-top:clamp(36px,5vw,64px)"><div class="wrap">
+  <div class="head">
+    <div><div class="lbl">Outil gratuit · sans compte · 2 minutes</div><h1 style="margin-top:12px;font-size:clamp(2rem,4.4vw,3rem)">Vérifier un devis de travaux en 2 minutes</h1></div>
+    <p class="sub">Cinq questions sur le devis que vous avez sous les yeux. En retour : une note sur 100, ce qui doit être corrigé avant signature, et le message prêt à envoyer à l'artisan.</p>
+  </div>
+  <div class="tool" id="tool">
+    <div class="prog" id="prog"><i class="on"></i><i></i><i></i><i></i><i></i></div>
+
+    <div class="q" data-q="1">
+      <div class="n">Question 1 / 5</div>
+      <h3>Quel acompte l'artisan demande-t-il à la signature ?</h3>
+      <p class="help">Regardez les « conditions de règlement » du devis. Si rien n'est écrit, c'est aussi une réponse.</p>
+      <div class="opts" data-key="ac">
+        <button class="opt" data-v="30"><span>30 % ou moins<small>l'usage</small></span><span class="k"></span></button>
+        <button class="opt" data-v="40"><span>Entre 30 et 50 %<small>à ramener à 30 %, sauf matériel coûteux justifié</small></span><span class="k"></span></button>
+        <button class="opt" data-v="50"><span>50 % ou plus<small>il finance son activité avec votre argent</small></span><span class="k"></span></button>
+        <button class="opt" data-v="none"><span>Rien n'est écrit<small>le flou vous désavantage toujours</small></span><span class="k"></span></button>
+      </div>
+    </div>
+
+    <div class="q" data-q="2" hidden>
+      <div class="n">Question 2 / 5</div>
+      <h3>Les quantités sont-elles écrites ?</h3>
+      <p class="help">m² de carrelage, mètres linéaires, nombre de couches de peinture, nombre de points lumineux, marque et référence des équipements.</p>
+      <div class="opts" data-key="qt">
+        <button class="opt" data-v="oui"><span>Oui, ligne par ligne, avec les références<small>on peut comparer et contester</small></span><span class="k"></span></button>
+        <button class="opt" data-v="partiel"><span>En partie<small>certaines lignes sont des forfaits sans détail</small></span><span class="k"></span></button>
+        <button class="opt" data-v="non"><span>Non — « fourniture et pose », « rénovation complète »<small>impossible de comparer, impossible de contester</small></span><span class="k"></span></button>
+      </div>
+    </div>
+
+    <div class="q" data-q="3" hidden>
+      <div class="n">Question 3 / 5</div>
+      <h3>L'attestation de décennale est-elle jointe ?</h3>
+      <p class="help">Un PDF ou une page à part, avec le nom de l'assureur, un numéro de contrat, une date, et la liste des activités couvertes.</p>
+      <div class="opts" data-key="dc">
+        <button class="opt" data-v="recent"><span>Oui, datée de moins de 3 mois<small>reste à vérifier qu'elle couvre bien les travaux du devis</small></span><span class="k"></span></button>
+        <button class="opt" data-v="vieille"><span>Oui, mais datée de plus de 3 mois<small>elle prouve qu'il était assuré à l'époque, pas aujourd'hui</small></span><span class="k"></span></button>
+        <button class="opt" data-v="numero"><span>Juste un numéro de contrat sur le devis<small>une mention, pas une attestation</small></span><span class="k"></span></button>
+        <button class="opt" data-v="non"><span>Non, rien</span><span class="k"></span></button>
+      </div>
+    </div>
+
+    <div class="q" data-q="4" hidden>
+      <div class="n">Question 4 / 5</div>
+      <h3>Les mentions obligatoires y sont-elles ?</h3>
+      <p class="help">Raison sociale et SIRET, adresse, date du devis et durée de validité, taux de TVA par ligne, délai d'exécution, total HT et TTC.</p>
+      <div class="opts" data-key="mt">
+        <button class="opt" data-v="oui"><span>Oui, tout y est</span><span class="k"></span></button>
+        <button class="opt" data-v="partiel"><span>Il en manque une ou deux<small>souvent : la durée de validité ou le délai d'exécution</small></span><span class="k"></span></button>
+        <button class="opt" data-v="non"><span>Il en manque plusieurs, ou pas de SIRET<small>à ce stade, on ne parle plus d'un devis</small></span><span class="k"></span></button>
+      </div>
+    </div>
+
+    <div class="q" data-q="5" hidden>
+      <div class="n">Question 5 / 5</div>
+      <h3>Avez-vous un autre devis pour les mêmes travaux ?</h3>
+      <p class="help">La seule façon honnête de savoir si le prix est juste, c'est de comparer à périmètre égal.</p>
+      <div class="opts" data-key="cp">
+        <button class="opt" data-v="oui"><span>Oui, au moins un, à périmètre comparable</span><span class="k"></span></button>
+        <button class="opt" data-v="autre"><span>Oui, mais ils ne décrivent pas la même chose<small>à faire aligner avant de comparer</small></span><span class="k"></span></button>
+        <button class="opt" data-v="non"><span>Non, c'est le seul<small>vous signez sans point de repère</small></span><span class="k"></span></button>
+      </div>
+    </div>
+
+    <div class="qnav" id="qnav"><button class="lnk" id="back" onclick="back()" style="visibility:hidden">← Précédent</button><span style="font-size:13px;color:var(--mute)">Choisissez une réponse pour continuer</span></div>
+
+    <div class="res" id="res">
+      <div class="score"><div class="ring" id="ring" style="--v:0;--c:var(--ko)"><b id="scoreN">0<small>/100</small></b></div><div><h3 id="scoreT">—</h3><p id="scoreP">—</p></div></div>
+      <div class="sec"><h4>Point par point</h4><span style="font-size:13px;color:var(--mute)">Grille : paiement 25 · quantités 25 · assurance 20 · mentions 15 · comparaison 15</span></div>
+      <div id="pts"></div>
+      <div class="msg" id="msgbox"><div class="lbl">Le message prêt à envoyer</div><p id="msg"></p><div class="row"><button class="btn s" style="padding:11px 18px;font-size:14.5px" onclick="copyMsg()">Copier le message</button><button class="btn s" style="padding:11px 18px;font-size:14.5px" onclick="window.print()">Imprimer le résultat</button><button class="lnk" onclick="restart()">Refaire pour un autre devis</button></div></div>
+      <div class="next"><div><h3>Ce devis est le premier pas. Le chantier, c'est 12 étapes et autant de paiements.</h3><p>Fernand reprend ce devis, vous dit quoi vérifier avant chaque paiement, contrôle la décennale auprès de l'assureur en votre nom, et garde la preuve de tout. Gratuit jusqu'à votre premier devis vérifié, puis 149 € pour tout le chantier.</p></div><a class="btn w" href={L('/#tarif', here)}>Suivre ce chantier</a></div>
+    </div>
+  </div>
+</div></section>
+
+<section style="padding-top:0"><div class="wrap"><div class="prose" style="padding-top:0">
+  <h2>Ce que l'outil vérifie sur votre devis, et pourquoi</h2>
+  <p>Un devis de travaux engage autant que le contrat : c'est lui qu'on ressort le jour où le chantier dérape. L'outil regarde les cinq points qui, sur le terrain, font la différence entre un chantier qui se passe bien et un litige. La grille est publique : <strong>paiement 25 points, quantités 25, assurance 20, mentions 15, comparaison 15</strong>.</p>
+  <h3>1. L'acompte demandé à la signature</h3>
+  <p>L'usage est de 30 % à la commande. Au-delà, l'artisan finance son activité avec votre argent, et vous perdez votre seul levier si le chantier traîne. La bonne règle s'écrit sur le devis : 30 % à la commande, 65 % à la fin de l'étape vérifiée, 5 % à la réception. Détail dans notre guide <a href="/guides/acompte-artisan/">acompte artisan</a>.</p>
+  <h3>2. Les quantités et les références</h3>
+  <p>« Fourniture et pose », « rénovation complète » : un forfait sans quantité est impossible à comparer et impossible à contester. Un bon devis donne les m², les mètres linéaires, le nombre de couches, la marque et la référence des équipements.</p>
+  <h3>3. L'attestation décennale</h3>
+  <p>Elle doit être jointe, datée de moins de trois mois, et couvrir exactement les travaux du devis. Un numéro de contrat sur le devis n'est pas une attestation. Voir <a href="/guides/verifier-decennale-artisan/">vérifier la décennale d'un artisan</a>.</p>
+  <h3>4. Les mentions obligatoires</h3>
+  <p>Raison sociale et SIRET, date et durée de validité, taux de TVA, délai d'exécution, totaux HT et TTC. Sans SIRET ni TVA, on ne parle plus d'un devis.</p>
+  <h3>5. Un point de comparaison</h3>
+  <p>La seule façon honnête de savoir si un prix est juste est de comparer deux devis qui décrivent la même chose. L'outil ne vous donne pas de « prix du marché » inventé : il vous dit si vous avez de quoi comparer.</p>
+  <p>Le résultat se garde : vous pouvez l'imprimer ou copier le message pour l'artisan. Rien n'est enregistré tant que vous ne créez pas de compte.</p>
+</div></div></section>
+<Faq items={d.faq} title="Vérifier un devis : vos questions" />
+<script is:inline>
+
+var A={},STEP=1,N=5;
+document.querySelectorAll('.opts').forEach(function(g){g.querAll=null;g.querySelectorAll('.opt').forEach(function(b){b.addEventListener('click',function(){g.querySelectorAll('.opt').forEach(function(x){x.setAttribute('aria-pressed','false')});b.setAttribute('aria-pressed','true');A[g.dataset.key]=b.dataset.v;setTimeout(function(){STEP<N?go(STEP+1):result()},260)})})});
+function go(n){STEP=n;document.querySelectorAll('.q').forEach(function(q){q.hidden=(+q.dataset.q!==n)});document.querySelectorAll('#prog i').forEach(function(i,k){i.classList.toggle('on',k<n)});document.getElementById('back').style.visibility=n>1?'visible':'hidden';document.getElementById('res').classList.remove('on');document.getElementById('qnav').style.display='flex';document.getElementById('tool').scrollIntoView({behavior:'smooth',block:'start'})}
+function back(){if(STEP>1)go(STEP-1)}
+function restart(){A={};document.querySelectorAll('.opt').forEach(function(x){x.setAttribute('aria-pressed','false')});go(1)}
+function result(){
+  var s=0,pts=[],asks=[];
+  // paiement 25
+  if(A.ac==='30'){s+=25;pts.push(['ok','Acompte à 30 % ou moins','C\'est l\'usage. Faites aussi écrire : 65 % à la fin de l\'étape vérifiée, 5 % à la réception.'])}
+  else if(A.ac==='40'){s+=12;pts.push(['warn','Acompte entre 30 et 50 %','Négociable. S\'il a du matériel coûteux à commander pour vous, demandez la facture fournisseur ; sinon, 30 %.']);asks.push('ramener l\'acompte à 30 %, avec 65 % à la fin des travaux vérifiés et 5 % à la réception')}
+  else if(A.ac==='50'){s+=0;pts.push(['ko','Acompte à 50 % ou plus','Anormal. Il finance son activité avec votre argent, et vous perdez tout levier si le chantier dérape.']);asks.push('ramener l\'acompte à 30 %, avec 65 % à la fin des travaux vérifiés et 5 % à la réception')}
+  else {s+=5;pts.push(['ko','Conditions de paiement absentes','Le flou vous désavantage toujours. Rien ne se signe sans un échéancier écrit.']);asks.push('écrire les conditions de règlement : 30 % à la commande, 65 % à la fin des travaux vérifiés, 5 % à la réception')}
+  // quantités 25
+  if(A.qt==='oui'){s+=25;pts.push(['ok','Quantités et références écrites','Vous pouvez comparer, et contester si ce n\'est pas livré.'])}
+  else if(A.qt==='partiel'){s+=12;pts.push(['warn','Des forfaits sans détail','Chaque forfait est une zone grise. Demandez le détail de ce qu\'il contient — et de ce qu\'il ne contient pas.']);asks.push('détailler les lignes au forfait (quantités, références, ce qui est inclus)')}
+  else {s+=0;pts.push(['ko','Aucune quantité','« Fourniture et pose » ne veut rien dire. Impossible de comparer, impossible de contester le jour où ça manque.']);asks.push('préciser les quantités (m², unités, nombre de couches) et les références ligne par ligne')}
+  // assurance 20
+  if(A.dc==='recent'){s+=20;pts.push(['ok','Attestation décennale jointe et récente','Reste à vérifier qu\'elle couvre exactement les lots du devis, et à la faire confirmer par l\'assureur — c\'est ce que fait Travaux Sans Piège.'])}
+  else if(A.dc==='vieille'){s+=8;pts.push(['warn','Attestation de plus de 3 mois','Elle prouve qu\'il était assuré à l\'époque. Un contrat résilié pour impayé garde une attestation « valide » en apparence.']);asks.push('joindre une attestation décennale datée de moins d\'un mois')}
+  else if(A.dc==='numero'){s+=4;pts.push(['ko','Un numéro de contrat, pas d\'attestation','Une mention sur le devis n\'engage personne. Il vous faut le document de l\'assureur, avec la liste des activités couvertes.']);asks.push('joindre l\'attestation décennale complète (assureur, n° de contrat, activités couvertes), datée de moins de 3 mois')}
+  else {s+=0;pts.push(['ko','Aucune attestation','Sans décennale valide sur ces travaux, un défaut dans cinq ans est pour vous. C\'est le point qui ne se négocie pas.']);asks.push('joindre votre attestation décennale à jour avant toute signature')}
+  // mentions 15
+  if(A.mt==='oui'){s+=15;pts.push(['ok','Mentions obligatoires présentes','SIRET, TVA, validité, délai : le devis est un vrai devis.'])}
+  else if(A.mt==='partiel'){s+=8;pts.push(['warn','Une ou deux mentions manquent','Souvent la durée de validité ou le délai d\'exécution. Faites-les ajouter : c\'est ce qui vous protège si le prix ou la date glissent.']);asks.push('compléter les mentions manquantes (durée de validité, délai d\'exécution, TVA par ligne)')}
+  else {s+=0;pts.push(['ko','Plusieurs mentions manquent','Pas de SIRET ou pas de TVA : on ne parle plus d\'un devis. Vérifiez l\'entreprise avant d\'aller plus loin.']);asks.push('me transmettre un devis complet (raison sociale, SIRET, TVA, validité, délai)')}
+  // comparaison 15
+  if(A.cp==='oui'){s+=15;pts.push(['ok','Vous avez un point de comparaison','À périmètre égal, un écart de plus de 20 % mérite une explication écrite.'])}
+  else if(A.cp==='autre'){s+=7;pts.push(['warn','Des devis qui ne décrivent pas la même chose','Demandez à chaque artisan de chiffrer le même descriptif. Tant que ce n\'est pas aligné, vous ne comparez rien.'])}
+  else {s+=0;pts.push(['ko','Un seul devis','Vous signez sans repère. Un second devis, même pour comparer, change la négociation.'])}
+  var c=s>=80?'var(--ok)':s>=55?'var(--warn)':'var(--ko)';
+  var t=s>=80?'Vous pouvez signer, après la confirmation d\'assurance.':s>=55?'À négocier avant de signer.':'Ne signez pas en l\'état.';
+  var p=s>=80?'Un bon devis. Le dernier point : faire confirmer la décennale par l\'assureur, puis écrire l\'échéancier 30 / 65 / 5.':s>=55?'Rien de grave, mais plusieurs points doivent être corrigés par écrit. Un artisan sérieux accepte ; un artisan qui refuse vous dit quelque chose.':'Trop de zones grises. Envoyez le message ci-dessous ; si la réponse ne vient pas par écrit, cherchez un second artisan.';
+  document.getElementById('ring').style.setProperty('--v',s);document.getElementById('ring').style.setProperty('--c',c);
+  document.getElementById('scoreN').innerHTML=s+'<small>/100</small>';document.getElementById('scoreT').textContent=t;document.getElementById('scoreP').textContent=p;
+  document.getElementById('pts').innerHTML=pts.map(function(x){var lab=x[0]==='ok'?'OK':x[0]==='warn'?'À corriger':'Bloquant';return '<div class="pc '+x[0]+'"><b>'+x[1]+'</b><span class="tag '+x[0]+'">'+lab+'</span><small>'+x[2]+'</small></div>'}).join('');
+  var m=asks.length?'« Bonjour, merci pour votre devis. Avant de signer, pourriez-vous : '+asks.join(' ; ')+' ? Je vous retourne le devis signé dès réception. Cordialement. »':'« Bonjour, merci pour votre devis, il est clair et complet. Avant de signer, je vous propose d\'y inscrire l\'échéancier suivant : 30 % à la commande, 65 % à la fin des travaux vérifiés, 5 % à la réception. Cordialement. »';
+  document.getElementById('msg').textContent=m;
+  document.querySelectorAll('.q').forEach(function(q){q.hidden=true});document.getElementById('qnav').style.display='none';document.querySelectorAll('#prog i').forEach(function(i){i.classList.add('on')});
+  document.getElementById('res').classList.add('on');document.getElementById('tool').scrollIntoView({behavior:'smooth',block:'start'});
+}
+function copyMsg(){var m=document.getElementById('msg').textContent;try{navigator.clipboard.writeText(m).then(function(){flash('Message copié')},function(){flash('Sélectionnez le texte pour le copier')})}catch(e){flash('Sélectionnez le texte pour le copier')}}
+function flash(t){var b=document.querySelector('#msgbox .btn');var o=b.textContent;b.textContent=t;setTimeout(function(){b.textContent=o},1800)}
+
+</script>
+</Base>

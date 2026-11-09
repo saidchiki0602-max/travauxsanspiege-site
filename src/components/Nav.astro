@@ -1,0 +1,28 @@
+---
+import { L } from '../lib/links';
+const here = Astro.url.pathname;
+---
+<nav class="nav" aria-label="Principale"><div class="wrap">
+  <a class="logo" href={L('/', here)} aria-label="Travaux Sans Piège — accueil"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M3 11.5 12 4l9 7.5" stroke="#D95F2B" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/><path d="M6 10.5V20h12v-9.5" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/><path d="m9.5 15 2 2 3.5-4" stroke="#D95F2B" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Travaux <span style="color:#D95F2B">Sans Piège</span></span></a>
+  <ul>
+    <li><a href={L('/verifier-un-devis/', here)}>Vérifier un devis</a></li>
+    <li><a href={L('/#comment', here)}>Comment ça marche</a></li>
+    <li><a href={L('/guides/', here)}>Guides</a></li>
+    <li><a href={L('/#tarif', here)}>Tarif</a></li>
+    <li><a href={L('/#faq', here)}>Questions</a></li>
+  </ul>
+  <span class="kaert">Un produit Kaërt</span>
+  <a class="btn p" href={L('/verifier-un-devis/', here)} style="padding:11px 18px;font-size:14.5px">Vérifier un devis</a>
+  <button class="burger" type="button" aria-label="Menu" aria-expanded="false" aria-controls="mob"><span></span><span></span><span></span></button>
+</div>
+<div class="mob" id="mob" hidden>
+  <a href={L('/verifier-un-devis/', here)}>Vérifier un devis gratuitement</a>
+  <a href={L('/#comment', here)}>Comment ça marche</a>
+  <a href={L('/guides/', here)}>Guides</a>
+  <a href={L('/#tarif', here)}>Tarif</a>
+  <a href={L('/#faq', here)}>Questions</a>
+</div></nav>
+<script>
+  const b = document.querySelector('.burger') as HTMLButtonElement | null; const m = document.getElementById('mob');
+  b?.addEventListener('click', () => { const open = m!.hidden; m!.hidden = !open; b.setAttribute('aria-expanded', String(open)); });
+</script>

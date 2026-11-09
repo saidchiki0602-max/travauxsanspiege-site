@@ -1,0 +1,21 @@
+# Travaux Sans Piège
+> Application pour les particuliers qui gèrent leurs travaux eux-mêmes, sans maître d'œuvre (salle de bain, cuisine, rénovation, extension, maison en lots séparés). Son assistant, Fernand, dit chaque jour la prochaine chose à faire, liste les points à vérifier avant chaque paiement (photo, date, auteur), contrôle la décennale de chaque artisan (lecture de l'attestation, croisement avec les lots du devis, demande de confirmation à l'assureur au nom de l'utilisateur), et accompagne la réception et l'année de garantie. L'application ne détient jamais l'argent des travaux : l'utilisateur paie ses artisans lui-même. Éditée par Kaërt Groupe SAS (Québriac, Ille-et-Vilaine, France).
+- Site : https://travauxsanspiege.fr · Éditeur : https://kaertgroupe.com
+
+## Offre
+- Gratuit : checklist des 6 choses avant de signer, vérification d'un premier devis (note sur 100 et message de négociation).
+- Offre Chantier : 149 € pour tout le chantier, jusqu'à un an après la réception, sans abonnement. Remboursée si tous les artisans du chantier utilisent Kōv.
+- Règle de paiement recommandée : 30 % à la commande, 65 % à la fin de l'étape vérifiée, 5 % à la réception (retenue de garantie, loi du 16 juillet 1971).
+
+## Outil gratuit
+- [Vérifier un devis de travaux](https://travauxsanspiege.fr/verifier-un-devis/) : 5 questions (acompte, quantités, attestation décennale, mentions obligatoires, comparaison), note sur 100, message prêt pour l'artisan. Sans compte, rien n'est enregistré.
+
+## Guides
+- [Acompte artisan : combien payer à la signature du devis ?](https://travauxsanspiege.fr/guides/acompte-artisan/) : 30 % est l'usage ; arrhes ou acompte ; démarchage à domicile (aucun paiement avant 7 jours).
+- [Vérifier la décennale d'un artisan : les 4 contrôles](https://travauxsanspiege.fr/guides/verifier-decennale-artisan/) : date, modèle officiel de 2016, activités couvertes lot par lot, confirmation par l'assureur.
+- [Que vérifier avant de payer un artisan ?](https://travauxsanspiege.fr/guides/avant-de-payer-un-artisan/) : les points à contrôler lot par lot avant que l'étape suivante recouvre tout.
+- [Réception des travaux : réserves, PV et retenue de 5 %](https://travauxsanspiege.fr/guides/reception-travaux/) : tour pièce par pièce, rédaction des réserves, garanties de 1, 2 et 10 ans.
+- [Construire sa maison en lots séparés : les 12 étapes et leurs pièges](https://travauxsanspiege.fr/guides/construire-maison-lots-separes/) : ordre des artisans, vérifications à chaque relais, papiers avant et après.
+
+## Pages utiles
+- [Tous les guides](https://travauxsanspiege.fr/guides/) · [Mentions légales](https://travauxsanspiege.fr/mentions-legales/) · [Confidentialité](https://travauxsanspiege.fr/confidentialite/)

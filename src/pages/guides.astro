@@ -1,0 +1,22 @@
+---
+import Base from '../layouts/Base.astro';
+import Faq from '../components/Faq.astro';
+import { L } from '../lib/links';
+import guides from '../data/guides.json';
+import d from '../data/pages/guides.json';
+const here = Astro.url.pathname;
+const list = { "@context": "https://schema.org", "@type": "ItemList", itemListElement: guides.map((g, i) => ({ "@type": "ListItem", position: i + 1, url: `https://travauxsanspiege.fr/guides/${g.slug}/`, name: g.title })) };
+---
+<Base title={d.title} description={d.description} path="/guides/">
+  <script type="application/ld+json" slot="head" set:html={JSON.stringify(list)} />
+  <header class="ghero"><div class="wrap">
+    <div class="lbl">Guides travaux</div>
+    <h1>{d.h1}</h1>
+    <p class="lead">{d.lead}</p>
+  </div></header>
+  <section><div class="wrap">
+    <div class="gl">{guides.map((g) => <a href={L(`/guides/${g.slug}/`, here)}><b>{g.title}</b><span>{g.teaser}</span></a>)}</div>
+    <div class="next" style="margin-top:40px"><div><h3>Un devis sous les yeux ?</h3><p>Cinq questions, une note sur 100, le message prêt pour l'artisan. Gratuit, sans compte.</p></div><a class="btn w" href={L('/verifier-un-devis/', here)}>Vérifier mon devis</a></div>
+  </div></section>
+  <Faq items={d.faq} title="À propos de ces guides" />
+</Base>

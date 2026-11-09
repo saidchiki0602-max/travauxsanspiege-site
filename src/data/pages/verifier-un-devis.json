@@ -1,0 +1,26 @@
+{
+  "title": "Vérifier un devis de travaux gratuitement en 2 minutes",
+  "description": "Vérifiez un devis de travaux en 5 questions : acompte, quantités, décennale, mentions obligatoires. Note sur 100 et message prêt pour l'artisan. Gratuit.",
+  "faq": [
+    [
+      "Comment vérifier un devis de travaux ?",
+      "Regardez cinq points : l'acompte demandé (30 % est l'usage), la présence des quantités et des références ligne par ligne, l'attestation décennale jointe et datée de moins de trois mois, les mentions obligatoires (SIRET, TVA, validité, délai) et l'existence d'un second devis comparable. L'outil gratuit de Travaux Sans Piège les note sur 100 en deux minutes."
+    ],
+    [
+      "Un artisan peut-il demander 50 % d'acompte ?",
+      "Rien ne l'interdit dans un marché privé, mais ce n'est pas l'usage : 30 % à la commande est la norme. Au-delà, demandez la facture du fournisseur s'il commande du matériel coûteux pour vous ; sinon, négociez 30 % à la commande, 65 % à l'étape vérifiée, 5 % à la réception."
+    ],
+    [
+      "Quelles mentions doivent figurer sur un devis ?",
+      "Le nom et l'adresse de l'entreprise, son numéro SIRET, la date du devis et sa durée de validité, le détail des prestations avec quantités et prix unitaires, le taux de TVA, les totaux HT et TTC, le délai d'exécution et les conditions de paiement. Pour les travaux soumis à la décennale, l'assurance doit être mentionnée."
+    ],
+    [
+      "Le devis doit-il contenir l'attestation décennale ?",
+      "L'artisan doit justifier de son assurance décennale avant le début des travaux, et les coordonnées de l'assureur doivent apparaître sur le devis. Demandez l'attestation complète, datée de moins de trois mois, et vérifiez qu'elle couvre bien les activités du devis."
+    ],
+    [
+      "Mes réponses sont-elles enregistrées ?",
+      "Non. L'outil fonctionne dans votre navigateur et n'enregistre rien. Si vous créez un compte Travaux Sans Piège, le devis vérifié est conservé et sert de base au suivi du chantier."
+    ]
+  ]
+}

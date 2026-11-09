@@ -1,0 +1,39 @@
+{
+  "title": "Travaux Sans Piège — Suivi de travaux du particulier",
+  "description": "Suivi de travaux du particulier qui gère son chantier seul : quoi vérifier avant de payer, décennale des artisans contrôlée, devis vérifié gratuitement.",
+  "app": "Application de suivi de travaux pour les particuliers qui gèrent leur chantier eux-mêmes, sans maître d'œuvre : points à vérifier avant chaque paiement (photo, date, auteur), contrôle de la décennale de chaque artisan, réponses aux questions de chantier par Fernand, réception et suivi des garanties.",
+  "faq": [
+    [
+      "Quel acompte un artisan peut-il demander ?",
+      "L'usage est 30 % à la commande. Au-delà, il finance son activité avec votre argent — sauf s'il a acheté pour vous du matériel coûteux, et alors il vous montre la facture du fournisseur. Faites écrire sur le devis : 30 % à la commande, 65 % à la fin de l'étape vérifiée, 5 % à la réception."
+    ],
+    [
+      "Comment vérifier la décennale d'un artisan ?",
+      "L'attestation doit être datée de moins de trois mois, au format de l'arrêté du 5 janvier 2016, et lister des activités qui couvrent exactement les lots du devis. Un numéro de contrat sur le devis n'est pas une attestation. Travaux Sans Piège lit la pièce, la croise avec le devis et envoie en votre nom la demande de confirmation à l'assureur. Sans réponse sous cinq jours ouvrés, on vous le dit et vous décidez."
+    ],
+    [
+      "Que faut-il vérifier avant de payer ?",
+      "Que le travail est fini, pas « presque ». Que ce qui va être recouvert — tuyaux, réseaux, chaînages, isolant — a été vu et photographié. Et que 5 % restent retenus jusqu'à la réception. Travaux Sans Piège liste les points de chaque étape, exige une photo datée par point, et ne donne le feu vert qu'ensuite."
+    ],
+    [
+      "Travaux Sans Piège tient-il l'argent ?",
+      "Non. Vous payez vos artisans vous-même, comme d'habitude. L'outil vous dit quand et combien, bloque le feu vert tant que l'étape n'est pas vérifiée, et garde la chronologie photo → vérification → paiement. Pas d'intermédiaire financier, pas de commission."
+    ],
+    [
+      "Est-ce que quelqu'un chez Kaërt lit mes pièces ou appelle mes artisans ?",
+      "Non. C'est un logiciel. Il prépare et envoie les demandes en votre nom — à l'assureur, à l'artisan — et range les réponses dans votre dossier. Si vous voulez un humain, le courtier en travaux du réseau CourtierTravaux.com vous rappelle dans l'heure : il voit votre dossier le temps de l'appel, puis l'accès se ferme."
+    ],
+    [
+      "Et si je construis ma maison en lots séparés ?",
+      "Travaux Sans Piège couvre les douze étapes, du terrassement à la réception, avec les points à vérifier à chaque relais entre artisans, l'administratif (permis, dommages-ouvrage, déclaration d'ouverture, étude de sol, test d'étanchéité, Consuel, DAACT) et le carnet du logement pour la revente."
+    ],
+    [
+      "Nous sommes deux à décider. Comment ça se passe ?",
+      "Vous invitez votre conjoint comme co-décideur : il vérifie et marque les paiements comme vous. Chaque action porte un seul nom, l'autre est prévenu dans la minute. Un parent qui s'y connaît peut suivre en lecture seule."
+    ],
+    [
+      "Et mes artisans, ils doivent installer quelque chose ?",
+      "Rien. Ils reçoivent un SMS avec un lien vers leur page : dates à confirmer, pièces à déposer, points qui seront vérifiés. Ils ne voient que leur lot. S'ils utilisent Kōv, tout arrive tout seul."
+    ]
+  ]
+}

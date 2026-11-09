@@ -1,0 +1,10 @@
+---
+import { L } from '../lib/links';
+import guides from '../data/guides.json';
+const here = Astro.url.pathname;
+---
+<footer><div class="wrap">
+  <span>Travaux Sans Piège — un produit <a href="https://kaertgroupe.com/">Kaërt Groupe</a>, Québriac (35)</span>
+  <span><a href={L('/verifier-un-devis/', here)}>Vérifier un devis</a> · <a href={L('/guides/', here)}>Guides</a>{guides.slice(0, 3).map((g) => <> · <a href={L(`/guides/${g.slug}/`, here)}>{g.short}</a></>)}</span>
+  <span><a href={L('/mentions-legales/', here)}>Mentions légales</a> · <a href={L('/confidentialite/', here)}>Confidentialité</a> · Hébergé en Europe</span>
+</div></footer>

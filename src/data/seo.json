@@ -1,0 +1,51 @@
+{
+  "_note": "Étude de pertinence par page : requête principale visée, variantes, intention, pourquoi. Les volumes seront remplacés par les données Search Console dès qu'elles existent.",
+  "index": {
+    "requete": "suivi de travaux particulier",
+    "variantes": ["application suivi travaux particulier", "gérer ses travaux soi-même", "gérer son chantier sans maître d'œuvre", "coordonner plusieurs artisans", "payer artisan par étape", "travaux sans se faire avoir"],
+    "intention": "Un particulier qui rénove ou construit sans maître d'œuvre et a peur de se faire avoir. Intention mixte : information puis outil.",
+    "pourquoi": "Les requêtes « application suivi travaux » sont tenues par des acteurs généralistes ; on prend l'angle « sans se faire avoir » et « payer à l'étape », qui sont les vraies peurs. La marque elle-même porte la promesse, ce qui aide aussi la publicité."
+  },
+  "verifier-un-devis": {
+    "requete": "vérifier un devis de travaux",
+    "variantes": ["devis travaux vérification gratuite", "comment lire un devis artisan", "mentions obligatoires devis travaux", "acompte 50 % normal", "devis artisan sans quantité"],
+    "intention": "Un particulier qui a un devis sous les yeux et hésite à signer. Intention immédiate, très forte : c'est la porte d'entrée principale.",
+    "pourquoi": "L'outil a sa propre page pour se classer sur la question exacte. Le titre et le h1 reprennent la requête, la page explique les cinq contrôles (contenu que Google et les IA citent), et la FAQ reprend les questions telles qu'on les tape."
+  },
+  "guides": {
+    "requete": "guide travaux particulier",
+    "variantes": ["conseils travaux particulier", "devis décennale paiement travaux", "réception travaux guide"],
+    "intention": "Sommaire : distribue vers les guides, ne vise pas de requête forte lui-même.",
+    "pourquoi": "Ce sont les guides qui portent les requêtes ; le sommaire assure le maillage et le schéma ItemList."
+  },
+  "guides/acompte-artisan": {
+    "requete": "acompte artisan",
+    "variantes": ["acompte devis travaux", "acompte 50 % artisan", "combien d'acompte pour un artisan", "acompte ou arrhes", "acompte démarchage à domicile"],
+    "intention": "Un particulier à qui l'artisan demande un acompte élevé. Question très fréquente, réponse attendue chiffrée.",
+    "pourquoi": "La réponse « 30 % » est donnée dès la première ligne (ce que les IA reprennent), avec les textes de loi qui la sécurisent (arrhes, démarchage) et la phrase prête à envoyer."
+  },
+  "guides/verifier-decennale-artisan": {
+    "requete": "vérifier décennale artisan",
+    "variantes": ["vérifier assurance décennale", "attestation décennale valide", "artisan sans décennale", "décennale activités couvertes", "attestation décennale modèle 2016"],
+    "intention": "Un particulier qui a reçu une attestation et ne sait pas la lire, ou qui doute de son artisan.",
+    "pourquoi": "Notre angle propre : le contrôle des activités lot par lot, que personne n'explique. Le tableau devis → activité est le contenu le plus citable."
+  },
+  "guides/avant-de-payer-un-artisan": {
+    "requete": "vérifier avant de payer un artisan",
+    "variantes": ["payer artisan avant fin des travaux", "travaux mal faits ne pas payer", "artisan demande plus que le devis", "photos avant fermeture murs", "paiement par étape travaux"],
+    "intention": "Un particulier qui a reçu une facture d'étape et se demande s'il doit payer.",
+    "pourquoi": "C'est le cœur du produit : le guide amène naturellement vers l'appli (Fernand, points à vérifier, feu vert du paiement)."
+  },
+  "guides/reception-travaux": {
+    "requete": "réception des travaux",
+    "variantes": ["PV de réception travaux", "réserves réception travaux", "retenue de garantie 5 %", "garantie de parfait achèvement", "levée des réserves"],
+    "intention": "Un particulier en fin de chantier qui doit signer un procès-verbal.",
+    "pourquoi": "Requête installée, réponses souvent juridiques et abstraites ; on donne le tour pièce par pièce et la façon d'écrire une réserve, ce qui manque ailleurs."
+  },
+  "guides/construire-maison-lots-separes": {
+    "requete": "construire sa maison en lots séparés",
+    "variantes": ["construction maison sans constructeur", "auto-coordination chantier maison", "ordre des corps de métier construction", "étapes construction maison", "dommages-ouvrage particulier obligatoire"],
+    "intention": "Un particulier qui envisage de construire sans constructeur ni maître d'œuvre, souvent pour économiser.",
+    "pourquoi": "Public exact de l'offre maison de l'appli ; le tableau des 12 étapes avec ce qu'on vérifie à chaque relais est notre contenu propre."
+  }
+}

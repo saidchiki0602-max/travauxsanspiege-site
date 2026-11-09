@@ -1,0 +1,50 @@
+---
+// Gabarit des guides : réponse en tête, résumé, contenu, appel à l'action, FAQ balisée, guides liés.
+import Base from './Base.astro';
+import Faq from '../components/Faq.astro';
+import { L } from '../lib/links';
+import guides from '../data/guides.json';
+const { frontmatter } = Astro.props;
+const { title, description, slug, h1, lead, tldr, faq = [], minutes = 6, updated = '2026-11-09', cta = 'devis' } = frontmatter;
+const here = Astro.url.pathname;
+const path = `/guides/${slug}/`;
+const site = 'https://travauxsanspiege.fr';
+const related = guides.filter((g) => g.slug !== slug).slice(0, 3);
+const dateFr = new Date(updated + 'T12:00:00').toLocaleDateString('fr-FR', { day: 'numeric', month: 'long', year: 'numeric' });
+const article = {
+  "@context": "https://schema.org", "@type": "Article", headline: h1, description, inLanguage: "fr-FR",
+  datePublished: updated, dateModified: updated, mainEntityOfPage: site + path,
+  author: { "@type": "Organization", name: "Travaux Sans Piège", url: site, description: "Fondé par un maître d'œuvre bâtiment (10 ans de chantiers)." },
+  publisher: { "@type": "Organization", name: "Kaërt Groupe", url: "https://kaertgroupe.com" }
+};
+const crumbs = { "@context": "https://schema.org", "@type": "BreadcrumbList", itemListElement: [
+  { "@type": "ListItem", position: 1, name: "Accueil", item: site + '/' },
+  { "@type": "ListItem", position: 2, name: "Guides", item: site + '/guides/' },
+  { "@type": "ListItem", position: 3, name: h1, item: site + path } ] };
+const ctas: Record<string, [string, string, string, string]> = {
+  devis: ['Votre devis, vérifié en 2 minutes', 'Cinq questions, une note sur 100, et le message prêt à envoyer à l\'artisan. Gratuit, sans compte.', 'Vérifier mon devis', '/verifier-un-devis/'],
+  appli: ['Fernand vous le rappelle au bon moment', 'Travaux Sans Piège liste les points à vérifier avant chaque paiement, photo à l\'appui, et garde la preuve. 149 € pour tout le chantier.', 'Voir comment ça marche', '/#comment'],
+};
+const c = ctas[cta] || ctas.devis;
+---
+<Base title={title} description={description} path={path}>
+  <script type="application/ld+json" slot="head" set:html={JSON.stringify(article)} />
+  <script type="application/ld+json" slot="head" set:html={JSON.stringify(crumbs)} />
+  <header class="ghero"><div class="wrap">
+    <div class="crumbs" style="padding-top:0;color:rgba(255,255,255,.55)"><a href={L('/', here)} style="color:rgba(255,255,255,.6)">Accueil</a> › <a href={L('/guides/', here)} style="color:rgba(255,255,255,.6)">Guides</a></div>
+    <div class="lbl" style="margin-top:18px">Guide</div>
+    <h1>{h1}</h1>
+    <p class="lead">{lead}</p>
+    <div class="meta">Mis à jour le {dateFr} · {minutes} min de lecture · écrit par un ancien maître d'œuvre</div>
+  </div></header>
+  <article class="wrap"><div class="prose">
+    <div class="tldr"><div class="lbl">L'essentiel</div><p set:html={tldr} /></div>
+    <slot />
+    <div class="cta-g"><div><h3>{c[0]}</h3><p>{c[1]}</p></div><a class="btn w" href={L(c[3], here)}>{c[2]}</a></div>
+  </div></article>
+  {faq.length > 0 && <Faq items={faq} title="Questions fréquentes" />}
+  <section class="related wrap" style="padding-top:20px">
+    <h2>À lire aussi</h2>
+    <div class="gl">{related.map((g) => <a href={L(`/guides/${g.slug}/`, here)}><b>{g.title}</b><span>{g.teaser}</span></a>)}</div>
+  </section>
+</Base>

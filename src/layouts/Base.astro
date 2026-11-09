@@ -1,0 +1,51 @@
+---
+import '../styles/global.css';
+import Nav from '../components/Nav.astro';
+import Footer from '../components/Footer.astro';
+interface Props { title: string; description: string; path?: string; noindex?: boolean; }
+const { title, description, path = '/', noindex = false } = Astro.props;
+const site = 'https://travauxsanspiege.fr';
+const url = site + path;
+// Search Console : coller ici le code de vérification fourni par Google (balise HTML), puis republier.
+const GSC = import.meta.env.PUBLIC_GSC_TOKEN || '';
+---
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>{title}</title>
+  <meta name="description" content={description}>
+  <link rel="canonical" href={url}>
+  <meta name="robots" content={noindex ? 'noindex,follow' : 'index,follow'}>
+  {GSC && <meta name="google-site-verification" content={GSC}>}
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Travaux Sans Piège">
+  <meta property="og:title" content={title}>
+  <meta property="og:description" content={description}>
+  <meta property="og:url" content={url}>
+  <meta property="og:locale" content="fr_FR">
+  <meta name="twitter:card" content="summary">
+  <meta name="theme-color" content="#1E2430">
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Sora:wght@500;600;700;800&family=Inter:wght@400;500;600;700&display=swap">
+  <script type="application/ld+json" set:html={JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "Travaux Sans Piège",
+    "url": site,
+    "logo": site + "/favicon.svg",
+    "description": "Application pour les particuliers qui gèrent leurs travaux eux-mêmes : vérification des devis, contrôle des décennales, points à vérifier avant chaque paiement, réception et garanties.",
+    "parentOrganization": { "@type": "Organization", "name": "Kaërt Groupe", "url": "https://kaertgroupe.com", "address": { "@type": "PostalAddress", "streetAddress": "13 rue de la Basse Ville", "postalCode": "35190", "addressLocality": "Québriac", "addressCountry": "FR" } },
+    "areaServed": "FR"
+  })} />
+  <slot name="head" />
+</head>
+<body>
+  <Nav />
+  <slot />
+  <Footer />
+</body>
+</html>

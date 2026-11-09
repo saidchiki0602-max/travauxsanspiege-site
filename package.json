@@ -1,0 +1,17 @@
+{
+  "name": "travauxsanspiege-site",
+  "type": "module",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "PUBLIC_PREVIEW=1 astro build --outDir dist-preview && node scripts/preview-links.mjs dist-preview",
+    "audit": "node scripts/audit.mjs dist",
+    "audit:preview": "node scripts/audit.mjs dist-preview",
+    "check": "npm run build && npm run audit"
+  },
+  "dependencies": {
+    "astro": "^5.0.0"
+  }
+}

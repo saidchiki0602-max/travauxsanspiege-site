@@ -1,0 +1,14 @@
+---
+// FAQ visible + balisage schema.org FAQPage : ce que lisent Google et les IA génératives.
+interface Props { items: [string, string][]; title?: string; id?: string }
+const { items, title = 'Questions fréquentes', id = 'faq' } = Astro.props;
+const ld = { "@context": "https://schema.org", "@type": "FAQPage", "mainEntity": items.map(([q, a]) => ({ "@type": "Question", "name": q, "acceptedAnswer": { "@type": "Answer", "text": a } })) };
+---
+<section class="faq" id={id}><div class="wrap">
+  <div class="lbl">Questions</div>
+  <h2 style="margin-top:12px">{title}</h2>
+  <div style="margin-top:28px;max-width:820px">
+    {items.map(([q, a]) => <details><summary>{q}</summary><p>{a}</p></details>)}
+  </div>
+</div></section>
+<script type="application/ld+json" set:html={JSON.stringify(ld)} />
