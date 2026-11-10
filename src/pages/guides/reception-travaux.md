@@ -11,7 +11,8 @@ cta: appli
 faq:
   - ["Qu'est-ce que la réception des travaux ?", "C'est l'acte par lequel le maître de l'ouvrage — vous — déclare accepter les travaux, avec ou sans réserves (article 1792-6 du Code civil). Elle se fait en présence de l'entreprise et se formalise par un procès-verbal signé."]
   - ["Que se passe-t-il si je ne mets pas de réserve sur un défaut visible ?", "Un défaut apparent qui n'est pas mentionné au procès-verbal est en principe considéré comme accepté. C'est pourquoi le tour doit être fait avec soin, en plein jour, et chaque défaut visible écrit."]
-  - ["Quand faut-il payer les 5 % de retenue de garantie ?", "La loi du 16 juillet 1971 prévoit que la retenue est libérée un an après la réception, sauf opposition motivée pour des réserves non levées. Vous pouvez la verser plus tôt une fois toutes les réserves levées, mais vous n'y êtes pas obligé."]
+  - ["Quand faut-il payer les 5 % de retenue de garantie ?", "La loi du 16 juillet 1971 prévoit que la retenue est libérée un an après la réception, sauf opposition motivée pour des réserves non levées. Vous pouvez la libérer plus tôt une fois toutes les réserves levées, mais vous n'y êtes pas obligé."]
+  - ["Peut-on garder les 5 % sur son propre compte ?", "Non. La loi impose que la retenue de garantie soit prévue au contrat et consignée chez un tiers accepté par les deux parties (Caisse des Dépôts, notaire, banque), ou remplacée par une caution bancaire de l'entreprise. Une retenue simplement conservée par le client n'est pas conforme."]
   - ["Quelles garanties démarrent à la réception ?", "La garantie de parfait achèvement (un an, tous les désordres signalés), la garantie de bon fonctionnement (deux ans, équipements dissociables comme volets, robinetterie, chaudière) et la garantie décennale (dix ans, désordres graves touchant la solidité ou l'usage)."]
   - ["Faut-il un professionnel pour la réception ?", "Ce n'est pas obligatoire. Pour une maison ou une grosse rénovation, se faire accompagner par un expert bâtiment ou un maître d'œuvre pendant deux heures vaut souvent son prix : il voit ce qu'un œil non averti ne voit pas."]
 ---
@@ -75,11 +76,12 @@ Un défaut apparent qui n'est pas noté est en principe considéré comme accept
 
 Si l'échéancier de vos devis prévoit une retenue de 5 % (c'est ce que nous recommandons dès la signature, voir [l'acompte artisan](/guides/acompte-artisan/)), elle garantit que l'artisan reviendra lever ses réserves.
 
-La loi du 16 juillet 1971 prévoit que cette retenue est **libérée un an après la réception**, sauf opposition motivée si des réserves ne sont pas levées. En pratique :
+La loi du 16 juillet 1971, qui est d'ordre public, encadre strictement cette retenue :
 
-- vous **pouvez** la verser plus tôt, une fois toutes les réserves de l'entreprise levées et vérifiées ;
-- vous n'y êtes **pas obligé** avant l'échéance d'un an ;
-- l'entreprise peut la remplacer par une **caution bancaire**.
+- elle doit être **prévue au devis** et ne peut pas dépasser **5 %** ;
+- la somme doit être **consignée chez un tiers** (c'est la consignation de la retenue de garantie) accepté par les deux parties — la Caisse des Dépôts, un notaire, une banque. La garder sur votre compte n'est pas conforme, et la Cour de cassation l'a sanctionné ;
+- l'entreprise peut la remplacer par une **caution bancaire** ;
+- elle est **libérée un an après la réception**, sauf opposition motivée si des réserves ne sont pas levées. Vous pouvez la libérer plus tôt, une fois toutes les réserves de l'entreprise levées et vérifiées.
 
 ## Après la réception
 

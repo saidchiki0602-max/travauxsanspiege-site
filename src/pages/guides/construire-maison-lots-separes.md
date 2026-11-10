@@ -1,9 +1,9 @@
 ---
 layout: ../../layouts/Guide.astro
 slug: construire-maison-lots-separes
-title: "Construire sa maison en lots séparés : 12 étapes et pièges"
-description: "Construire sa maison en lots séparés, sans constructeur : les 12 étapes, l'ordre des artisans, ce qu'on vérifie à chaque relais, les papiers à prévoir."
-h1: "Construire sa maison en lots séparés : les 12 étapes et leurs pièges"
+title: "Construire sa maison sans constructeur : les 12 étapes"
+description: "Construire sa maison sans constructeur, en lots séparés : les 12 étapes, l'ordre des artisans, ce qu'on vérifie à chaque relais, les papiers à prévoir."
+h1: "Construire sa maison sans constructeur, en lots séparés : les 12 étapes"
 lead: "Sans constructeur ni maître d'œuvre, vous signez directement avec chaque artisan. Vous économisez une marge, mais vous devenez le chef d'orchestre : l'ordre de passage, les vérifications à chaque relais, les assurances et les papiers sont pour vous."
 tldr: "En lots séparés, <strong>vous coordonnez</strong> : il n'y a ni garantie de livraison ni prix global. Avant le premier coup de pelle : <strong>permis affiché, dommages-ouvrage souscrite, étude de sol</strong> si le terrain est en zone argileuse, <strong>décennale de chaque artisan vérifiée</strong>. Ensuite, à chaque passage de relais, on vérifie ce que l'étape suivante va recouvrir <strong>avant</strong> de payer."
 minutes: 9
@@ -27,19 +27,21 @@ En **lots séparés**, vous signez directement avec chaque artisan — terrassie
 - **les assurances** de chacun ;
 - **les papiers**, avant, pendant et après.
 
-C'est faisable, et beaucoup le font bien. À condition de le faire avec méthode.
+C'est ce qu'on appelle aussi **être son propre maître d'œuvre**. C'est faisable, et beaucoup le font bien. À condition de le faire avec méthode.
 
 ## Avant de commencer
 
 1. **Permis de construire obtenu et affiché** sur le terrain, visible de la rue. Photographiez le panneau, avec la date : le délai de recours des tiers court à partir de l'affichage.
 2. **Étude de sol** si le terrain est en zone d'argiles moyennement ou fortement exposée (obligation issue de la loi Élan) : demandez-la au vendeur du terrain, transmettez-la au maçon.
-3. **Assurance dommages-ouvrage** souscrite **avant** l'ouverture du chantier : elle est obligatoire (article L242-1 du Code des assurances), et c'est elle qui préfinance les réparations en cas de désordre grave, sans attendre de savoir qui est responsable.
+3. **Assurance dommages-ouvrage** souscrite **avant** l'ouverture du chantier : la dommages-ouvrage est obligatoire, y compris pour un particulier qui fait construire (article L242-1 du Code des assurances), et c'est elle qui préfinance les réparations en cas de désordre grave, sans attendre de savoir qui est responsable.
 4. **Devis signés**, vérifiés, avec un échéancier écrit : voir [l'acompte artisan](/guides/acompte-artisan/).
 5. **Décennale de chaque artisan vérifiée**, activité par activité : voir [vérifier la décennale d'un artisan](/guides/verifier-decennale-artisan/).
 6. **Déclaration d'ouverture de chantier** déposée en mairie.
 7. **Un planning écrit**, accepté par chaque artisan : qui vient quand, qui attend qui.
 
 ## Les 12 étapes et ce qu'on vérifie à chaque relais
+
+L'ordre des corps de métier sur une construction est toujours le même ; ce qui change, c'est ce que vous vérifiez avant de laisser passer le suivant.
 
 | # | Étape | À vérifier avant de passer à la suite |
 |---|---|---|

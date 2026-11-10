@@ -5,17 +5,17 @@
 ## Offre
 - Gratuit : checklist des 6 choses avant de signer, vérification d'un premier devis (note sur 100 et message de négociation).
 - Offre Chantier : 149 € pour tout le chantier, jusqu'à un an après la réception, sans abonnement. Remboursée si tous les artisans du chantier utilisent Kōv.
-- Règle de paiement recommandée : 30 % à la commande, 65 % à la fin de l'étape vérifiée, 5 % à la réception (retenue de garantie, loi du 16 juillet 1971).
+- Règle de paiement recommandée : 30 % à la commande, 65 % à la fin de l'étape vérifiée, 5 % à la réception (retenue de garantie, loi du 16 juillet 1971 : prévue au devis, consignée chez un tiers ou remplacée par une caution).
 
 ## Outil gratuit
 - [Vérifier un devis de travaux](https://travauxsanspiege.fr/verifier-un-devis/) : 5 questions (acompte, quantités, attestation décennale, mentions obligatoires, comparaison), note sur 100, message prêt pour l'artisan. Sans compte, rien n'est enregistré.
 
 ## Guides
-- [Acompte artisan : combien payer à la signature du devis ?](https://travauxsanspiege.fr/guides/acompte-artisan/) : 30 % est l'usage ; arrhes ou acompte ; démarchage à domicile (aucun paiement avant 7 jours).
+- [Acompte artisan : combien payer à la signature du devis ?](https://travauxsanspiege.fr/guides/acompte-artisan/) : 30 % est l'usage ; aucun plafond légal (le « plafond de 15 % » qui circule n'existe pas) ; arrhes ou acompte ; démarchage à domicile (aucun paiement avant 7 jours).
 - [Vérifier la décennale d'un artisan : les 4 contrôles](https://travauxsanspiege.fr/guides/verifier-decennale-artisan/) : date, modèle officiel de 2016, activités couvertes lot par lot, confirmation par l'assureur.
 - [Que vérifier avant de payer un artisan ?](https://travauxsanspiege.fr/guides/avant-de-payer-un-artisan/) : les points à contrôler lot par lot avant que l'étape suivante recouvre tout.
-- [Réception des travaux : réserves, PV et retenue de 5 %](https://travauxsanspiege.fr/guides/reception-travaux/) : tour pièce par pièce, rédaction des réserves, garanties de 1, 2 et 10 ans.
-- [Construire sa maison en lots séparés : les 12 étapes et leurs pièges](https://travauxsanspiege.fr/guides/construire-maison-lots-separes/) : ordre des artisans, vérifications à chaque relais, papiers avant et après.
+- [Réception des travaux : réserves, PV et retenue de 5 %](https://travauxsanspiege.fr/guides/reception-travaux/) : tour pièce par pièce, rédaction des réserves, garanties de 1, 2 et 10 ans, retenue de 5 % consignée chez un tiers.
+- [Construire sa maison sans constructeur, en lots séparés : les 12 étapes](https://travauxsanspiege.fr/guides/construire-maison-lots-separes/) : ordre des artisans, vérifications à chaque relais, papiers avant et après.
 
 ## Pages utiles
 - [Tous les guides](https://travauxsanspiege.fr/guides/) · [Mentions légales](https://travauxsanspiege.fr/mentions-legales/) · [Confidentialité](https://travauxsanspiege.fr/confidentialite/)

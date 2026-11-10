@@ -94,4 +94,5 @@ ${errs.length ? '<ul>' + errs.map(e => '<li class="n">' + esc(e) + '</li>').join
 ${rows}</div></body></html>`;
 fs.mkdirSync(path.join(dir, 'audit'), { recursive: true }); fs.writeFileSync(path.join(dir, 'audit', 'index.html'), html);
 console.log(`\nRapport : ${path.join(dir, 'audit', 'index.html')}`);
+fs.writeFileSync(path.join(dir, 'audit', 'data.json'), JSON.stringify({ pages, errs, warns }, null, 1));
 process.exit(errs.length ? 1 : 0);

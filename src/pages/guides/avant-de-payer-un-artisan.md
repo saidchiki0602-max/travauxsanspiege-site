@@ -5,7 +5,7 @@ title: "Que vérifier avant de payer un artisan ?"
 description: "Avant de payer un artisan : le travail est fini, ce qui va être recouvert est vu et photographié, 5 % restent retenus. Les points à vérifier, lot par lot."
 h1: "Que vérifier avant de payer un artisan ?"
 lead: "Le bon moment pour vérifier un chantier, c'est juste avant que l'étape suivante recouvre tout : les tuyaux avant le carrelage, les gaines avant le placo, le chaînage avant la charpente. Après, on ne revoit plus rien. Voici quoi regarder, lot par lot."
-tldr: "Trois règles avant tout paiement : <strong>1.</strong> le travail est <strong>fini</strong>, pas « presque », <strong>2.</strong> ce qui va être recouvert a été <strong>vu et photographié</strong>, avec la date et un mètre dans le champ, <strong>3.</strong> vous gardez <strong>5 % jusqu'à la réception</strong>. Un supplément non prévu au devis ne se paie qu'avec un avenant signé avant les travaux."
+tldr: "Trois règles avant tout paiement : <strong>1.</strong> le travail est <strong>fini</strong>, pas « presque », <strong>2.</strong> ce qui va être recouvert a été <strong>vu et photographié</strong>, avec la date et un mètre dans le champ, <strong>3.</strong> <strong>5 % sont retenus jusqu'à la réception</strong>, comme prévu au devis. Un supplément non prévu au devis ne se paie qu'avec un avenant signé avant les travaux."
 minutes: 8
 cta: appli
 faq:
@@ -23,7 +23,7 @@ D'où trois règles, valables pour tous les corps de métier :
 
 1. **Fini veut dire fini.** On ne solde pas une étape « presque terminée ». Le dernier 10 % d'une étape est souvent celui qui ne se fait jamais une fois payé.
 2. **Ce qui va être recouvert se regarde avant.** Et se photographie : date visible, mètre dans le champ, vue d'ensemble puis détails.
-3. **On garde 5 % jusqu'à la réception.** C'est la [retenue de garantie](/guides/reception-travaux/), votre seul levier pour que l'artisan revienne.
+3. **On retient 5 % jusqu'à la réception.** C'est la [retenue de garantie](/guides/reception-travaux/), votre levier pour que l'artisan revienne. Elle doit être prévue au devis et consignée chez un tiers, ou remplacée par une caution de l'artisan.
 
 ## Lot par lot : ce qu'on vérifie
 
