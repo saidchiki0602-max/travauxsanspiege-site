@@ -93,9 +93,24 @@
       "construction maison sans maître d'œuvre",
       "ordre des corps de métier construction",
       "étapes construction maison",
-      "dommages-ouvrage particulier obligatoire"
+      "dommages-ouvrage particulier obligatoire",
+      "suivre la construction de sa maison"
     ],
     "intention": "Un particulier qui envisage de construire sans constructeur ni maître d'œuvre, souvent pour économiser.",
     "pourquoi": "Sur Google, « lots séparés » est confondu avec « lotissement » : les résultats parlent de parcelles. Les particuliers écrivent plutôt « sans constructeur » ou « être son propre maître d'œuvre ». On vise donc ces formulations, « lots séparés » reste en variante. Le tableau des 12 étapes avec ce qu'on vérifie à chaque relais est notre contenu propre."
+  },
+  "guides/suivre-son-chantier-seul": {
+    "requete": "suivre son chantier seul",
+    "variantes": [
+      "faire son suivi de chantier",
+      "suivi de chantier particulier",
+      "suivre ses travaux",
+      "compte rendu de chantier",
+      "coordonner les artisans",
+      "planning",
+      "sans maître d'œuvre"
+    ],
+    "intention": "Un particulier qui a décidé de se passer de maître d'œuvre et cherche comment s'y prendre concrètement. Intention information, très proche de l'achat de l'appli.",
+    "pourquoi": "C'est la famille de recherches la plus proche du produit (suivre son chantier seul, faire son suivi de chantier, suivi de chantier particulier, suivre ses travaux). Une seule page pilier couvre toutes ces formulations : Google les regroupe, plusieurs pages se feraient concurrence."
   }
 }
