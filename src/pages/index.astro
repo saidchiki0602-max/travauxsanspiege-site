@@ -103,7 +103,13 @@ import Waitlist from '../components/Waitlist.astro';
     </div>
     <div class="pr main">
       <div class="lbl">Offre Chantier · ouverture prochaine</div>
-      <div class="amt">149 € <small>pour tout le chantier</small></div>
+      <div class="amt"><small style="display:block;margin-bottom:4px">à partir de</small>149 € <small>pour tout le chantier</small></div>
+      <table class="tiers">
+        <tr><td>Travaux jusqu'à 50 000 €</td><td>149 €</td></tr>
+        <tr><td>De 50 000 à 150 000 €</td><td>349 €</td></tr>
+        <tr><td>Plus de 150 000 €, ou construction d'une maison</td><td>690 €</td></tr>
+      </table>
+      <p class="fine" style="margin-top:8px">Un seul paiement, selon le montant total de vos devis. Pas d'abonnement.</p>
       <ul>
         <li>Toutes les étapes, tous les points à vérifier, toutes les photos</li>
         <li>Décennale de chaque artisan confirmée auprès de l'assureur</li>

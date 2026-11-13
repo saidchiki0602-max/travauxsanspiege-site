@@ -38,6 +38,10 @@
     [
       "Et mes artisans, ils doivent installer quelque chose ?",
       "Rien. Ils reçoivent un SMS avec un lien vers leur page : dates à confirmer, pièces à déposer, points qui seront vérifiés. Ils ne voient que leur lot. S'ils utilisent Kōv, tout arrive tout seul."
+    ],
+    [
+      "Combien coûte Travaux Sans Piège ?",
+      "L'outil de vérification de devis est gratuit. L'application, qui ouvre prochainement, se paie une seule fois pour tout le chantier, sans abonnement : 149 € pour des travaux jusqu'à 50 000 €, 349 € de 50 000 à 150 000 €, et 690 € au-delà de 150 000 € ou pour la construction d'une maison. L'accès dure jusqu'à un an après la réception."
     ]
   ]
 }

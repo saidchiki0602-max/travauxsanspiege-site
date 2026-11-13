@@ -232,3 +232,4 @@ section{padding-block:clamp(44px,8vw,104px)}
 }
 .nw{white-space:nowrap}
 .disc,.prose .disc{font-size:13.5px;color:var(--ink2);margin:18px 0 0;line-height:1.55}
+.tiers{width:100%;border-collapse:collapse;margin-top:16px;font-size:15px}.tiers td{padding:9px 0;border-top:1px solid var(--line);vertical-align:top}.tiers td:last-child{text-align:right;font-weight:700;white-space:nowrap;padding-left:12px;font-family:var(--display)}
