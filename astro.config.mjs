@@ -4,6 +4,6 @@ const preview = process.env.PUBLIC_PREVIEW === '1';
 export default defineConfig({
   site: 'https://travauxsanspiege.fr',
   output: 'static',
-  build: { inlineStylesheets: 'always', format: preview ? 'file' : 'directory' },
+  build: { inlineStylesheets: 'always', format: preview ? 'file' : 'directory', assets: 'assets' },
   compressHTML: true,
 });

@@ -10,7 +10,7 @@ for (const f of walk()) {
     if (/\.(svg|txt|xml|png|webmanifest|css|js)$/.test(clean)) return `href="${up}${clean}"`;
     return `href="${up}${clean ? clean + '.html' : 'index.html'}${hash}"`;
   });
-  h = h.replace(/url\(\/_astro\//g, `url(${up}_astro/`).replace(/(src|href)="\/_astro\//g, `$1="${up}_astro/`);
+  h = h.replace(/url\(\/assets\//g, `url(${up}assets/`).replace(/(src|href)="\/assets\//g, `$1="${up}assets/`);
   fs.writeFileSync(path.join(dir, f), h);
 }
 console.log('liens d\'aperçu réécrits');
