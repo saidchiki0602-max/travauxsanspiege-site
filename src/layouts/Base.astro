@@ -1,4 +1,12 @@
 ---
+import '@fontsource/sora/latin-500.css';
+import '@fontsource/sora/latin-600.css';
+import '@fontsource/sora/latin-700.css';
+import '@fontsource/sora/latin-800.css';
+import '@fontsource/inter/latin-400.css';
+import '@fontsource/inter/latin-500.css';
+import '@fontsource/inter/latin-600.css';
+import '@fontsource/inter/latin-700.css';
 import '../styles/global.css';
 import Nav from '../components/Nav.astro';
 import Footer from '../components/Footer.astro';
@@ -25,21 +33,28 @@ const GSC = import.meta.env.PUBLIC_GSC_TOKEN || '';
   <meta property="og:description" content={description}>
   <meta property="og:url" content={url}>
   <meta property="og:locale" content="fr_FR">
-  <meta name="twitter:card" content="summary">
+  <meta property="og:image" content="https://travauxsanspiege.fr/og.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Travaux Sans Piège : gérez vos travaux sans maître d'œuvre, sans vous faire avoir.">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="https://travauxsanspiege.fr/og.png">
   <meta name="theme-color" content="#1E2430">
   <link rel="icon" href="/favicon.svg" type="image/svg+xml">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Sora:wght@500;600;700;800&family=Inter:wght@400;500;600;700&display=swap">
+  <link rel="icon" href="/favicon-48.png" sizes="48x48" type="image/png">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  <link rel="manifest" href="/manifest.webmanifest">
+  <meta name="theme-color" content="#1E2430">
   <script type="application/ld+json" set:html={JSON.stringify({
     "@context": "https://schema.org",
     "@type": "Organization",
     "name": "Travaux Sans Piège",
     "url": site,
-    "logo": site + "/favicon.svg",
+    "logo": site + "/icon-512.png",
     "description": "Application pour les particuliers qui gèrent leurs travaux eux-mêmes : vérification des devis, contrôle des décennales, points à vérifier avant chaque paiement, réception et garanties.",
     "parentOrganization": { "@type": "Organization", "name": "Kaërt Groupe", "url": "https://kaertgroupe.com", "address": { "@type": "PostalAddress", "streetAddress": "13 rue de la Basse Ville", "postalCode": "35190", "addressLocality": "Québriac", "addressCountry": "FR" } },
-    "areaServed": "FR"
+    "areaServed": "FR",
+    "sameAs": ["https://www.instagram.com/travauxsanspiege.fr/"]
   })} />
   <slot name="head" />
 </head>

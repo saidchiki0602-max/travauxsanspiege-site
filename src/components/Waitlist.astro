@@ -1,0 +1,9 @@
+---
+// Liste d'attente. Tant que le formulaire Systeme.io n'est pas fourni (PUBLIC_WAITLIST_URL),
+// le bouton ouvre un e-mail pré-rempli vers contact@travauxsanspiege.fr.
+const url = import.meta.env.PUBLIC_WAITLIST_URL;
+const mail = "mailto:contact@travauxsanspiege.fr?subject=" + encodeURIComponent("Liste d'attente Travaux Sans Piège") + "&body=" + encodeURIComponent("Bonjour,\n\nJe souhaite être prévenu(e) à l'ouverture de Travaux Sans Piège.\n\nMon projet (rénovation, construction, ville) : \n");
+const { label = "Être prévenu à l'ouverture", full = false } = Astro.props;
+---
+<a class="btn p" href={url || mail} style={`margin-top:20px;${full ? 'width:100%' : ''}`} {...(url ? { target: '_blank', rel: 'noopener' } : {})}>{label}</a>
+<p class="fine" style="margin-top:10px">Un seul e-mail, le jour de l'ouverture. Pas de revente de votre adresse, désinscription en un clic.</p>

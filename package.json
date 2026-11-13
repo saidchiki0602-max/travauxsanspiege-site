@@ -12,6 +12,8 @@
     "check": "npm run build && npm run audit"
   },
   "dependencies": {
+    "@fontsource/inter": "^5.3.0",
+    "@fontsource/sora": "^5.3.0",
     "astro": "^5.0.0"
   }
 }

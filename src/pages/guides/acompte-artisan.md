@@ -20,7 +20,7 @@ faq:
 
 Une affirmation circule sur de nombreux sites : l'acompte serait plafonné à 15 % pour les devis de particuliers inférieurs à 12 000 €. **Aucun texte ne le prévoit.** L'acompte d'un devis de travaux entre un artisan et un particulier n'a pas de plafond légal, quel que soit son montant ; une réponse ministérielle publiée en décembre 2025 l'a rappelé.
 
-Les seuls cas où la loi fixe le rythme des paiements sont le **contrat de construction de maison individuelle** avec un constructeur, qui a un échéancier légal, et les marchés publics. Pour tout le reste, c'est le devis signé qui fait la règle — d'où l'importance de négocier avant de signer.
+Les seuls cas où la loi fixe le rythme des paiements sont le **contrat de construction de maison individuelle** avec un constructeur, qui a un échéancier légal, et les marchés publics. Pour tout le reste, c'est le devis signé qui fait la règle — d'où l'importance de négocier avant de signer. Si vous construisez sans constructeur, en signant un devis par artisan, c'est aussi votre cas : voir [construire sa maison sans constructeur](/guides/construire-maison-lots-separes/).
 
 ## Pourquoi 30 % et pas 50 %
 

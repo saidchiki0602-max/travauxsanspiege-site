@@ -6,7 +6,8 @@ import { L } from '../lib/links';
 import d from '../data/pages/index.json';
 import guides from '../data/guides.json';
 const here = Astro.url.pathname;
-const app = { "@context": "https://schema.org", "@type": "SoftwareApplication", name: "Travaux Sans Piège", applicationCategory: "LifestyleApplication", operatingSystem: "iOS, Android, Web", url: "https://travauxsanspiege.fr/", description: d.app, offers: [ { "@type": "Offer", price: "0", priceCurrency: "EUR", name: "Vérification d'un devis et checklist de départ" }, { "@type": "Offer", price: "149", priceCurrency: "EUR", name: "Offre Chantier — tout le chantier, jusqu'à un an après la réception" } ], publisher: { "@type": "Organization", name: "Kaërt Groupe", url: "https://kaertgroupe.com" } };
+const app = { "@context": "https://schema.org", "@type": "SoftwareApplication", name: "Travaux Sans Piège", applicationCategory: "LifestyleApplication", operatingSystem: "iOS, Android, Web", url: "https://travauxsanspiege.fr/", description: d.app, offers: [ { "@type": "Offer", price: "0", priceCurrency: "EUR", name: "Vérification d'un devis et checklist de départ" } ], publisher: { "@type": "Organization", name: "Kaërt Groupe", url: "https://kaertgroupe.com" } };
+import Waitlist from '../components/Waitlist.astro';
 ---
 <Base title={d.title} description={d.description} path="/">
 <script type="application/ld+json" slot="head" set:html={JSON.stringify(app)} />
@@ -85,9 +86,9 @@ const app = { "@context": "https://schema.org", "@type": "SoftwareApplication", 
 
 <!-- ░░ TARIF ░░ -->
 <section class="pricing" id="tarif"><div class="wrap">
-  <div class="lbl">Tarif</div>
+  <div class="lbl">Tarif à l'ouverture</div>
   <h2 style="margin-top:12px">Un prix par chantier. Pas d'abonnement qui tourne.</h2>
-  <p class="sub" style="margin-top:14px">Un chantier a un début et une fin. Votre paiement aussi.</p>
+  <p class="sub" style="margin-top:14px">L'outil de vérification de devis est gratuit et disponible dès maintenant. L'application ouvre prochainement : inscrivez-vous pour être prévenu.</p>
   <div class="price">
     <div class="pr">
       <div class="lbl" style="color:var(--ok)">Gratuit</div>
@@ -97,10 +98,11 @@ const app = { "@context": "https://schema.org", "@type": "SoftwareApplication", 
         <li>Votre premier devis vérifié, noté sur 100</li>
         <li>Le message de négociation prêt à envoyer</li>
       </ul>
-      <p class="fine">Sans compte pour l'outil ci-dessus. Avec un compte, le devis est conservé et sert de base au chantier.</p>
+      <p class="fine">Disponible maintenant, sans compte et sans inscription.</p>
+      <a class="btn s" href={L('/verifier-un-devis/', here)} style="margin-top:20px;width:100%;border:1.5px solid var(--line)">Vérifier un devis</a>
     </div>
     <div class="pr main">
-      <div class="lbl">Offre Chantier</div>
+      <div class="lbl">Offre Chantier · ouverture prochaine</div>
       <div class="amt">149 € <small>pour tout le chantier</small></div>
       <ul>
         <li>Toutes les étapes, tous les points à vérifier, toutes les photos</li>
@@ -112,7 +114,7 @@ const app = { "@context": "https://schema.org", "@type": "SoftwareApplication", 
         <li>À deux : votre conjoint vérifie et paie aussi, chaque action porte un nom</li>
       </ul>
       <p class="fine"><b>Remboursé</b> si tous vos artisans sont sur Kōv à la réception : leurs devis, factures et attestations arrivent directement, on a moins de travail.</p>
-      <a class="btn p" href={L('/verifier-un-devis/', here)} style="margin-top:20px;width:100%">Commencer par vérifier un devis</a>
+      <Waitlist full />
     </div>
   </div>
   <div class="nomoney">🔒<div><b>Travaux Sans Piège ne détient jamais votre argent.</b> Vous payez vos artisans vous-même, par virement ou chèque. L'outil vous dit quand, combien, et garde la preuve. Pas d'intermédiaire financier, pas de commission sur les travaux.</div></div>

@@ -43,6 +43,8 @@ Vous n'avez pas à juger la technique d'un professionnel : c'est son métier. Vo
 
 ### Gros œuvre (maison neuve, extension)
 
+Pour une maison entière, l'ordre des artisans et les relais entre eux sont détaillés dans [construire sa maison sans constructeur](/guides/construire-maison-lots-separes/).
+
 - **Fondations** : photos du ferraillage avant le coulage et avant le remblai.
 - **Dalle** : réseaux sous dalle (eaux usées, gaines) photographiés avant coulage.
 - **Murs** : arase de niveau (moins d'un centimètre d'écart sur deux mètres), chaînage haut coulé partout, ouvertures aux bonnes dimensions par rapport au plan du menuisier, réservations prévues pour les réseaux et la ventilation.

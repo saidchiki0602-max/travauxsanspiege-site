@@ -231,3 +231,4 @@ section{padding-block:clamp(44px,8vw,104px)}
 .band span{display:block;padding-left:14px;border-left:3px solid var(--acc)}
 }
 .nw{white-space:nowrap}
+.disc,.prose .disc{font-size:13.5px;color:var(--ink2);margin:18px 0 0;line-height:1.55}

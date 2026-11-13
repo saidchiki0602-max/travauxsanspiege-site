@@ -18,7 +18,7 @@ faq:
 
 ## Pourquoi la décennale compte autant
 
-La garantie décennale couvre pendant dix ans après la réception les désordres graves : ceux qui compromettent la solidité de l'ouvrage ou le rendent impropre à son usage. Une fissure structurelle, une toiture qui fuit, un plancher qui s'affaisse, une installation de chauffage intégrée qui ne chauffe plus.
+La garantie décennale couvre pendant dix ans après [la réception des travaux](/guides/reception-travaux/) les désordres graves : ceux qui compromettent la solidité de l'ouvrage ou le rendent impropre à son usage. Une fissure structurelle, une toiture qui fuit, un plancher qui s'affaisse, une installation de chauffage intégrée qui ne chauffe plus.
 
 Tout professionnel qui réalise ce type de travaux doit être assuré (article L241-1 du Code des assurances). Mais l'obligation ne suffit pas : sur le terrain, on rencontre régulièrement trois situations.
 

@@ -23,7 +23,7 @@ const crumbs = { "@context": "https://schema.org", "@type": "BreadcrumbList", it
   { "@type": "ListItem", position: 3, name: h1, item: site + path } ] };
 const ctas: Record<string, [string, string, string, string]> = {
   devis: ['Votre devis, vérifié en 2 minutes', 'Cinq questions, une note sur 100, et le message prêt à envoyer à l\'artisan. Gratuit, sans compte.', 'Vérifier mon devis', '/verifier-un-devis/'],
-  appli: ['Fernand vous le rappelle au bon moment', 'Travaux Sans Piège liste les points à vérifier avant chaque paiement, photo à l\'appui, et garde la preuve. 149 € pour tout le chantier.', 'Voir comment ça marche', '/#comment'],
+  appli: ['Fernand vous le rappelle au bon moment', 'Travaux Sans Piège liste les points à vérifier avant chaque paiement, photo à l\'appui, et garde la preuve. Ouverture prochaine, 149 € pour tout le chantier.', 'Être prévenu à l\'ouverture', '/#tarif'],
 };
 const c = ctas[cta] || ctas.devis;
 ---
@@ -41,6 +41,7 @@ const c = ctas[cta] || ctas.devis;
     <div class="tldr"><div class="lbl">L'essentiel</div><p set:html={tldr} /></div>
     <slot />
     <div class="cta-g"><div><h3>{c[0]}</h3><p>{c[1]}</p></div><a class="btn w" href={L(c[3], here)}>{c[2]}</a></div>
+    <p class="disc">Ce guide donne une information générale, à jour à la date indiquée. Il ne remplace pas un conseil juridique adapté à votre situation : en cas de litige, faites-vous accompagner par un professionnel.</p>
   </div></article>
   {faq.length > 0 && <Faq items={faq} title="Questions fréquentes" />}
   <section class="related wrap" style="padding-top:20px">
