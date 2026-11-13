@@ -22,12 +22,12 @@ Sur un chantier, presque tous les conflits sérieux tiennent à une seule chose 
 D'où trois règles, valables pour tous les corps de métier :
 
 1. **Fini veut dire fini.** On ne solde pas une étape « presque terminée ». Le dernier 10 % d'une étape est souvent celui qui ne se fait jamais une fois payé.
-2. **Ce qui va être recouvert se regarde avant.** Et se photographie : date visible, mètre dans le champ, vue d'ensemble puis détails.
+2. **Ce qui va être recouvert se regarde avant.** Et se photographie : date visible, mètre dans le champ, vue d'ensemble puis détails. C'est tout l'intérêt d'une visite de chantier chaque semaine : voir [suivre son chantier seul](/guides/suivre-son-chantier-seul/).
 3. **On retient 5 % jusqu'à la réception.** C'est la [retenue de garantie](/guides/reception-travaux/), votre levier pour que l'artisan revienne. Elle doit être prévue au devis et consignée chez un tiers, ou remplacée par une caution de l'artisan.
 
 ## Lot par lot : ce qu'on vérifie
 
-Vous n'avez pas à juger la technique d'un professionnel : c'est son métier. Vous vérifiez **qu'il livre ce qui est écrit** et que rien ne cloche à l'œil nu.
+Vous n'avez pas à juger la technique d'un professionnel : c'est son métier. Vous vérifiez **qu'il livre ce qui est écrit** et que rien ne cloche à l'œil nu. D'où l'importance d'un devis précis dès le départ : l'[outil de vérification](/verifier-un-devis/) repère les lignes trop vagues.
 
 ### Plomberie
 
@@ -75,7 +75,7 @@ Pour une maison entière, l'ordre des artisans et les relais entre eux sont dét
 
 ## Les suppléments : jamais sans avenant
 
-« On a dû ajouter ceci, ça fait 1 200 € de plus. » Un travail supplémentaire ne se paie que s'il a fait l'objet d'un **avenant écrit, chiffré et signé par vous avant d'être réalisé**. S'il a été fait sans votre accord écrit, demandez le détail par écrit, et répondez par écrit. Ne payez pas sous la pression.
+« On a dû ajouter ceci, ça fait 1 200 € de plus. » Un travail supplémentaire ne se paie que s'il a fait l'objet d'un **avenant écrit, chiffré et signé par vous avant d'être réalisé**. S'il a été fait sans votre accord écrit, demandez le détail par écrit, et répondez par écrit. Notez-le dans votre [compte rendu de chantier](/guides/suivre-son-chantier-seul/) de la semaine. Ne payez pas sous la pression.
 
 ## Quand ça ne va pas
 

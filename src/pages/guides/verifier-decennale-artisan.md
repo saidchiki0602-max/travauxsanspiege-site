@@ -78,6 +78,8 @@ En deux minutes sur l'annuaire officiel des entreprises (annuaire-entreprises.da
 
 ## Ce qu'on fait quand ça ne colle pas
 
+Ce contrôle se fait une fois avant la signature, puis se refait si le chantier dure plus d'un an : l'attestation est annuelle. C'est un des points de la [méthode de suivi de chantier](/guides/suivre-son-chantier-seul/).
+
 - **Une activité manque** : l'artisan la fait ajouter à son contrat (son assureur le fait souvent en quelques jours) et vous envoie une nouvelle attestation, *ou* cette partie sort de son devis pour aller à une entreprise assurée pour elle.
 - **L'attestation est ancienne** : demandez-en une datée du mois, avant la signature.
 - **L'assureur ne confirme pas** : ne démarrez pas. Un chantier décalé d'une semaine coûte moins cher qu'une toiture non assurée.

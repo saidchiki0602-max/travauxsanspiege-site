@@ -33,7 +33,7 @@ Pour la décennale, encore faut-il que l'artisan ait été correctement assuré 
 
 ## Avant le jour J
 
-- Fixez la date **par écrit** avec chaque entreprise concernée.
+- Fixez la date **par écrit** avec chaque entreprise concernée. Si vous avez tenu un compte rendu après chaque visite (voir [suivre son chantier seul](/guides/suivre-son-chantier-seul/)), relisez-le : les points restés en suspens deviennent vos premières réserves.
 - Prévoyez **plein jour** et au moins deux heures pour une maison.
 - Prenez : le devis, une lampe, un mètre, un niveau ou une bille, de quoi noter, votre téléphone pour les photos.
 - Demandez à chaque artisan d'apporter les **documents à remettre** : notices, garanties des équipements, plans de récolement des réseaux.

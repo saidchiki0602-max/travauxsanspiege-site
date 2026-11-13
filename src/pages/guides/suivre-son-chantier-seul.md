@@ -25,7 +25,7 @@ Ce qu'il ne fait pas à votre place, vous ne le ferez pas non plus : vous n'avez
 
 ## Avant le premier coup de pioche
 
-- **Un devis signé par lot**, avec les quantités, la décennale jointe et l'échéancier de paiement (voir [l'acompte artisan](/guides/acompte-artisan/)).
+- **Un devis signé par lot**, avec les quantités, la décennale jointe et l'échéancier de paiement (voir [l'acompte artisan](/guides/acompte-artisan/)). Avant de signer, passez chaque devis dans l'[outil de vérification gratuit](/verifier-un-devis/).
 - **Un planning de travaux unique**, même simple : une ligne par artisan, une date de début, une durée, et ce qui doit être fini avant qu'il arrive. Envoyez-le à tous.
 - **Les interfaces écrites** : qui fait les saignées, qui rebouche, qui fait les réservations dans les murs, qui évacue les gravats, qui protège les sols. C'est là que les chantiers de particuliers dérapent.
 - **La dommages-ouvrage** si vous construisez ou faites de gros travaux de structure : elle est obligatoire (article L242-1 du Code des assurances) et se souscrit avant l'ouverture du chantier.

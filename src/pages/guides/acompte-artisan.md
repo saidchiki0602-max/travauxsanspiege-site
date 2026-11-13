@@ -36,6 +36,8 @@ Au-delà, l'équilibre bascule. Avec 50 % versés avant le premier coup de pince
 
 ## L'échéancier à écrire sur le devis
 
+L'échéancier ne protège que si chaque paiement suit une vérification sur place. Le rythme de visites qui va avec est détaillé dans [suivre son chantier seul](/guides/suivre-son-chantier-seul/).
+
 Le bon réflexe n'est pas seulement de négocier l'acompte, c'est d'écrire **tout l'échéancier** avant de signer. Celui que nous recommandons :
 
 | Moment | Part | Condition |

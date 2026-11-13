@@ -34,7 +34,7 @@ C'est ce qu'on appelle aussi **être son propre maître d'œuvre**. C'est faisab
 1. **Permis de construire obtenu et affiché** sur le terrain, visible de la rue. Photographiez le panneau, avec la date : le délai de recours des tiers court à partir de l'affichage.
 2. **Étude de sol** si le terrain est en zone d'argiles moyennement ou fortement exposée (obligation issue de la loi Élan) : demandez-la au vendeur du terrain, transmettez-la au maçon.
 3. **Assurance dommages-ouvrage** souscrite **avant** l'ouverture du chantier : la dommages-ouvrage est obligatoire, y compris pour un particulier qui fait construire (article L242-1 du Code des assurances), et c'est elle qui préfinance les réparations en cas de désordre grave, sans attendre de savoir qui est responsable.
-4. **Devis signés**, vérifiés, avec un échéancier écrit : voir [l'acompte artisan](/guides/acompte-artisan/).
+4. **Devis signés**, [vérifiés](/verifier-un-devis/), avec un échéancier écrit : voir [l'acompte artisan](/guides/acompte-artisan/).
 5. **Décennale de chaque artisan vérifiée**, activité par activité : voir [vérifier la décennale d'un artisan](/guides/verifier-decennale-artisan/).
 6. **Déclaration d'ouverture de chantier** déposée en mairie.
 7. **Un planning écrit**, accepté par chaque artisan : qui vient quand, qui attend qui.
