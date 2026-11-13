@@ -1,0 +1,28 @@
+{
+  "title": "Application de suivi de chantier pour particulier",
+  "description": "L'application de suivi de chantier du particulier : devis lus, points à vérifier avant chaque paiement, photo datée, décennale contrôlée. Comment ça marche.",
+  "h1": "Une application de suivi de chantier pour le particulier : comment ça marche",
+  "lead": "Six gestes, du premier devis jusqu'à un an après la réception. L'application fait le travail de bureau d'un maître d'œuvre : elle lit vos devis, liste les points à vérifier et garde une photo datée de chacun. Vous gardez les décisions, et vous payez vos artisans vous-même.",
+  "faq": [
+    [
+      "À qui s'adresse cette application de suivi de chantier ?",
+      "Au particulier qui fait faire des travaux par plusieurs artisans sans maître d'œuvre : rénovation d'un appartement ou d'une maison, extension, ou construction en lots séparés."
+    ],
+    [
+      "Faut-il s'y connaître en bâtiment ?",
+      "Non. Chaque point à vérifier est expliqué simplement, avec ce qu'il faut regarder et la photo à prendre. L'application ne vous demande pas de juger la technique, mais de constater ce qui est visible avant que ce soit recouvert."
+    ],
+    [
+      "Mes artisans doivent-ils installer quelque chose ?",
+      "Non. Ils reçoivent un lien vers leur page : dates à confirmer, pièces à déposer, points qui seront vérifiés. Ils ne voient que leur lot."
+    ],
+    [
+      "L'application remplace-t-elle un maître d'œuvre ou un expert ?",
+      "Non. Elle vous donne la méthode et garde les preuves, mais elle ne se déplace pas et n'engage pas de responsabilité technique. Pour une question de structure ou un litige, faites intervenir un professionnel."
+    ],
+    [
+      "Quand l'application sera-t-elle disponible ?",
+      "L'ouverture est prochaine. L'outil de vérification de devis, lui, est déjà en ligne et gratuit. Vous pouvez demander à être prévenu le jour de l'ouverture."
+    ]
+  ]
+}

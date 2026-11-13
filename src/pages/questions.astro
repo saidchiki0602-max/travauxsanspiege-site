@@ -1,0 +1,21 @@
+---
+import Base from '../layouts/Base.astro';
+import Faq from '../components/Faq.astro';
+import { L } from '../lib/links';
+import d from '../data/pages/questions.json';
+const here = Astro.url.pathname;
+const crumbs = { "@context": "https://schema.org", "@type": "BreadcrumbList", itemListElement: [{ "@type": "ListItem", position: 1, name: "Accueil", item: "https://travauxsanspiege.fr/" }, { "@type": "ListItem", position: 2, name: "Questions", item: "https://travauxsanspiege.fr/questions/" }] };
+---
+<Base title={d.title} description={d.description} path="/questions/">
+  <script type="application/ld+json" slot="head" set:html={JSON.stringify(crumbs)} />
+  <header class="ghero"><div class="wrap">
+    <div class="lbl">Questions</div>
+    <h1>{d.h1}</h1>
+    <p class="lead">{d.lead}</p>
+  </div></header>
+  <Faq items={d.faq} title="Travaux, paiements, application" />
+  <section style="padding-top:0"><div class="wrap">
+    <div class="next"><div><h3>Une question sur un devis précis ?</h3><p>Cinq questions, une note sur 100, le message prêt pour l'artisan. Gratuit, sans compte.</p></div><a class="btn w" href={L('/verifier-un-devis/', here)}>Vérifier mon devis</a></div>
+    <p style="margin-top:22px">Pour aller plus loin : <a href={L('/guides/', here)} style="color:var(--acc);font-weight:700">tous les guides</a>, <a href={L('/comment-ca-marche/', here)} style="color:var(--acc);font-weight:700">le fonctionnement de l'application</a> et <a href={L('/tarif/', here)} style="color:var(--acc);font-weight:700">le tarif</a>.</p>
+  </div></section>
+</Base>

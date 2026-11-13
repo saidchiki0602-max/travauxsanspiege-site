@@ -19,4 +19,7 @@
 - [Construire sa maison sans constructeur, en lots séparés : les 12 étapes](https://travauxsanspiege.fr/guides/construire-maison-lots-separes/) : ordre des artisans, vérifications à chaque relais, papiers avant et après.
 
 ## Pages utiles
+- [Comment ça marche](https://travauxsanspiege.fr/comment-ca-marche/) : le fonctionnement de l'application en six gestes.
+- [Tarif](https://travauxsanspiege.fr/tarif/) : 149, 349 ou 690 € selon le montant des travaux, paiement unique ; comparaison avec un maître d'œuvre.
+- [Questions fréquentes](https://travauxsanspiege.fr/questions/)
 - [Tous les guides](https://travauxsanspiege.fr/guides/) · [Mentions légales](https://travauxsanspiege.fr/mentions-legales/) · [Confidentialité](https://travauxsanspiege.fr/confidentialite/)

@@ -1,0 +1,34 @@
+---
+import Base from '../layouts/Base.astro';
+import Faq from '../components/Faq.astro';
+import HowSteps from '../components/HowSteps.astro';
+import { L } from '../lib/links';
+import d from '../data/pages/comment-ca-marche.json';
+const here = Astro.url.pathname;
+const crumbs = { "@context": "https://schema.org", "@type": "BreadcrumbList", itemListElement: [{ "@type": "ListItem", position: 1, name: "Accueil", item: "https://travauxsanspiege.fr/" }, { "@type": "ListItem", position: 2, name: "Comment ça marche", item: "https://travauxsanspiege.fr/comment-ca-marche/" }] };
+---
+<Base title={d.title} description={d.description} path="/comment-ca-marche/">
+  <script type="application/ld+json" slot="head" set:html={JSON.stringify(crumbs)} />
+  <header class="ghero"><div class="wrap">
+    <div class="lbl">Comment ça marche</div>
+    <h1>{d.h1}</h1>
+    <p class="lead">{d.lead}</p>
+  </div></header>
+  <section class="how"><div class="wrap">
+    <h2>Les six gestes d'une application de suivi de chantier</h2>
+    <p class="sub" style="margin-top:14px">Un logiciel qui fait le travail de bureau d'un maître d'œuvre attentif. Pas un service, pas un intermédiaire : vous restez le client de vos artisans.</p>
+    <div style="margin-top:34px">
+      <HowSteps />
+    </div>
+  </div></section>
+  <section style="padding-top:0"><div class="wrap"><div class="prose" style="padding-top:0">
+    <h2>Ce que l'application ne fait pas</h2>
+    <p>Elle ne tient pas votre argent : vous payez chaque artisan vous-même, par virement ou par chèque. Elle ne choisit pas vos artisans. Elle ne se déplace pas sur le chantier et ne remplace pas un professionnel pour une question de structure ou un litige. Son rôle est de vous dire quoi regarder, à quel moment, et de garder la preuve.</p>
+    <h2>Pour quels travaux</h2>
+    <p>Dès qu'il y a plusieurs artisans et plusieurs paiements : rénovation d'un appartement ou d'une maison, extension, surélévation, ou <a href={L('/guides/construire-maison-lots-separes/', here)}>construction sans constructeur</a>. Pour un seul artisan et un petit montant, l'<a href={L('/verifier-un-devis/', here)}>outil de vérification de devis</a>, gratuit, suffit souvent.</p>
+    <h2>La méthode derrière l'application</h2>
+    <p>Chaque geste correspond à une règle de métier, expliquée dans un guide : le rythme des visites dans <a href={L('/guides/suivre-son-chantier-seul/', here)}>suivre son chantier seul</a>, les contrôles par lot dans <a href={L('/guides/avant-de-payer-un-artisan/', here)}>que vérifier avant de payer</a>, l'échéancier dans <a href={L('/guides/acompte-artisan/', here)}>l'acompte artisan</a>, et l'attestation dans <a href={L('/guides/verifier-decennale-artisan/', here)}>vérifier la décennale</a>.</p>
+    <div class="cta-g"><div><b>Ouverture prochaine</b><p>Un seul paiement pour tout le chantier, à partir de 149 €.</p></div><a class="btn w" href={L('/tarif/', here)}>Voir le tarif</a></div>
+  </div></div></section>
+  <Faq items={d.faq} title="Questions sur le fonctionnement" />
+</Base>

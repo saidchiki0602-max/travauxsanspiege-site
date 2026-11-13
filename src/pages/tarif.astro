@@ -1,0 +1,41 @@
+---
+import Base from '../layouts/Base.astro';
+import Faq from '../components/Faq.astro';
+import Pricing from '../components/Pricing.astro';
+import { L } from '../lib/links';
+import d from '../data/pages/tarif.json';
+const here = Astro.url.pathname;
+const crumbs = { "@context": "https://schema.org", "@type": "BreadcrumbList", itemListElement: [{ "@type": "ListItem", position: 1, name: "Accueil", item: "https://travauxsanspiege.fr/" }, { "@type": "ListItem", position: 2, name: "Tarif", item: "https://travauxsanspiege.fr/tarif/" }] };
+---
+<Base title={d.title} description={d.description} path="/tarif/">
+  <script type="application/ld+json" slot="head" set:html={JSON.stringify(crumbs)} />
+  <header class="ghero"><div class="wrap">
+    <div class="lbl">Tarif</div>
+    <h1>{d.h1}</h1>
+    <p class="lead">{d.lead}</p>
+  </div></header>
+  <section class="pricing"><div class="wrap">
+    <h2>Trois formules, selon le montant de vos travaux</h2>
+    <p class="sub" style="margin-top:14px">Le prix du suivi de chantier suit ce que vous engagez : plus le chantier est gros, plus il y a d'artisans, d'étapes et de paiements à vérifier.</p>
+    <Pricing />
+  </div></section>
+  <section style="padding-top:0"><div class="wrap"><div class="prose" style="padding-top:0">
+    <h2>Le prix du suivi de chantier, comparé aux autres solutions</h2>
+    <p>Pour un particulier, faire suivre son chantier a toujours coûté cher, parce que la seule solution était de payer quelqu'un. Voici les ordres de grandeur habituels.</p>
+    <table>
+      <thead><tr><th>Solution</th><th>Ce que ça coûte</th><th>Ce que vous obtenez</th></tr></thead>
+      <tbody>
+        <tr><td>Maître d'œuvre, suivi complet</td><td>En général 6 à 12 % du montant des travaux</td><td>Il suit le chantier à votre place et engage sa responsabilité</td></tr>
+        <tr><td>Architecte en rénovation</td><td>Souvent 8 à 15 % du montant des travaux</td><td>Conception, consultation des entreprises et suivi</td></tr>
+        <tr><td>Expert, pour la seule réception</td><td>Plusieurs centaines d'euros la visite</td><td>Un regard de professionnel, une fois, à la fin</td></tr>
+        <tr><td><b>Travaux Sans Piège</b></td><td><b>149, 349 ou 690 €, une seule fois</b></td><td>La méthode et les preuves, du premier devis à un an après la réception. Vous faites le suivi vous-même</td></tr>
+      </tbody>
+    </table>
+    <p>Ces solutions ne font pas la même chose. Un maître d'œuvre se déplace et décide ; l'application vous dit quoi vérifier et quand payer, et garde la trace. Si vous avez choisi de vous passer de maître d'œuvre, la méthode est détaillée dans <a href={L('/guides/suivre-son-chantier-seul/', here)}>suivre son chantier seul</a>, et le <a href={L('/comment-ca-marche/', here)}>fonctionnement de l'application</a> est expliqué pas à pas.</p>
+    <h2>Pourquoi un paiement unique, sans abonnement</h2>
+    <p>Un abonnement vous ferait payer plus si votre chantier prend du retard, alors que le retard n'est presque jamais de votre fait. Avec un paiement unique, le montant est connu avant de commencer et couvre tout le chantier, jusqu'à la fin de la garantie de parfait achèvement, un an après <a href={L('/guides/reception-travaux/', here)}>la réception</a>.</p>
+    <h2>Ce qui reste gratuit</h2>
+    <p>L'<a href={L('/verifier-un-devis/', here)}>outil de vérification de devis</a> et tous les <a href={L('/guides/', here)}>guides</a> sont gratuits, sans compte. Vous pouvez vérifier un devis aujourd'hui, avant même de signer.</p>
+  </div></div></section>
+  <Faq items={d.faq} title="Questions sur le prix" />
+</Base>

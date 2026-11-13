@@ -112,5 +112,41 @@
     ],
     "intention": "Un particulier qui a décidé de se passer de maître d'œuvre et cherche comment s'y prendre concrètement. Intention information, très proche de l'achat de l'appli.",
     "pourquoi": "C'est la famille de recherches la plus proche du produit (suivre son chantier seul, faire son suivi de chantier, suivi de chantier particulier, suivre ses travaux). Une seule page pilier couvre toutes ces formulations : Google les regroupe, plusieurs pages se feraient concurrence."
+  },
+  "tarif": {
+    "requete": "prix suivi de chantier",
+    "variantes": [
+      "prix suivi de chantier particulier",
+      "sans abonnement",
+      "combien coûte un maître d'œuvre",
+      "montant des travaux",
+      "paiement unique"
+    ],
+    "intention": "Un particulier qui compare le coût d'un accompagnement avant de s'engager. Intention commerciale.",
+    "pourquoi": "Page dédiée au prix : la section de l'accueil ne pouvait pas se positionner seule. Les requêtes de prix sont proches de l'achat et la comparaison avec un maître d'œuvre joue en notre faveur."
+  },
+  "comment-ca-marche": {
+    "requete": "application de suivi de chantier",
+    "variantes": [
+      "application de suivi de chantier pour particulier",
+      "points à vérifier avant chaque paiement",
+      "photo datée",
+      "décennale",
+      "sans maître d'œuvre"
+    ],
+    "intention": "Un particulier qui cherche un outil pour suivre ses travaux et veut comprendre ce qu'il fait concrètement.",
+    "pourquoi": "Les résultats actuels ne montrent que des logiciels pour professionnels. Une page qui décrit le fonctionnement pour un particulier n'a pas de concurrent direct."
+  },
+  "questions": {
+    "requete": "questions fréquentes travaux particulier",
+    "variantes": [
+      "acompte",
+      "décennale",
+      "suivi de chantier",
+      "sans maître d'œuvre",
+      "prix"
+    ],
+    "intention": "Questions courtes, souvent posées telles quelles à Google ou à une IA.",
+    "pourquoi": "Page FAQ unique avec balisage FAQPage : c'est le format que reprennent les réponses directes de Google et les IA. Le balisage n'est plus dupliqué sur l'accueil."
   }
 }

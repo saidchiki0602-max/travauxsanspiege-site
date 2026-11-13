@@ -7,7 +7,7 @@ import d from '../data/pages/index.json';
 import guides from '../data/guides.json';
 const here = Astro.url.pathname;
 const app = { "@context": "https://schema.org", "@type": "SoftwareApplication", name: "Travaux Sans Piège", applicationCategory: "LifestyleApplication", operatingSystem: "iOS, Android, Web", url: "https://travauxsanspiege.fr/", description: d.app, offers: [ { "@type": "Offer", price: "0", priceCurrency: "EUR", name: "Vérification d'un devis et checklist de départ" } ], publisher: { "@type": "Organization", name: "Kaërt Groupe", url: "https://kaertgroupe.com" } };
-import Waitlist from '../components/Waitlist.astro';
+import Pricing from '../components/Pricing.astro';
 ---
 <Base title={d.title} description={d.description} path="/">
 <script type="application/ld+json" slot="head" set:html={JSON.stringify(app)} />
@@ -16,7 +16,7 @@ import Waitlist from '../components/Waitlist.astro';
     <div class="lbl">Pour ceux qui gèrent leurs travaux <span class="nw">eux-mêmes</span></div>
     <h1 style="margin-top:14px">Vos travaux, sans vous faire avoir.<span style="display:block;font-size:.42em;font-weight:600;letter-spacing:-.01em;color:rgba(255,255,255,.88);margin-top:14px;line-height:1.35">Le suivi de travaux du particulier qui gère son chantier lui-même, sans maître d'œuvre.</span></h1>
     <p>Salle de bain, rénovation, maison en lots séparés : chaque jour la prochaine chose à faire, ce qu'il faut vérifier <b style="color:#fff">avant</b> de payer, la décennale de chaque artisan contrôlée — et <b style="color:#fff">Fernand</b>, qui répond à vos questions en 30 secondes.</p>
-    <div class="cta"><a class="btn w" href={L('/verifier-un-devis/', here)}>Vérifier un devis gratuitement</a><a class="btn gh" href={L('/#comment', here)}>Comment ça marche</a></div>
+    <div class="cta"><a class="btn w" href={L('/verifier-un-devis/', here)}>Vérifier un devis gratuitement</a><a class="btn gh" href={L('/comment-ca-marche/', here)}>Comment ça marche</a></div>
     <div class="fine">Sans compte · 2 minutes · <b>fondé sur les usages du bâtiment et le Code des assurances</b>, écrit par un ancien maître d'œuvre</div>
   </div>
   <div class="ph" aria-hidden="true">
@@ -62,13 +62,14 @@ import Waitlist from '../components/Waitlist.astro';
   <div class="lbl">Comment ça marche</div>
   <h2 style="margin-top:12px">Un logiciel qui fait le travail d'un maître d'œuvre attentif. Pas un service, pas un intermédiaire.</h2>
   <div style="margin-top:34px">
-    <div class="step"><div class="num">1</div><div><h3>Vous transférez vos devis, factures et mails à l'adresse de votre chantier</h3><p>L'outil lit chaque pièce, compare chaque montant au devis signé, chaque attestation aux lots, chaque date au planning. Il range, et il vous dit ce qui manque. Rien à saisir.</p><span class="tag ac">Boîte chantier</span></div></div>
-    <div class="step"><div class="num">2</div><div><h3>Avant chaque paiement, les points à vérifier — et une photo par point</h3><p>Ce qu'un maître d'œuvre regarde à cette étape, expliqué simplement. Chaque point validé porte une photo, une date, une position et votre nom. Pas de photo, pas de validation.</p><span class="tag ac">Preuve horodatée</span></div></div>
-    <div class="step"><div class="num">3</div><div><h3>Feu vert : vous payez l'artisan vous-même, le bon montant</h3><p>30 % à la commande, 65 % à l'étape vérifiée, 5 % à la réception. Travaux Sans Piège ne tient pas votre argent : il vous dit quand et combien, prévient l'artisan, et garde la chronologie photo → vérification → paiement.</p><span class="tag ac">Argent dans l'ordre</span></div></div>
-    <div class="step"><div class="num">4</div><div><h3>La décennale de chaque artisan, confirmée auprès de l'assureur</h3><p>L'outil lit l'attestation, la croise avec les lots du devis, et envoie en votre nom la demande de confirmation à l'assureur. Si une activité n'est pas couverte, le relais est bloqué jusqu'à ce que ce soit réglé.</p><span class="tag ac">Contrôle décennale</span></div></div>
-    <div class="step"><div class="num">5</div><div><h3>Une photo, une question : Fernand répond en 30 secondes</h3><p>« C'est normal que… ? » Envoyez la photo, dites ce qui vous inquiète. Et si un artisan ne vient plus, demande plus d'argent, ou fait mal : la marche à suivre, le message prêt, ou un courtier en travaux qui vous rappelle dans l'heure.</p><span class="tag ac">Jamais seul</span></div></div>
-    <div class="step"><div class="num">6</div><div><h3>La réception, puis un an de suivi</h3><p>Le tour pièce par pièce, le PV avec les réserves attribuées à chaque artisan, les 5 % libérés quand c'est repris. Puis un an de garantie de parfait achèvement, avec rappel avant la fin. Et un carnet du logement prêt pour la revente.</p><span class="tag ac">Carnet du logement</span></div></div>
+    <div class="step"><div class="num">1</div><div><h3>Vous transférez vos devis, factures et mails à l'adresse de votre chantier</h3><span class="tag ac">Boîte chantier</span></div></div>
+    <div class="step"><div class="num">2</div><div><h3>Avant chaque paiement, les points à vérifier — et une photo par point</h3><span class="tag ac">Preuve horodatée</span></div></div>
+    <div class="step"><div class="num">3</div><div><h3>Feu vert : vous payez l'artisan vous-même, le bon montant</h3><span class="tag ac">Argent dans l'ordre</span></div></div>
+    <div class="step"><div class="num">4</div><div><h3>La décennale de chaque artisan, confirmée auprès de l'assureur</h3><span class="tag ac">Contrôle décennale</span></div></div>
+    <div class="step"><div class="num">5</div><div><h3>Une photo, une question : Fernand répond en 30 secondes</h3><span class="tag ac">Jamais seul</span></div></div>
+    <div class="step"><div class="num">6</div><div><h3>La réception, puis un an de suivi</h3><span class="tag ac">Carnet du logement</span></div></div>
   </div>
+  <p style="margin-top:26px"><a class="btn s" style="border:1.5px solid var(--line)" href={L('/comment-ca-marche/', here)}>Voir le fonctionnement en détail</a></p>
 </div></section>
 
 <!-- ░░ DIFFÉRENCE ░░ -->
@@ -89,40 +90,8 @@ import Waitlist from '../components/Waitlist.astro';
   <div class="lbl">Tarif à l'ouverture</div>
   <h2 style="margin-top:12px">Un prix par chantier. Pas d'abonnement qui tourne.</h2>
   <p class="sub" style="margin-top:14px">L'outil de vérification de devis est gratuit et disponible dès maintenant. L'application ouvre prochainement : inscrivez-vous pour être prévenu.</p>
-  <div class="price">
-    <div class="pr">
-      <div class="lbl" style="color:var(--ok)">Gratuit</div>
-      <div class="amt">0 €</div>
-      <ul>
-        <li>La checklist des 6 choses avant de signer</li>
-        <li>Votre premier devis vérifié, noté sur 100</li>
-        <li>Le message de négociation prêt à envoyer</li>
-      </ul>
-      <p class="fine">Disponible maintenant, sans compte et sans inscription.</p>
-      <a class="btn s" href={L('/verifier-un-devis/', here)} style="margin-top:20px;width:100%;border:1.5px solid var(--line)">Vérifier un devis</a>
-    </div>
-    <div class="pr main">
-      <div class="lbl">Offre Chantier · ouverture prochaine</div>
-      <div class="amt"><small style="display:block;margin-bottom:4px">à partir de</small>149 € <small>pour tout le chantier</small></div>
-      <table class="tiers">
-        <tr><td>Travaux jusqu'à 50 000 €</td><td>149 €</td></tr>
-        <tr><td>De 50 000 à 150 000 €</td><td>349 €</td></tr>
-        <tr><td>Plus de 150 000 €, ou construction d'une maison</td><td>690 €</td></tr>
-      </table>
-      <p class="fine" style="margin-top:8px">Un seul paiement, selon le montant total de vos devis. Pas d'abonnement.</p>
-      <ul>
-        <li>Toutes les étapes, tous les points à vérifier, toutes les photos</li>
-        <li>Décennale de chaque artisan confirmée auprès de l'assureur</li>
-        <li>Boîte chantier : devis, factures, attestations lus et rangés</li>
-        <li>Photos et questions illimitées · un courtier en travaux dans l'heure</li>
-        <li>Journal, exports PDF, carnet du logement</li>
-        <li>Jusqu'à <b>un an après la réception</b> — le temps de la garantie de parfait achèvement</li>
-        <li>À deux : votre conjoint vérifie et paie aussi, chaque action porte un nom</li>
-      </ul>
-      <Waitlist full />
-    </div>
-  </div>
-  <div class="nomoney">🔒<div><b>Travaux Sans Piège ne détient jamais votre argent.</b> Vous payez vos artisans vous-même, par virement ou chèque. L'outil vous dit quand, combien, et garde la preuve. Pas d'intermédiaire financier, pas de commission sur les travaux.</div></div>
+  <Pricing />
+  <p style="margin-top:22px"><a href={L('/tarif/', here)} style="color:var(--acc);font-weight:700">Ce que comprend chaque formule, et ce que coûtent les autres solutions →</a></p>
 </div></section>
 
 <!-- ░░ ARTISANS ░░ -->
@@ -146,7 +115,8 @@ import Waitlist from '../components/Waitlist.astro';
   <h2 style="margin-top:12px">Ce qu'un maître d'œuvre vous dirait, écrit noir sur blanc.</h2>
   <div class="gl" style="margin-top:28px">{guides.map((g) => <a href={L(`/guides/${g.slug}/`, here)}><b>{g.title}</b><span>{g.teaser}</span></a>)}</div>
 </div></section>
-<Faq items={d.faq} title="Ce qu'on nous demande avant de commencer" />
+<Faq items={d.faq.slice(0, 5)} title="Ce qu'on nous demande avant de commencer" />
+<div class="wrap" style="margin-top:-28px;padding-bottom:40px"><a href={L('/questions/', here)} style="color:var(--acc);font-weight:700">Toutes les questions →</a></div>
 <!-- ░░ FINAL ░░ -->
 <section class="final"><div class="wrap">
   <h2>Commencez par le devis que vous avez sous les yeux.</h2>

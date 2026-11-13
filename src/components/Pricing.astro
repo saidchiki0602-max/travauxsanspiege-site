@@ -1,0 +1,40 @@
+---
+// Grille tarifaire complète + liste d'attente (page Tarif).
+import { L } from '../lib/links';
+import Waitlist from './Waitlist.astro';
+const here = Astro.url.pathname;
+---
+  <div class="price">
+    <div class="pr">
+      <div class="lbl" style="color:var(--ok)">Gratuit</div>
+      <div class="amt">0 €</div>
+      <ul>
+        <li>La checklist des 6 choses avant de signer</li>
+        <li>Votre premier devis vérifié, noté sur 100</li>
+        <li>Le message de négociation prêt à envoyer</li>
+      </ul>
+      <p class="fine">Disponible maintenant, sans compte et sans inscription.</p>
+      <a class="btn s" href={L('/verifier-un-devis/', here)} style="margin-top:20px;width:100%;border:1.5px solid var(--line)">Vérifier un devis</a>
+    </div>
+    <div class="pr main">
+      <div class="lbl">Offre Chantier · ouverture prochaine</div>
+      <div class="amt"><small style="display:block;margin-bottom:4px">à partir de</small>149 € <small>pour tout le chantier</small></div>
+      <table class="tiers">
+        <tr><td>Travaux jusqu'à 50 000 €</td><td>149 €</td></tr>
+        <tr><td>De 50 000 à 150 000 €</td><td>349 €</td></tr>
+        <tr><td>Plus de 150 000 €, ou construction d'une maison</td><td>690 €</td></tr>
+      </table>
+      <p class="fine" style="margin-top:8px">Un seul paiement, selon le montant total de vos devis. Pas d'abonnement.</p>
+      <ul>
+        <li>Toutes les étapes, tous les points à vérifier, toutes les photos</li>
+        <li>Décennale de chaque artisan confirmée auprès de l'assureur</li>
+        <li>Boîte chantier : devis, factures, attestations lus et rangés</li>
+        <li>Photos et questions illimitées · un courtier en travaux dans l'heure</li>
+        <li>Journal, exports PDF, carnet du logement</li>
+        <li>Jusqu'à <b>un an après la réception</b> — le temps de la garantie de parfait achèvement</li>
+        <li>À deux : votre conjoint vérifie et paie aussi, chaque action porte un nom</li>
+      </ul>
+      <Waitlist full />
+    </div>
+  </div>
+  <div class="nomoney">🔒<div><b>Travaux Sans Piège ne détient jamais votre argent.</b> Vous payez vos artisans vous-même, par virement ou chèque. L'outil vous dit quand, combien, et garde la preuve. Pas d'intermédiaire financier, pas de commission sur les travaux.</div></div>
