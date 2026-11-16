@@ -47,8 +47,8 @@ const app = { "@context": "https://schema.org", "@type": "WebApplication", name:
       <h3>L'attestation de décennale est-elle jointe ?</h3>
       <p class="help">Un PDF ou une page à part, avec le nom de l'assureur, un numéro de contrat, une date, et la liste des activités couvertes.</p>
       <div class="opts" data-key="dc">
-        <button class="opt" data-v="recent"><span>Oui, datée de moins de 3 mois<small>reste à vérifier qu'elle couvre bien les travaux du devis</small></span><span class="k"></span></button>
-        <button class="opt" data-v="vieille"><span>Oui, mais datée de plus de 3 mois<small>elle prouve qu'il était assuré à l'époque, pas aujourd'hui</small></span><span class="k"></span></button>
+        <button class="opt" data-v="recent"><span>Oui, récente et en cours de validité<small>reste à vérifier qu'elle couvre bien les travaux du devis</small></span><span class="k"></span></button>
+        <button class="opt" data-v="vieille"><span>Oui, en cours de validité, mais éditée il y a plus de 3 mois<small>valable ; un appel à l'assureur lève le doute</small></span><span class="k"></span></button>
         <button class="opt" data-v="numero"><span>Juste un numéro de contrat sur le devis<small>une mention, pas une attestation</small></span><span class="k"></span></button>
         <button class="opt" data-v="non"><span>Non, rien</span><span class="k"></span></button>
       </div>
@@ -97,7 +97,7 @@ const app = { "@context": "https://schema.org", "@type": "WebApplication", name:
   <h3>2. Les quantités et les références</h3>
   <p>« Fourniture et pose », « rénovation complète » : un forfait sans quantité est impossible à comparer et impossible à contester. Un bon devis donne les m², les mètres linéaires, le nombre de couches, la marque et la référence des équipements.</p>
   <h3>3. L'attestation décennale</h3>
-  <p>Elle doit être jointe, datée de moins de trois mois, et couvrir exactement les travaux du devis. Un numéro de contrat sur le devis n'est pas une attestation. Voir <a href="/guides/verifier-decennale-artisan/">vérifier la décennale d'un artisan</a>.</p>
+  <p>Elle doit être jointe, en cours de validité à la date de début des travaux, et couvrir exactement les travaux du devis. Si elle a été éditée il y a plus de trois mois, faites-la confirmer par l'assureur. Un numéro de contrat sur le devis n'est pas une attestation. Voir <a href="/guides/verifier-decennale-artisan/">vérifier la décennale d'un artisan</a>.</p>
   <h3>4. Les mentions obligatoires</h3>
   <p>Raison sociale et SIRET, date et durée de validité, taux de TVA, délai d'exécution, totaux HT et TTC. Sans SIRET ni TVA, on ne parle plus d'un devis.</p>
   <h3>5. Un point de comparaison</h3>
@@ -127,7 +127,7 @@ function result(){
   else {s+=0;pts.push(['ko','Aucune quantité','« Fourniture et pose » ne veut rien dire. Impossible de comparer, impossible de contester le jour où ça manque.']);asks.push('préciser les quantités (m², unités, nombre de couches) et les références ligne par ligne')}
   // assurance 20
   if(A.dc==='recent'){s+=20;pts.push(['ok','Attestation décennale jointe et récente','Reste à vérifier qu\'elle couvre exactement les lots du devis, et à la faire confirmer par l\'assureur — c\'est ce que fait Travaux Sans Piège.'])}
-  else if(A.dc==='vieille'){s+=8;pts.push(['warn','Attestation de plus de 3 mois','Elle prouve qu\'il était assuré à l\'époque. Un contrat résilié pour impayé garde une attestation « valide » en apparence.']);asks.push('joindre une attestation décennale datée de moins d\'un mois')}
+  else if(A.dc==='vieille'){s+=20;pts.push(['warn','Attestation valable, à faire confirmer','Elle couvre votre chantier s\'il démarre pendant sa période de validité. Comme elle date de plus de trois mois, appelez l\'assureur avec le numéro de contrat : un contrat résilié garde une attestation valide en apparence.'])}
   else if(A.dc==='numero'){s+=4;pts.push(['ko','Un numéro de contrat, pas d\'attestation','Une mention sur le devis n\'engage personne. Il vous faut le document de l\'assureur, avec la liste des activités couvertes.']);asks.push('joindre l\'attestation décennale complète (assureur, n° de contrat, activités couvertes), datée de moins de 3 mois')}
   else {s+=0;pts.push(['ko','Aucune attestation','Sans décennale valide sur ces travaux, un défaut dans cinq ans est pour vous. C\'est le point qui ne se négocie pas.']);asks.push('joindre votre attestation décennale à jour avant toute signature')}
   // mentions 15
