@@ -79,6 +79,8 @@ Pour une maison entière, l'ordre des artisans et les relais entre eux sont dét
 
 ## Quand ça ne va pas
 
+La marche complète, de la première photo jusqu'aux recours, est dans [malfaçon de travaux : que faire](/guides/malfacon-travaux-que-faire/). En résumé :
+
 1. **Ne payez pas** la part concernée.
 2. **Photographiez** le défaut, mètre dans le champ.
 3. **Écrivez** à l'artisan : ce que vous constatez, ce que vous demandez, dans quel délai.

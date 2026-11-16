@@ -78,6 +78,6 @@ Suivre son chantier seul ne veut pas dire tout faire seul, ni tout savoir. Faite
 - la **structure** : ouverture de mur porteur, reprise de charpente, surélévation (bureau d'études) ;
 - le **permis** d'une construction de plus de 150 m² de surface de plancher (architecte obligatoire) ;
 - la **réception** d'une maison ou d'une grosse rénovation, où deux heures d'expert valent souvent leur prix ;
-- un **litige** qui s'installe : expert bâtiment, puis avocat si besoin.
+- un **litige** qui s'installe : expert bâtiment, puis avocat si besoin. La marche à suivre avant d'en arriver là est dans [malfaçon de travaux : que faire](/guides/malfacon-travaux-que-faire/).
 
 Si vous construisez une maison entière, le guide [construire sa maison sans constructeur](/guides/construire-maison-lots-separes/) détaille les 12 étapes et l'ordre des artisans.

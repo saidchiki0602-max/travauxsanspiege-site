@@ -85,6 +85,8 @@ La loi du 16 juillet 1971, qui est d'ordre public, encadre strictement cette ret
 
 ## Après la réception
 
+Si une entreprise ne revient pas lever ses réserves, ou si un défaut apparaît plus tard, suivez la marche décrite dans [malfaçon de travaux : que faire](/guides/malfacon-travaux-que-faire/).
+
 - Envoyez le PV à chaque entreprise, avec ses réserves et le délai.
 - Vérifiez chaque reprise, photographiez-la, et notez la date de levée.
 - Pendant l'année de parfait achèvement, **signalez par écrit** tout nouveau désordre à l'entreprise concernée.

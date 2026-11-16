@@ -161,5 +161,18 @@
     ],
     "intention": "Un particulier qui approche de la fin de ses travaux et cherche un document à imprimer. Intention très concrète, proche de l'usage de l'application.",
     "pourquoi": "Les concurrents en tête sur la réception proposent un modèle. Un document qu'on garde et qu'on partage attire des liens, ce qui profite à tout le site."
+  },
+  "guides/malfacon-travaux-que-faire": {
+    "requete": "malfaçon travaux que faire",
+    "variantes": [
+      "travaux mal faits",
+      "mise en demeure",
+      "garantie de parfait achèvement",
+      "conciliateur de justice",
+      "expert",
+      "refuser de payer"
+    ],
+    "intention": "Un particulier qui vient de découvrir un défaut et cherche quoi faire, tout de suite. Intention urgente, forte attente de marche à suivre.",
+    "pourquoi": "Premier guide de la série litiges. Les réponses en tête sont juridiques et écrites par des avocats ; un déroulé pratique par ordre d'action n'existe pas. C'est aussi le moment où l'application et les futurs partenaires (expert, avocat) ont le plus de valeur."
   }
 }
