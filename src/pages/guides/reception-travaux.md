@@ -63,7 +63,7 @@ Pour la décennale, encore faut-il que l'artisan ait été correctement assuré 
 
 ## Écrire les réserves
 
-Chaque défaut visible devient une **réserve** dans le procès-verbal. Une bonne réserve est :
+Chaque défaut visible devient une **réserve** dans le procès-verbal. Vous pouvez utiliser notre [modèle de PV de réception gratuit](/modele-pv-reception-travaux/), à imprimer. Une bonne réserve est :
 
 - **précise** : « fissure de 40 cm au-dessus de la porte du séjour », pas « fissures » ;
 - **attribuée** à l'entreprise concernée ;

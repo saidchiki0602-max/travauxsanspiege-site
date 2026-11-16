@@ -1,0 +1,56 @@
+---
+import Base from '../layouts/Base.astro';
+import Faq from '../components/Faq.astro';
+import { L } from '../lib/links';
+import d from '../data/pages/modele-pv-reception-travaux.json';
+const here = Astro.url.pathname;
+const crumbs = { "@context": "https://schema.org", "@type": "BreadcrumbList", itemListElement: [{ "@type": "ListItem", position: 1, name: "Accueil", item: "https://travauxsanspiege.fr/" }, { "@type": "ListItem", position: 2, name: "Modèle de PV de réception", item: "https://travauxsanspiege.fr/modele-pv-reception-travaux/" }] };
+const doc = { "@context": "https://schema.org", "@type": "DigitalDocument", name: "Modèle de procès-verbal de réception de travaux", encodingFormat: "application/pdf", url: "https://travauxsanspiege.fr/modele-pv-reception-travaux.pdf", inLanguage: "fr", isAccessibleForFree: true, publisher: { "@type": "Organization", name: "Travaux Sans Piège" } };
+---
+<Base title={d.title} description={d.description} path="/modele-pv-reception-travaux/">
+  <script type="application/ld+json" slot="head" set:html={JSON.stringify(crumbs)} />
+  <script type="application/ld+json" slot="head" set:html={JSON.stringify(doc)} />
+  <header class="ghero"><div class="wrap">
+    <div class="lbl">Modèle gratuit</div>
+    <h1>{d.h1}</h1>
+    <p class="lead">{d.lead}</p>
+    <p style="margin-top:26px"><a class="btn w" href="/modele-pv-reception-travaux.pdf" download>Télécharger le modèle (PDF, 2 pages)</a></p>
+    <p class="meta">Gratuit · sans inscription · à imprimer en deux exemplaires</p>
+  </div></header>
+  <section><div class="wrap"><div class="prose" style="padding-top:0">
+    <h2>Ce que contient ce modèle de PV de réception</h2>
+    <table>
+      <thead><tr><th>Rubrique</th><th>À quoi elle sert</th></tr></thead>
+      <tbody>
+        <tr><td>Les parties et les travaux</td><td>Identifier qui reçoit quoi : vous, l'entreprise, le devis concerné et son montant</td></tr>
+        <tr><td>La visite</td><td>Prouver que la réception s'est faite en présence de l'entreprise, ou qu'elle a été convoquée</td></tr>
+        <tr><td>La décision</td><td>Réception sans réserve, avec réserves, ou refus : une seule case à cocher</td></tr>
+        <tr><td>La date d'effet</td><td>Fixer le point de départ des garanties de 1, 2 et 10 ans</td></tr>
+        <tr><td>La retenue de garantie</td><td>Noter le montant retenu et l'organisme qui le garde</td></tr>
+        <tr><td>La liste des réserves</td><td>Une ligne par défaut, avec la photo et la date limite de reprise</td></tr>
+        <tr><td>Les signatures</td><td>Rendre le document opposable aux deux parties</td></tr>
+      </tbody>
+    </table>
+    <h2>Comment remplir le PV de réception de travaux</h2>
+    <ol>
+      <li><strong>Imprimez deux exemplaires par entreprise.</strong> Si trois artisans sont intervenus, il vous faut trois procès-verbaux, chacun en double.</li>
+      <li><strong>Remplissez les rubriques 1 et 2 avant la visite</strong>, avec le devis sous les yeux.</li>
+      <li><strong>Faites le tour avec l'entreprise</strong>, en plein jour, pièce par pièce. La méthode est détaillée dans le guide <a href={L('/guides/reception-travaux/', here)}>réception des travaux</a>.</li>
+      <li><strong>Notez chaque défaut visible en page 2</strong>, au fur et à mesure. Écrivez l'endroit et le défaut, pas une appréciation : « fissure de 40 cm au-dessus de la porte du séjour », pas « finitions à revoir ».</li>
+      <li><strong>Prenez une photo par réserve</strong> et reportez son numéro dans le tableau.</li>
+      <li><strong>Fixez une date de reprise</strong> pour chaque réserve, en accord avec l'entreprise.</li>
+      <li><strong>Cochez la décision</strong>, datez, signez tous les deux, et gardez chacun un exemplaire.</li>
+    </ol>
+    <h2>Les trois erreurs qui coûtent cher</h2>
+    <ul>
+      <li><strong>Signer sans réserve pour « ne pas faire d'histoires ».</strong> Un défaut visible qui n'est pas écrit est en principe considéré comme accepté.</li>
+      <li><strong>Payer le solde avant d'avoir signé.</strong> Le dernier paiement suit la réception, il ne la précède pas. Voir <a href={L('/guides/avant-de-payer-un-artisan/', here)}>que vérifier avant de payer un artisan</a>.</li>
+      <li><strong>Garder les 5 % de retenue sur son propre compte.</strong> La retenue de garantie doit être prévue au contrat et consignée chez un tiers, ou remplacée par une caution bancaire.</li>
+    </ul>
+    <h2>Après la signature</h2>
+    <p>Envoyez une copie du procès-verbal à l'entreprise si elle n'a pas gardé son exemplaire, et notez dans votre agenda la date limite de reprise des réserves. Quand elles sont levées, faites-le constater par écrit. Pendant un an, tout nouveau désordre se signale par écrit : c'est la garantie de parfait achèvement.</p>
+    <p>Ce modèle est fait pour des travaux confiés à des entreprises par devis. Il donne une information générale et ne remplace pas un conseil juridique : pour une construction avec un constructeur, un achat sur plan ou un litige déjà engagé, faites-vous accompagner.</p>
+    <div class="cta-g"><div><b>Avant la réception, il y a le chantier</b><p>La méthode pour le suivre vous-même, semaine après semaine.</p></div><a class="btn w" href={L('/guides/suivre-son-chantier-seul/', here)}>Suivre son chantier seul</a></div>
+  </div></div></section>
+  <Faq items={d.faq} title="Questions sur le PV de réception" />
+</Base>

@@ -78,6 +78,9 @@ L'ordre des corps de métier sur une construction est toujours le même ; ce qui
 
 ## Garder le fil
 
+À la fin de chaque lot, la réception se fait entreprise par entreprise, avec un [procès-verbal de réception](/modele-pv-reception-travaux/) pour chacune.
+
+
 Suivre la construction de sa maison, c'est une visite par semaine, un compte rendu écrit après chaque visite et aucun paiement sans vérification : la méthode est détaillée dans [suivre son chantier seul](/guides/suivre-son-chantier-seul/).
 
 Le plus dur en lots séparés n'est pas technique : c'est de tout garder en tête pendant un an, avec neuf artisans. Travaux Sans Piège a été pensé pour ça : les douze étapes, les points à vérifier à chaque relais, les assurances contrôlées, et Fernand qui vous prévient la veille de ce qu'il faut regarder.

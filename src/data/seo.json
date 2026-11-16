@@ -148,5 +148,18 @@
     ],
     "intention": "Questions courtes, souvent posées telles quelles à Google ou à une IA.",
     "pourquoi": "Page FAQ unique avec balisage FAQPage : c'est le format que reprennent les réponses directes de Google et les IA. Le balisage n'est plus dupliqué sur l'accueil."
+  },
+  "modele-pv-reception-travaux": {
+    "requete": "modèle PV de réception de travaux",
+    "variantes": [
+      "PV de réception de travaux",
+      "procès-verbal de réception",
+      "réserves",
+      "gratuit",
+      "PDF",
+      "retenue de garantie"
+    ],
+    "intention": "Un particulier qui approche de la fin de ses travaux et cherche un document à imprimer. Intention très concrète, proche de l'usage de l'application.",
+    "pourquoi": "Les concurrents en tête sur la réception proposent un modèle. Un document qu'on garde et qu'on partage attire des liens, ce qui profite à tout le site."
   }
 }

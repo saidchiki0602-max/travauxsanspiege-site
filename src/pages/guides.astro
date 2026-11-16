@@ -16,6 +16,7 @@ const list = { "@context": "https://schema.org", "@type": "ItemList", itemListEl
   </div></header>
   <section><div class="wrap">
     <div class="gl">{guides.map((g) => <a href={L(`/guides/${g.slug}/`, here)}><b>{g.title}</b><span>{g.teaser}</span></a>)}</div>
+    <div class="gl" style="margin-top:14px"><a href={L('/modele-pv-reception-travaux/', here)}><b>Modèle de PV de réception de travaux (PDF gratuit)</b><span>Deux pages à imprimer : la décision, la liste des réserves, les signatures.</span></a></div>
     <div class="next" style="margin-top:40px"><div><h3>Un devis sous les yeux ?</h3><p>Cinq questions, une note sur 100, le message prêt pour l'artisan. Gratuit, sans compte.</p></div><a class="btn w" href={L('/verifier-un-devis/', here)}>Vérifier mon devis</a></div>
   </div></section>
   <Faq items={d.faq} title="À propos de ces guides" />
