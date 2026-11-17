@@ -25,20 +25,20 @@ const app = { "@context": "https://schema.org", "@type": "WebApplication", name:
       <p class="help">Regardez les « conditions de règlement » du devis. Si rien n'est écrit, c'est aussi une réponse.</p>
       <div class="opts" data-key="ac">
         <button class="opt" data-v="30"><span>30 % ou moins<small>l'usage</small></span><span class="k"></span></button>
-        <button class="opt" data-v="40"><span>Entre 30 et 50 %<small>à ramener à 30 %, sauf matériel coûteux justifié</small></span><span class="k"></span></button>
-        <button class="opt" data-v="50"><span>50 % ou plus<small>il finance son activité avec votre argent</small></span><span class="k"></span></button>
-        <button class="opt" data-v="none"><span>Rien n'est écrit<small>le flou vous désavantage toujours</small></span><span class="k"></span></button>
+        <button class="opt" data-v="40"><span>Entre 30 et 50 %<small>à négocier, sauf sur-mesure ou matériel commandé pour vous</small></span><span class="k"></span></button>
+        <button class="opt" data-v="50"><span>Plus de 50 %<small>vous perdez tout levier si le chantier dérape</small></span><span class="k"></span></button>
+        <button class="opt" data-v="none"><span>Rien n'est écrit<small>à faire ajouter avant de signer</small></span><span class="k"></span></button>
       </div>
     </div>
 
     <div class="q" data-q="2" hidden>
       <div class="n">Question 2 / 5</div>
-      <h3>Les quantités sont-elles écrites ?</h3>
-      <p class="help">m² de carrelage, mètres linéaires, nombre de couches de peinture, nombre de points lumineux, marque et référence des équipements.</p>
+      <h3>Chaque ligne dit-elle ce qu'elle comprend ?</h3>
+      <p class="help">Soit une quantité (m² de carrelage, mètres linéaires, nombre de points lumineux), soit un forfait qui détaille ce qui est compris. Un forfait n'est pas un défaut : pour un ensemble de petites tâches, c'est normal.</p>
       <div class="opts" data-key="qt">
-        <button class="opt" data-v="oui"><span>Oui, ligne par ligne, avec les références<small>on peut comparer et contester</small></span><span class="k"></span></button>
-        <button class="opt" data-v="partiel"><span>En partie<small>certaines lignes sont des forfaits sans détail</small></span><span class="k"></span></button>
-        <button class="opt" data-v="non"><span>Non — « fourniture et pose », « rénovation complète »<small>impossible de comparer, impossible de contester</small></span><span class="k"></span></button>
+        <button class="opt" data-v="oui"><span>Oui : des quantités, ou des forfaits détaillés<small>on peut comparer et contester</small></span><span class="k"></span></button>
+        <button class="opt" data-v="partiel"><span>En partie<small>certaines lignes sont des forfaits sans aucun détail</small></span><span class="k"></span></button>
+        <button class="opt" data-v="non"><span>Non : « fourniture et pose », « rénovation complète »<small>des prix sans contenu</small></span><span class="k"></span></button>
       </div>
     </div>
 
@@ -117,14 +117,14 @@ function restart(){A={};document.querySelectorAll('.opt').forEach(function(x){x.
 function result(){
   var s=0,pts=[],asks=[];
   // paiement 25
-  if(A.ac==='30'){s+=25;pts.push(['ok','Acompte à 30 % ou moins','C\'est l\'usage. Faites aussi écrire : 65 % à la fin de l\'étape vérifiée, 5 % à la réception.'])}
-  else if(A.ac==='40'){s+=12;pts.push(['warn','Acompte entre 30 et 50 %','Négociable. S\'il a du matériel coûteux à commander pour vous, demandez la facture fournisseur ; sinon, 30 %.']);asks.push('ramener l\'acompte à 30 %, avec 65 % à la fin des travaux vérifiés et 5 % à la réception')}
-  else if(A.ac==='50'){s+=0;pts.push(['ko','Acompte à 50 % ou plus','Anormal. Il finance son activité avec votre argent, et vous perdez tout levier si le chantier dérape.']);asks.push('ramener l\'acompte à 30 %, avec 65 % à la fin des travaux vérifiés et 5 % à la réception')}
-  else {s+=5;pts.push(['ko','Conditions de paiement absentes','Le flou vous désavantage toujours. Rien ne se signe sans un échéancier écrit.']);asks.push('écrire les conditions de règlement : 30 % à la commande, 65 % à la fin des travaux vérifiés, 5 % à la réception')}
-  // quantités 25
-  if(A.qt==='oui'){s+=25;pts.push(['ok','Quantités et références écrites','Vous pouvez comparer, et contester si ce n\'est pas livré.'])}
-  else if(A.qt==='partiel'){s+=12;pts.push(['warn','Des forfaits sans détail','Chaque forfait est une zone grise. Demandez le détail de ce qu\'il contient — et de ce qu\'il ne contient pas.']);asks.push('détailler les lignes au forfait (quantités, références, ce qui est inclus)')}
-  else {s+=0;pts.push(['ko','Aucune quantité','« Fourniture et pose » ne veut rien dire. Impossible de comparer, impossible de contester le jour où ça manque.']);asks.push('préciser les quantités (m², unités, nombre de couches) et les références ligne par ligne')}
+  if(A.ac==='30'){s+=25;pts.push(['ok','Acompte à 30 % ou moins','C\'est l\'usage. Faites aussi écrire la suite : le solde à la fin des travaux vérifiés, dont 5 % à la réception.'])}
+  else if(A.ac==='40'){s+=14;pts.push(['warn','Acompte entre 30 et 50 %','Au-dessus de l\'usage. Cela se voit pour du sur-mesure (fenêtres, cuisine, escalier), où l\'artisan paie le fabricant à la commande. Demandez le bon de commande ; pour le reste, 30 % suffisent.']);asks.push('justifier l\'acompte par le bon de commande du fabricant, ou le ramener à 30 %, avec 65 % à la fin des travaux vérifiés et 5 % à la réception')}
+  else if(A.ac==='50'){s+=0;pts.push(['ko','Acompte de plus de 50 %','Plus de la moitié avant le début des travaux : vous perdez tout levier si le chantier dérape, et vous n\'êtes pas remboursé si l\'entreprise fait défaut.']);asks.push('ramener l\'acompte à 30 %, avec 65 % à la fin des travaux vérifiés et 5 % à la réception')}
+  else {s+=5;pts.push(['ko','Conditions de paiement absentes','Rien ne dit quand vous payez, ni combien à chaque étape. C\'est la première source de litige. Pour un petit chantier, faites au moins écrire « règlement à la fin des travaux ».']);asks.push('écrire les conditions de règlement : 30 % à la commande, 65 % à la fin des travaux vérifiés, 5 % à la réception')}
+  // détail des lignes 25
+  if(A.qt==='oui'){s+=25;pts.push(['ok','Chaque ligne dit ce qu\'elle comprend','Vous pouvez comparer, et contester si ce n\'est pas livré.'])}
+  else if(A.qt==='partiel'){s+=14;pts.push(['warn','Des forfaits sans détail','Un forfait n\'est pas un problème s\'il dit ce qu\'il comprend. Pour ces lignes, demandez-le par écrit.']);asks.push('préciser ce que comprennent les lignes au forfait (travaux inclus, fournitures, finitions)')}
+  else {s+=0;pts.push(['ko','Des prix sans contenu','Presque aucune ligne ne dit ce qu\'elle comprend. Impossible de comparer, impossible de contester le jour où ça manque.']);asks.push('détailler chaque ligne : quantités quand elles se mesurent, sinon la liste de ce qui est compris dans le forfait')}
   // assurance 20
   if(A.dc==='recent'){s+=20;pts.push(['ok','Attestation décennale jointe et récente','Reste à vérifier qu\'elle couvre exactement les lots du devis, et à la faire confirmer par l\'assureur — c\'est ce que fait Travaux Sans Piège.'])}
   else if(A.dc==='vieille'){s+=20;pts.push(['warn','Attestation valable, à faire confirmer','Elle couvre votre chantier s\'il démarre pendant sa période de validité. Comme elle date de plus de trois mois, appelez l\'assureur avec le numéro de contrat : un contrat résilié garde une attestation valide en apparence.'])}
