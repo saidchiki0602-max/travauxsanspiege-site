@@ -233,3 +233,11 @@ section{padding-block:clamp(44px,8vw,104px)}
 .nw{white-space:nowrap}
 .disc,.prose .disc{font-size:13.5px;color:var(--ink2);margin:18px 0 0;line-height:1.55}
 .tiers{width:100%;border-collapse:collapse;margin-top:16px;font-size:15px}.tiers td{padding:9px 0;border-top:1px solid var(--line);vertical-align:top}.tiers td:last-child{text-align:right;font-weight:700;white-space:nowrap;padding-left:12px;font-family:var(--display)}
+
+.photo-devis{max-width:720px;margin:0 auto 18px;background:var(--dark,#1E2430);color:#fff;border-radius:22px;padding:clamp(20px,3vw,28px);display:flex;flex-direction:column;gap:18px}
+.photo-devis h2{color:#fff;font-size:clamp(1.25rem,2.6vw,1.6rem);margin:8px 0 8px}
+.photo-devis p{color:#C9CED8;font-size:1rem;margin:0}
+.photo-devis .lbl{color:#F2A27E}
+.photo-devis .btn{align-self:flex-start}
+@media(max-width:560px){.photo-devis .btn{align-self:stretch;text-align:center;justify-content:center}}
+.ou{max-width:720px;margin:0 auto 14px;text-align:center;color:var(--ink2);font-size:.95rem}
