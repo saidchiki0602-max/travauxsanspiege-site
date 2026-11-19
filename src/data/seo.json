@@ -174,5 +174,18 @@
     ],
     "intention": "Un particulier qui vient de découvrir un défaut et cherche quoi faire, tout de suite. Intention urgente, forte attente de marche à suivre.",
     "pourquoi": "Premier guide de la série litiges. Les réponses en tête sont juridiques et écrites par des avocats ; un déroulé pratique par ordre d'action n'existe pas. C'est aussi le moment où l'application et les futurs partenaires (expert, avocat) ont le plus de valeur."
+  },
+  "guides/abandon-de-chantier-que-faire": {
+    "requete": "abandon de chantier que faire",
+    "variantes": [
+      "abandon de chantier",
+      "artisan ne vient plus",
+      "mise en demeure",
+      "commissaire de justice",
+      "liquidation judiciaire",
+      "autre entreprise"
+    ],
+    "intention": "Un particulier dont l'artisan ne vient plus et ne répond plus. Intention urgente : il veut savoir quoi faire aujourd'hui et s'il peut faire finir par un autre.",
+    "pourquoi": "Deuxième guide de la série litiges, après la malfaçon. Les réponses en tête viennent d'avocats et d'assureurs ; un déroulé pratique, avec les deux courriers et le cas de la faillite, manque. C'est aussi l'argument le plus fort pour le paiement à l'étape, cœur de l'application."
   }
 }

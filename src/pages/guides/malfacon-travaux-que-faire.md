@@ -78,6 +78,8 @@ Si l'artisan ne revient pas malgré la mise en demeure, vous pouvez faire réali
 
 Pour obtenir que l'artisan avance les fonds avant les travaux, il faut passer par un juge.
 
+Si l'artisan ne revient plus du tout, ce n'est plus une malfaçon mais un [abandon de chantier](/guides/abandon-de-chantier-que-faire/) : les étapes ne sont pas tout à fait les mêmes.
+
 ## Si rien ne bouge : les recours, du plus simple au plus lourd
 
 | Recours | Coût | Quand l'utiliser |

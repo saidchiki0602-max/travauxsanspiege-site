@@ -28,7 +28,7 @@ L'acompte sert à une chose : couvrir ce que l'artisan engage pour vous avant de
 
 Au-delà, l'équilibre bascule. Avec 50 % versés avant le premier coup de pinceau, c'est vous qui financez l'entreprise, et vous n'avez plus de levier si :
 
-- le chantier démarre en retard ou s'arrête ;
+- le chantier démarre en retard ou s'arrête (voir [abandon de chantier : que faire](/guides/abandon-de-chantier-que-faire/)) ;
 - le travail est mal fait et doit être repris ;
 - l'entreprise disparaît, ce qui arrive plus souvent qu'on ne le croit dans le bâtiment.
 
