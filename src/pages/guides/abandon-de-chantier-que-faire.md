@@ -60,7 +60,7 @@ Tant que le chantier n'a pas repris, **vous suspendez les paiements**, et vous l
 
 C'est ici que l'[acompte](/guides/acompte-artisan/) pèse : avec 30 % versés, un chantier arrêté au tiers vous laisse à l'équilibre. Avec 50 % ou 70 % versés d'avance, c'est vous qui courez après votre argent.
 
-Ne payez pas « pour le faire revenir ». Un artisan qui demande une avance pour reprendre un chantier qu'il a lui-même arrêté a un problème de trésorerie, et votre versement ne le réglera pas.
+Ne payez pas « pour le faire revenir », et pas davantage un [supplément qu'il réclame pour reprendre](/guides/travaux-supplementaires-sans-devis/). Un artisan qui demande une avance pour reprendre un chantier qu'il a lui-même arrêté a un problème de trésorerie, et votre versement ne le réglera pas.
 
 ## Étape 4 : faire constater l'état du chantier
 

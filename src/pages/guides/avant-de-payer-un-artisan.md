@@ -75,6 +75,8 @@ Pour une maison entière, l'ordre des artisans et les relais entre eux sont dét
 
 ## Les suppléments : jamais sans avenant
 
+Le détail, avec le courrier à envoyer quand la facture dépasse le devis, est dans [travaux supplémentaires sans devis : faut-il payer ?](/guides/travaux-supplementaires-sans-devis/)
+
 « On a dû ajouter ceci, ça fait 1 200 € de plus. » Un travail supplémentaire ne se paie que s'il a fait l'objet d'un **avenant écrit, chiffré et signé par vous avant d'être réalisé**. S'il a été fait sans votre accord écrit, demandez le détail par écrit, et répondez par écrit. Notez-le dans votre [compte rendu de chantier](/guides/suivre-son-chantier-seul/) de la semaine. Ne payez pas sous la pression.
 
 ## Quand ça ne va pas

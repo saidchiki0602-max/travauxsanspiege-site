@@ -46,5 +46,11 @@
     "short": "Abandon de chantier",
     "title": "Abandon de chantier : que faire, étape par étape",
     "teaser": "L'artisan ne vient plus : relance, mise en demeure, constat, rupture du contrat, reprise par un autre."
+  },
+  {
+    "slug": "travaux-supplementaires-sans-devis",
+    "short": "Suppléments sans devis",
+    "title": "Travaux supplémentaires sans devis : faut-il payer ?",
+    "teaser": "La facture dépasse le devis : ce qui est dû, ce qui ne l'est pas, et le piège de payer sans rien dire."
   }
 ]

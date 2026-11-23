@@ -187,5 +187,18 @@
     ],
     "intention": "Un particulier dont l'artisan ne vient plus et ne répond plus. Intention urgente : il veut savoir quoi faire aujourd'hui et s'il peut faire finir par un autre.",
     "pourquoi": "Deuxième guide de la série litiges, après la malfaçon. Les réponses en tête viennent d'avocats et d'assureurs ; un déroulé pratique, avec les deux courriers et le cas de la faillite, manque. C'est aussi l'argument le plus fort pour le paiement à l'étape, cœur de l'application."
+  },
+  "guides/travaux-supplementaires-sans-devis": {
+    "requete": "travaux supplémentaires sans devis",
+    "variantes": [
+      "facture supérieure au devis",
+      "travaux supplémentaires non signés",
+      "avenant au devis",
+      "supplément artisan",
+      "marché à forfait",
+      "faut-il payer"
+    ],
+    "intention": "Un particulier qui reçoit une facture plus élevée que le devis signé, ou à qui l'artisan réclame un supplément en cours de chantier. Il veut savoir s'il doit payer et quoi répondre.",
+    "pourquoi": "Troisième guide de la série litiges. Les premiers résultats s'adressent surtout aux entreprises (comment se faire payer) ou restent très juridiques ; la réponse côté client, avec le courrier et l'avenant en trois lignes, manque. Le sujet rejoint la lecture des factures dans l'application."
   }
 }
