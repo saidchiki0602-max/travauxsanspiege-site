@@ -14,6 +14,7 @@
 - [Modèle de PV de réception de travaux (PDF gratuit)](https://travauxsanspiege.fr/modele-pv-reception-travaux/) : procès-verbal en deux pages, avec liste des réserves, date d'effet, retenue de garantie et mode d'emploi.
 
 ## Guides
+- [Valider un devis de travaux : 8 points avant de signer](https://travauxsanspiege.fr/guides/valider-un-devis-travaux/) : un devis signé est un contrat ; les huit points à relire (entreprise, détail des lignes, prix, validité, dates, paiement, assurance, limites) ; rétractation de 14 jours seulement si le devis est signé au domicile en présence de l'artisan ; formule « bon pour accord » et précisions à faire ajouter.
 - [Acompte artisan : combien payer à la signature du devis ?](https://travauxsanspiege.fr/guides/acompte-artisan/) : 30 % est l'usage ; aucun plafond légal (le « plafond de 15 % » qui circule n'existe pas) ; arrhes ou acompte ; démarchage à domicile (aucun paiement avant 7 jours).
 - [Vérifier la décennale d'un artisan : les 4 contrôles](https://travauxsanspiege.fr/guides/verifier-decennale-artisan/) : date, modèle officiel de 2016, activités couvertes lot par lot, confirmation par l'assureur.
 - [Que vérifier avant de payer un artisan ?](https://travauxsanspiege.fr/guides/avant-de-payer-un-artisan/) : les points à contrôler lot par lot avant que l'étape suivante recouvre tout.

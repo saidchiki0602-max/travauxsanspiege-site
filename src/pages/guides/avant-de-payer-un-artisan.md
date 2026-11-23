@@ -19,7 +19,7 @@ faq:
 
 Sur un chantier, presque tous les conflits sérieux tiennent à une seule chose : **on a payé une étape avant de l'avoir vérifiée**, et ce qui posait problème est maintenant sous une chape, derrière une plaque de plâtre ou sous une charpente.
 
-D'où trois règles, valables pour tous les corps de métier :
+D'où trois règles, valables pour tous les corps de métier. Elles supposent un devis précis, relu avant d'être signé : voir [valider un devis de travaux](/guides/valider-un-devis-travaux/).
 
 1. **Fini veut dire fini.** On ne solde pas une étape « presque terminée ». Le dernier 10 % d'une étape est souvent celui qui ne se fait jamais une fois payé.
 2. **Ce qui va être recouvert se regarde avant.** Et se photographie : date visible, mètre dans le champ, vue d'ensemble puis détails. C'est tout l'intérêt d'une visite de chantier chaque semaine : voir [suivre son chantier seul](/guides/suivre-son-chantier-seul/).

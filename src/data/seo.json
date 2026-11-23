@@ -200,5 +200,18 @@
     ],
     "intention": "Un particulier qui reçoit une facture plus élevée que le devis signé, ou à qui l'artisan réclame un supplément en cours de chantier. Il veut savoir s'il doit payer et quoi répondre.",
     "pourquoi": "Troisième guide de la série litiges. Les premiers résultats s'adressent surtout aux entreprises (comment se faire payer) ou restent très juridiques ; la réponse côté client, avec le courrier et l'avenant en trois lignes, manque. Le sujet rejoint la lecture des factures dans l'application."
+  },
+  "guides/valider-un-devis-travaux": {
+    "requete": "valider un devis",
+    "variantes": [
+      "valider un devis de travaux",
+      "avant de signer un devis",
+      "devis signé rétractation",
+      "bon pour accord",
+      "mentions obligatoires devis",
+      "devis au forfait"
+    ],
+    "intention": "Un particulier qui a un devis en main et s'apprête à le signer. Il veut savoir ce que la signature engage, quoi relire, et s'il pourra revenir en arrière.",
+    "pourquoi": "Le 23 novembre 2026, la Search Console montrait le site en position 59 sur « valider un devis » sans page dédiée. L'outil Vérifier un devis vise la vérification elle-même ; ce guide prend le moment de la signature (engagement, rétractation, formule, précisions à ajouter) et renvoie vers l'outil, pour ne pas se concurrencer."
   }
 }

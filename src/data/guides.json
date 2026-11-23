@@ -52,5 +52,11 @@
     "short": "Suppléments sans devis",
     "title": "Travaux supplémentaires sans devis : faut-il payer ?",
     "teaser": "La facture dépasse le devis : ce qui est dû, ce qui ne l'est pas, et le piège de payer sans rien dire."
+  },
+  {
+    "slug": "valider-un-devis-travaux",
+    "short": "Valider un devis",
+    "title": "Valider un devis de travaux : 8 points avant de signer",
+    "teaser": "Ce que la signature engage, les huit points à relire, la rétractation et les phrases à faire ajouter."
   }
 ]

@@ -84,7 +84,7 @@ S'il quitte réellement le chantier pour un supplément que vous ne devez pas, v
 
 ## L'avenant en trois lignes
 
-Tout cela s'évite avec un réflexe : **aucun travail en plus sans un écrit avant.** Pas besoin d'un document long.
+Tout cela s'évite avec un réflexe : **aucun travail en plus sans un écrit avant.** Le mieux est de l'écrire dès le départ, au moment de [valider le devis](/guides/valider-un-devis-travaux/). Ensuite, pas besoin d'un document long.
 
 > « Avenant n° 1 au devis n° [NUMÉRO] du [DATE]. Travaux ajoutés : [DESCRIPTION, QUANTITÉ]. Prix : [MONTANT] € TTC, qui porte le total du marché à [MONTANT] € TTC. Délai : la fin des travaux est reportée au [DATE] / inchangée. Fait le [DATE], signatures du client et de l'entreprise. »
 

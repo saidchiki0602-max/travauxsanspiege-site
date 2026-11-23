@@ -88,7 +88,7 @@ Un artisan sérieux accepte, ou propose un compromis argumenté. Un artisan qui 
 
 ## À vérifier en même temps que l'acompte
 
-L'acompte n'est qu'une ligne du devis. Avant de signer, regardez aussi :
+L'acompte n'est qu'une ligne du devis. Avant de signer, regardez aussi (la liste complète est dans [valider un devis de travaux](/guides/valider-un-devis-travaux/)) :
 
 - **les quantités** : m², mètres linéaires, nombre de couches, références des équipements ;
 - **l'attestation décennale** jointe, récente, et qui couvre bien les travaux : voir [vérifier la décennale d'un artisan](/guides/verifier-decennale-artisan/) ;
