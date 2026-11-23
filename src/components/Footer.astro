@@ -5,6 +5,6 @@ const here = Astro.url.pathname;
 ---
 <footer><div class="wrap">
   <span>Travaux Sans Piège — un produit <a href="https://kaertgroupe.com/">Kaërt Groupe</a>, Québriac (35)</span>
-  <span><a href={L('/verifier-un-devis/', here)}>Vérifier un devis</a> · <a href={L('/comment-ca-marche/', here)}>Comment ça marche</a> · <a href={L('/tarif/', here)}>Tarif</a> · <a href={L('/questions/', here)}>Questions</a> · <a href={L('/modele-pv-reception-travaux/', here)}>Modèle de PV de réception</a> · <a href={L('/guides/', here)}>Guides</a>{guides.map((g) => <> · <a href={L(`/guides/${g.slug}/`, here)}>{g.short}</a></>)}</span>
+  <span><a href={L('/verifier-un-devis/', here)}>Vérifier un devis</a> · <a href={L('/comment-ca-marche/', here)}>Comment ça marche</a> · <a href={L('/tarif/', here)}>Tarif</a> · <a href={L('/questions/', here)}>Questions</a> · <a href={L('/modele-pv-reception-travaux/', here)}>Modèle de PV de réception</a> · <a href={L('/guides/', here)}>Guides</a> · <a href="https://conformitetravaux.com/">Vendre après travaux : Conformité Travaux</a>{guides.map((g) => <> · <a href={L(`/guides/${g.slug}/`, here)}>{g.short}</a></>)}</span>
   <span><a href={L('/mentions-legales/', here)}>Mentions légales</a> · <a href={L('/confidentialite/', here)}>Confidentialité</a> · <a href="https://www.instagram.com/travauxsanspiege.fr/" rel="noopener">Instagram</a></span>
 </div></footer>

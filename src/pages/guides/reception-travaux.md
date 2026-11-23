@@ -94,6 +94,8 @@ Si une entreprise ne revient pas lever ses réserves, ou si un défaut apparaît
 
 Pour une construction, pensez aussi aux formalités de fin de chantier : déclaration d'achèvement (DAACT) en mairie, attestation Consuel, et attestation RE2020 pour une maison neuve. Le détail est dans [construire sa maison en lots séparés](/guides/construire-maison-lots-separes/).
 
+Gardez le PV, les attestations et la DAACT ensemble : le notaire les demandera le jour où vous vendrez. Pour savoir si votre dossier est complet, [vérifiez les travaux avant la vente](https://conformitetravaux.com/verifier-travaux-avant-vente/) sur Conformité Travaux, en cinq questions.
+
 ## Se faire accompagner
 
 La réception n'exige aucun professionnel. Mais pour une maison ou une grosse rénovation, **deux heures avec un expert bâtiment ou un maître d'œuvre** valent souvent leur prix : ce qu'il repère ce jour-là, vous n'aurez pas à le prouver plus tard.

@@ -76,6 +76,8 @@ L'ordre des corps de métier sur une construction est toujours le même ; ce qui
 - **Déclaration du bien aux impôts** dans les 90 jours suivant l'achèvement.
 - **Carnet d'information du logement** : obligatoire pour les logements neufs depuis 2023, il rassemble plans, notices et documents utiles pour l'entretien et la revente.
 
+Ces pièces, le notaire les réclamera à la vente de la maison, parfois vingt ans plus tard. Le test gratuit de Conformité Travaux dit lesquelles manquent : [vérifier les travaux avant la vente](https://conformitetravaux.com/verifier-travaux-avant-vente/).
+
 ## Garder le fil
 
 À la fin de chaque lot, la réception se fait entreprise par entreprise, avec un [procès-verbal de réception](/modele-pv-reception-travaux/) pour chacune.
