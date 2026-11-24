@@ -113,7 +113,7 @@ import Pricing from '../components/Pricing.astro';
 <section id="guides" style="padding-top:0"><div class="wrap">
   <div class="lbl">Guides</div>
   <h2 style="margin-top:12px">Ce qu'un maître d'œuvre vous dirait, écrit noir sur blanc.</h2>
-  <div class="gl" style="margin-top:28px">{guides.map((g) => <a href={L(`/guides/${g.slug}/`, here)}><b>{g.title}</b><span>{g.teaser}</span></a>)}</div>
+  <div class="gl" style="margin-top:28px">{guides.map((g) => <a href={L(`/guides/${g.slug}/`, here)}><b>{g.title}</b><span>{g.teaser}</span></a>)}<a href={L('/modele-pv-reception-travaux/', here)}><b>Modèle de PV de réception de travaux (PDF gratuit)</b><span>Le procès-verbal en deux pages, avec la liste des réserves et le mode d'emploi.</span></a></div>
 </div></section>
 <Faq items={d.faq.slice(0, 5)} title="Ce qu'on nous demande avant de commencer" />
 <div class="wrap" style="margin-top:-28px;padding-bottom:40px"><a href={L('/questions/', here)} style="color:var(--acc);font-weight:700">Toutes les questions →</a></div>

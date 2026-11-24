@@ -7,6 +7,7 @@ h1: "Abandon de chantier : que faire quand l'artisan ne vient plus"
 lead: "Un artisan qui ne revient pas, ce n'est pas encore un chantier perdu. Mais chaque semaine sans écrit joue contre vous. Voici l'ordre des gestes, du premier message à la reprise par une autre entreprise, et le cas à part de l'entreprise en faillite."
 tldr: "<strong>Relancez par écrit</strong> et notez les dates d'absence. Sans réponse : <strong>mise en demeure</strong> par lettre recommandée, avec un délai et l'annonce que vous romprez le contrat. <strong>Ne payez plus rien</strong> tant que le chantier n'a pas repris. Faites <strong>constater l'état du chantier</strong> avant qu'une autre entreprise y touche. Délai expiré : vous <strong>notifiez la fin du contrat</strong> par écrit, puis vous faites finir par un autre artisan. Si l'entreprise est en liquidation : <strong>déclaration de créance sous deux mois</strong>."
 minutes: 11
+updated: "2026-11-19"
 cta: appli
 faq:
   - ["Au bout de combien de temps parle-t-on d'abandon de chantier ?", "Aucun texte ne fixe de durée. Quelques jours d'absence annoncés ne sont pas un abandon. On en parle quand le chantier est à l'arrêt sans explication et que l'artisan ne répond plus à vos messages écrits. En pratique, après une à deux semaines sans activité ni réponse, passez à la mise en demeure."]

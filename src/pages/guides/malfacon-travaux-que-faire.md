@@ -7,6 +7,7 @@ h1: "Malfaçon de travaux : que faire, dans quel ordre, et dans quels délais"
 lead: "Des travaux mal faits ne se règlent ni par téléphone ni en refusant de payer sans rien dire. Ils se règlent par écrit, dans un ordre précis, et la marche à suivre dépend d'une seule question : la réception a-t-elle eu lieu ?"
 tldr: "<strong>Photographiez</strong> le défaut et <strong>écrivez</strong> à l'artisan. Sans réponse, <strong>mise en demeure</strong> par lettre recommandée, avec un délai. <strong>Avant la réception</strong> : ne payez pas la part concernée et ne signez pas sans réserve. <strong>Dans l'année qui suit</strong> : garantie de parfait achèvement. Ensuite, selon le défaut : garantie de 2 ans ou décennale. Si rien ne bouge : conciliateur de justice (gratuit), expert, puis tribunal."
 minutes: 9
+updated: "2026-11-16"
 cta: appli
 faq:
   - ["Que faire en cas de malfaçon sur des travaux ?", "Constatez le défaut par des photos datées, signalez-le par écrit à l'entreprise, puis envoyez une mise en demeure par lettre recommandée si elle ne réagit pas. La suite dépend du moment : avant la réception, vous retenez le paiement et vous émettez des réserves ; après, vous faites jouer les garanties."]

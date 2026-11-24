@@ -67,7 +67,7 @@ Ce compte rendu remplace la réunion de chantier que tiendrait un maître d'œuv
 
 ## L'argent : payer à l'étape, jamais d'avance
 
-Le suivi de chantier et le paiement sont la même chose vue de deux côtés. **Chaque paiement suit une vérification** : 30 % à la commande, 65 % quand l'étape est finie et vérifiée, 5 % à la réception, consignés chez un tiers (voir [la réception des travaux](/guides/reception-travaux/)).
+Le suivi de chantier et le paiement sont la même chose vue de deux côtés. **Chaque paiement suit une vérification** : 30 % à la commande, 65 % quand l'étape est finie et vérifiée, 5 % à la réception, consignés chez un tiers (voir [la réception des travaux](/guides/reception-travaux/) et le [modèle de PV à télécharger](/modele-pv-reception-travaux/)).
 
 Une demande de supplément ? **Devis écrit et signé avant de faire**, sans exception. Voir [travaux supplémentaires sans devis](/guides/travaux-supplementaires-sans-devis/). « On verra à la fin » est la phrase qui coûte le plus cher sur un chantier de particulier.
 

@@ -109,6 +109,6 @@ La troisième phrase est celle qui évite le plus de litiges : elle règle d'ava
 
 L'outil gratuit [Vérifier un devis](/verifier-un-devis/) passe votre devis en revue, par photo ou en cinq questions, lui donne une note sur 100 et prépare le message à envoyer à l'artisan pour les points à corriger.
 
-Une fois le devis signé, il sert de référence pour tout le chantier : c'est à lui qu'on compare chaque étape [avant de payer](/guides/avant-de-payer-un-artisan/).
+Une fois le devis signé, il sert de référence pour tout le chantier : c'est à lui qu'on compare chaque étape [avant de payer](/guides/avant-de-payer-un-artisan/), jusqu'au [PV de réception](/modele-pv-reception-travaux/).
 
-*Ce guide concerne les devis de travaux chez un particulier. Le contrat de construction de maison individuelle, les marchés avec un maître d'œuvre et les ventes liées à une aide publique obéissent à des règles propres.*
+*Ce guide concerne les devis de travaux chez un particulier. Pour une maison construite sans constructeur, il y a un devis par corps de métier : voir [construire sa maison en lots séparés](/guides/construire-maison-lots-separes/). Le contrat de construction de maison individuelle, les marchés avec un maître d'œuvre et les ventes liées à une aide publique obéissent à des règles propres.*

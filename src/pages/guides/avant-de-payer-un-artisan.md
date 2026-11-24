@@ -23,7 +23,7 @@ D'où trois règles, valables pour tous les corps de métier. Elles supposent un
 
 1. **Fini veut dire fini.** On ne solde pas une étape « presque terminée ». Le dernier 10 % d'une étape est souvent celui qui ne se fait jamais une fois payé.
 2. **Ce qui va être recouvert se regarde avant.** Et se photographie : date visible, mètre dans le champ, vue d'ensemble puis détails. C'est tout l'intérêt d'une visite de chantier chaque semaine : voir [suivre son chantier seul](/guides/suivre-son-chantier-seul/).
-3. **On retient 5 % jusqu'à la réception.** C'est la [retenue de garantie](/guides/reception-travaux/), votre levier pour que l'artisan revienne. Elle doit être prévue au devis et consignée chez un tiers, ou remplacée par une caution de l'artisan.
+3. **On retient 5 % jusqu'à la réception.** C'est la [retenue de garantie](/guides/reception-travaux/), votre levier pour que l'artisan revienne. Elle doit être prévue au devis et consignée chez un tiers, ou remplacée par une caution de l'artisan. Le jour venu, la réception se signe sur un procès-verbal : un [modèle de PV de réception](/modele-pv-reception-travaux/) est à télécharger.
 
 ## Lot par lot : ce qu'on vérifie
 

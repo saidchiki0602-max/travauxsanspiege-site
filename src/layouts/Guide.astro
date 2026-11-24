@@ -9,7 +9,10 @@ const { title, description, slug, h1, lead, tldr, faq = [], minutes = 6, updated
 const here = Astro.url.pathname;
 const path = `/guides/${slug}/`;
 const site = 'https://travauxsanspiege.fr';
-const related = guides.filter((g) => g.slug !== slug).slice(0, 3);
+// Guides liés : les voisins thématiques déclarés dans guides.json, sinon les trois premiers.
+const me = guides.find((g) => g.slug === slug) as any;
+const voisins = ((me && me.voisins) || []).map((s: string) => guides.find((g) => g.slug === s)).filter(Boolean) as typeof guides;
+const related = voisins.length ? voisins : guides.filter((g) => g.slug !== slug).slice(0, 3);
 const dateFr = new Date(updated + 'T12:00:00').toLocaleDateString('fr-FR', { day: 'numeric', month: 'long', year: 'numeric' });
 const article = {
   "@context": "https://schema.org", "@type": "Article", headline: h1, description, inLanguage: "fr-FR",

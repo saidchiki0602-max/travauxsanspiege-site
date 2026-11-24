@@ -7,6 +7,7 @@ h1: "Travaux supplémentaires sans devis : faut-il payer la facture ?"
 lead: "La facture dépasse le devis de 1 800 €, pour des travaux « qu'il a bien fallu faire ». Devez-vous payer ? La règle tient en une phrase, et elle vous protège, à condition de ne pas la perdre par un geste que presque tout le monde fait."
 tldr: "Un supplément ne se paie que s'il a été <strong>commandé avant d'être fait</strong>, ou <strong>accepté clairement après</strong>. C'est à l'artisan de le prouver, et <strong>par écrit au-delà de 1 500 €</strong>. Ce qui était nécessaire pour finir l'ouvrage prévu est <strong>compris dans le prix du devis</strong>. Le piège : <strong>payer la facture sans rien dire</strong>, c'est accepter le supplément. Payez ce qui était au devis, contestez le reste <strong>par écrit</strong>."
 minutes: 8
+updated: "2026-11-23"
 cta: appli
 faq:
   - ["Un artisan peut-il facturer plus que le devis ?", "Pas de sa seule initiative. Le devis signé fixe le prix. Un supplément n'est dû que si vous l'avez commandé avant qu'il soit fait, ou si vous l'avez accepté sans ambiguïté ensuite. C'est à l'artisan d'en apporter la preuve."]

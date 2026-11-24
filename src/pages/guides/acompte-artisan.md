@@ -48,7 +48,7 @@ Le bon réflexe n'est pas seulement de négocier l'acompte, c'est d'écrire **to
 
 Sur un gros lot (gros œuvre d'une maison, par exemple), les 65 % se découpent en plusieurs paiements : fondations, dalle, murs. Le principe reste le même : **on ne paie jamais une étape avant de l'avoir vérifiée**. Ce qu'il faut regarder à chaque étape est détaillé dans [que vérifier avant de payer un artisan](/guides/avant-de-payer-un-artisan/).
 
-Les 5 % retenus jusqu'à la réception correspondent à la **retenue de garantie** prévue par la loi du 16 juillet 1971 pour les marchés de travaux privés. Elle doit être **écrite dans le devis**, et la loi, qui est d'ordre public, impose que la somme soit **consignée chez un tiers** — la Caisse des Dépôts, un notaire, une banque — ou remplacée par une **caution bancaire** de l'artisan. La garder simplement sur votre compte n'est pas conforme. Elle est votre garantie que l'artisan reviendra lever les réserves : voir [la réception des travaux](/guides/reception-travaux/).
+Les 5 % retenus jusqu'à la réception correspondent à la **retenue de garantie** prévue par la loi du 16 juillet 1971 pour les marchés de travaux privés. Elle doit être **écrite dans le devis**, et la loi, qui est d'ordre public, impose que la somme soit **consignée chez un tiers** — la Caisse des Dépôts, un notaire, une banque — ou remplacée par une **caution bancaire** de l'artisan. La garder simplement sur votre compte n'est pas conforme. Elle est votre garantie que l'artisan reviendra lever les réserves : voir [la réception des travaux](/guides/reception-travaux/) et le [modèle de PV de réception](/modele-pv-reception-travaux/).
 
 ## Les exceptions honnêtes
 

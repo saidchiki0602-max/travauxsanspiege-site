@@ -3,60 +3,110 @@
     "slug": "suivre-son-chantier-seul",
     "short": "Suivre son chantier seul",
     "title": "Suivre son chantier seul : la méthode d'un maître d'œuvre",
-    "teaser": "Planning, visite hebdomadaire, compte rendu, ce qu'on vérifie avant que ce soit recouvert."
+    "teaser": "Planning, visite hebdomadaire, compte rendu, ce qu'on vérifie avant que ce soit recouvert.",
+    "voisins": [
+      "construire-maison-lots-separes",
+      "avant-de-payer-un-artisan",
+      "reception-travaux"
+    ]
   },
   {
     "slug": "acompte-artisan",
     "short": "Acompte artisan",
     "title": "Acompte artisan : combien payer à la signature du devis ?",
-    "teaser": "30 % à la commande, pourquoi pas plus, et quoi répondre à un artisan qui demande 50 %."
+    "teaser": "30 % à la commande, pourquoi pas plus, et quoi répondre à un artisan qui demande 50 %.",
+    "voisins": [
+      "valider-un-devis-travaux",
+      "verifier-decennale-artisan",
+      "travaux-supplementaires-sans-devis"
+    ]
   },
   {
     "slug": "verifier-decennale-artisan",
     "short": "Vérifier une décennale",
     "title": "Vérifier la décennale d'un artisan : les 4 contrôles",
-    "teaser": "Une attestation peut être vraie et ne pas couvrir vos travaux. Les quatre points qui comptent."
+    "teaser": "Une attestation peut être vraie et ne pas couvrir vos travaux. Les quatre points qui comptent.",
+    "voisins": [
+      "valider-un-devis-travaux",
+      "acompte-artisan",
+      "construire-maison-lots-separes"
+    ]
   },
   {
     "slug": "avant-de-payer-un-artisan",
     "short": "Avant de payer",
     "title": "Que vérifier avant de payer un artisan ?",
-    "teaser": "Ce qui va être recouvert ne se revoit plus. Les points à contrôler, étape par étape."
+    "teaser": "Ce qui va être recouvert ne se revoit plus. Les points à contrôler, étape par étape.",
+    "voisins": [
+      "suivre-son-chantier-seul",
+      "travaux-supplementaires-sans-devis",
+      "reception-travaux"
+    ]
   },
   {
     "slug": "reception-travaux",
     "short": "Réception des travaux",
     "title": "Réception des travaux : réserves, PV et retenue de 5 %",
-    "teaser": "Le jour d'où partent toutes les garanties. Le tour pièce par pièce et le PV."
+    "teaser": "Le jour d'où partent toutes les garanties. Le tour pièce par pièce et le PV.",
+    "voisins": [
+      "malfacon-travaux-que-faire",
+      "avant-de-payer-un-artisan",
+      "construire-maison-lots-separes"
+    ]
   },
   {
     "slug": "construire-maison-lots-separes",
     "short": "Maison sans constructeur",
     "title": "Construire sa maison sans constructeur, en lots séparés : les 12 étapes",
-    "teaser": "Sans constructeur ni maître d'œuvre : l'ordre des corps de métier et ce qu'on vérifie à chaque relais."
+    "teaser": "Sans constructeur ni maître d'œuvre : l'ordre des corps de métier et ce qu'on vérifie à chaque relais.",
+    "voisins": [
+      "suivre-son-chantier-seul",
+      "verifier-decennale-artisan",
+      "acompte-artisan"
+    ]
   },
   {
     "slug": "malfacon-travaux-que-faire",
     "short": "Malfaçon : que faire",
     "title": "Malfaçon de travaux : que faire, étape par étape",
-    "teaser": "Constater, écrire, mettre en demeure, faire jouer les garanties : l'ordre à suivre et les délais."
+    "teaser": "Constater, écrire, mettre en demeure, faire jouer les garanties : l'ordre à suivre et les délais.",
+    "voisins": [
+      "reception-travaux",
+      "abandon-de-chantier-que-faire",
+      "travaux-supplementaires-sans-devis"
+    ]
   },
   {
     "slug": "abandon-de-chantier-que-faire",
     "short": "Abandon de chantier",
     "title": "Abandon de chantier : que faire, étape par étape",
-    "teaser": "L'artisan ne vient plus : relance, mise en demeure, constat, rupture du contrat, reprise par un autre."
+    "teaser": "L'artisan ne vient plus : relance, mise en demeure, constat, rupture du contrat, reprise par un autre.",
+    "voisins": [
+      "malfacon-travaux-que-faire",
+      "acompte-artisan",
+      "suivre-son-chantier-seul"
+    ]
   },
   {
     "slug": "travaux-supplementaires-sans-devis",
     "short": "Suppléments sans devis",
     "title": "Travaux supplémentaires sans devis : faut-il payer ?",
-    "teaser": "La facture dépasse le devis : ce qui est dû, ce qui ne l'est pas, et le piège de payer sans rien dire."
+    "teaser": "La facture dépasse le devis : ce qui est dû, ce qui ne l'est pas, et le piège de payer sans rien dire.",
+    "voisins": [
+      "valider-un-devis-travaux",
+      "avant-de-payer-un-artisan",
+      "abandon-de-chantier-que-faire"
+    ]
   },
   {
     "slug": "valider-un-devis-travaux",
     "short": "Valider un devis",
     "title": "Valider un devis de travaux : 8 points avant de signer",
-    "teaser": "Ce que la signature engage, les huit points à relire, la rétractation et les phrases à faire ajouter."
+    "teaser": "Ce que la signature engage, les huit points à relire, la rétractation et les phrases à faire ajouter.",
+    "voisins": [
+      "acompte-artisan",
+      "verifier-decennale-artisan",
+      "travaux-supplementaires-sans-devis"
+    ]
   }
 ]
