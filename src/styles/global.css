@@ -241,3 +241,10 @@ section{padding-block:clamp(44px,8vw,104px)}
 .photo-devis .btn{align-self:flex-start}
 @media(max-width:560px){.photo-devis .btn{align-self:stretch;text-align:center;justify-content:center}}
 .ou{max-width:720px;margin:0 auto 14px;text-align:center;color:var(--ink2);font-size:.95rem}
+/* Sources officielles en fin de guide */
+.prose .srcs{margin:36px 0 0;padding:20px 22px;border:1px solid var(--line,#e6e1d8);border-radius:14px}
+.prose .srcs h2{font-size:18px;margin:0 0 10px}
+.prose .srcs ul{margin:0;padding-left:18px}
+.prose .srcs li{font-size:14.5px;line-height:1.5;margin:6px 0;overflow-wrap:anywhere}
+.prose .srcs-d{font-size:13px;color:var(--ink2);margin:10px 0 0}
+.prose .srcs a{font-weight:500}

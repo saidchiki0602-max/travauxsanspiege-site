@@ -27,3 +27,4 @@ Même gabarit « usine à sites » que kaertgroupe.com : **gabarit + données + 
 2. Chaque page a une FAQ balisée (3 à 6 questions formulées comme on les tape).
 3. Titres ≤ 60 caractères, descriptions ≤ 155, un seul h1, canonical, sitemap et llms.txt complets.
 4. Les agents produisent, mesurent et proposent ; un humain publie et dépense.
+5. Chaque guide cite ses sources officielles : champ `sources` de l'en-tête (liste `[libellé, adresse]`), affiché en fin de guide et repris dans les données structurées (`citation`). Uniquement des sites publics (Service-Public, Légifrance, DGCCRF, impots.gouv.fr, Assemblée nationale, Caisse des Dépôts), chaque adresse ouverte et lue avant d'être citée. Le champ `published` garde la date de première publication ; `updated` porte la date de dernière vérification.

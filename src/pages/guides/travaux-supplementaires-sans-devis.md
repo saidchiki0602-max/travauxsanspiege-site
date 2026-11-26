@@ -7,7 +7,7 @@ h1: "Travaux supplémentaires sans devis : faut-il payer la facture ?"
 lead: "La facture dépasse le devis de 1 800 €, pour des travaux « qu'il a bien fallu faire ». Devez-vous payer ? La règle tient en une phrase, et elle vous protège, à condition de ne pas la perdre par un geste que presque tout le monde fait."
 tldr: "Un supplément ne se paie que s'il a été <strong>commandé avant d'être fait</strong>, ou <strong>accepté clairement après</strong>. C'est à l'artisan de le prouver, et <strong>par écrit au-delà de 1 500 €</strong>. Ce qui était nécessaire pour finir l'ouvrage prévu est <strong>compris dans le prix du devis</strong>. Le piège : <strong>payer la facture sans rien dire</strong>, c'est accepter le supplément. Payez ce qui était au devis, contestez le reste <strong>par écrit</strong>."
 minutes: 8
-updated: "2026-11-23"
+updated: "2026-11-26"
 cta: appli
 faq:
   - ["Un artisan peut-il facturer plus que le devis ?", "Pas de sa seule initiative. Le devis signé fixe le prix. Un supplément n'est dû que si vous l'avez commandé avant qu'il soit fait, ou si vous l'avez accepté sans ambiguïté ensuite. C'est à l'artisan d'en apporter la preuve."]
@@ -16,6 +16,12 @@ faq:
   - ["J'ai déjà payé le supplément, puis-je revenir dessus ?", "Difficilement. Payer une facture qui inclut le supplément, sans contestation ni réserve, a été jugé comme une acceptation claire de ces travaux et de leur prix. D'où l'importance d'écrire votre désaccord avant de payer."]
   - ["L'artisan dit que les travaux étaient indispensables : dois-je payer ?", "Dans un marché à prix forfaitaire, ce qui est nécessaire pour réaliser l'ouvrage prévu fait partie du prix convenu : c'était à l'artisan de l'anticiper. Une vraie découverte imprévisible se traite autrement : on s'arrête, on chiffre, vous signez, puis on fait."]
   - ["Comment faire un avenant au devis ?", "Trois lignes datées et signées des deux côtés suffisent : la référence du devis, les travaux ajoutés, leur prix TTC et l'effet sur le délai. Un e-mail où vous répondez « bon pour accord » à un devis complémentaire chiffré vaut écrit."]
+published: "2026-11-23"
+sources:
+  - ["Service-Public — Preuve par écrit au-delà de 1 500 € (article 1359 du Code civil)", "https://www.service-public.gouv.fr/particuliers/actualites/A17903"]
+  - ["Service-Public Entreprendre — Devis obligatoire : mentions à faire figurer", "https://entreprendre.service-public.gouv.fr/vosdroits/F31144"]
+  - ["Service-Public — Accord amiable : tentative obligatoire avant le tribunal jusqu'à 5 000 €", "https://www.service-public.gouv.fr/particuliers/vosdroits/F1732"]
+  - ["Service-Public Entreprendre — Médiation de la consommation : obligation du professionnel", "https://entreprendre.service-public.gouv.fr/vosdroits/F33338"]
 ---
 
 ## La règle, en une phrase
@@ -35,7 +41,7 @@ Cela dépend du montant et de la forme du devis.
 | Situation | Preuve que doit apporter l'artisan |
 |---|---|
 | Supplément jusqu'à 1 500 € | Une commande, par tout moyen : SMS, e-mail, témoin |
-| Supplément au-dessus de 1 500 € | Un écrit venant de vous |
+| Supplément au-dessus de 1 500 € | Un écrit venant de vous ([article 1359 du Code civil](https://www.service-public.gouv.fr/particuliers/actualites/A17903)) |
 | Devis à prix global et forfaitaire | Un écrit sur les travaux **et** sur leur prix, quel que soit le montant |
 
 Un devis de rénovation chez un particulier est presque toujours un prix global : une liste de travaux, un total. Si le vôtre se termine par un montant TTC pour l'ensemble, partez du principe que **rien ne s'ajoute sans votre accord écrit sur le prix**.

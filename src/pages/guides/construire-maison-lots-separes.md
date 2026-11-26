@@ -7,6 +7,7 @@ h1: "Construire sa maison sans constructeur, en lots séparés : les 12 étapes"
 lead: "Sans constructeur ni maître d'œuvre, vous signez directement avec chaque artisan. Vous économisez une marge, mais vous devenez le chef d'orchestre : l'ordre de passage, les vérifications à chaque relais, les assurances et les papiers sont pour vous."
 tldr: "En lots séparés, <strong>vous coordonnez</strong> : il n'y a ni garantie de livraison ni prix global. Avant le premier coup de pelle : <strong>permis affiché, dommages-ouvrage souscrite, étude de sol</strong> si le terrain est en zone argileuse, <strong>décennale de chaque artisan vérifiée</strong>. Ensuite, à chaque passage de relais, on vérifie ce que l'étape suivante va recouvrir <strong>avant</strong> de payer."
 minutes: 9
+updated: "2026-11-26"
 cta: appli
 faq:
   - ["Est-ce moins cher de construire en lots séparés ?", "Souvent, parce qu'il n'y a pas de marge de constructeur. Mais vous portez la coordination, les retards entre artisans et les risques qu'un constructeur ou un maître d'œuvre porterait. L'économie n'existe que si le chantier est bien piloté."]
@@ -14,6 +15,15 @@ faq:
   - ["Quelle différence avec un contrat de construction de maison individuelle ?", "Le CCMI confie tout à un constructeur, avec un prix global, un échéancier légal et une garantie de livraison à prix et délais convenus. En lots séparés, rien de tout cela : chaque artisan n'est responsable que de son lot."]
   - ["Faut-il une étude de sol pour construire ?", "Dans les zones exposées au retrait-gonflement des argiles (exposition moyenne ou forte), la loi Élan impose une étude géotechnique. Demandez-la au vendeur du terrain et transmettez-la à votre maçon pour qu'il en suive les prescriptions."]
   - ["Quels papiers après la fin des travaux ?", "La déclaration d'achèvement et de conformité (DAACT) en mairie, l'attestation Consuel pour l'électricité, l'attestation RE2020 de fin de travaux pour une maison neuve, puis dans les 90 jours la déclaration du bien aux impôts."]
+published: "2026-11-09"
+sources:
+  - ["Justice.fr — Quel contrat pour faire construire sa maison (CCMI, maîtrise d'œuvre, contrats d'entreprise)", "https://www.justice.fr/fiche/contrat-passer-professionnel-construire-maison"]
+  - ["Service-Public — Assurance dommages-ouvrage", "https://www.service-public.gouv.fr/particuliers/vosdroits/F2032"]
+  - ["Assemblée nationale — Réponse ministérielle sur l'étude géotechnique en zone argileuse (question n° 11077)", "https://questions.assemblee-nationale.fr/q17/17-11077QE.htm"]
+  - ["Service-Public — Recours obligatoire à un architecte au-delà de 150 m²", "https://www.service-public.gouv.fr/particuliers/vosdroits/F20568"]
+  - ["Service-Public — Déclaration d'achèvement et de conformité des travaux (DAACT)", "https://www.service-public.gouv.fr/particuliers/vosdroits/F1997"]
+  - ["impots.gouv.fr — Construction neuve : déclaration dans les 90 jours", "https://www.impots.gouv.fr/particulier/questions/je-fais-construire-un-logement-que-dois-je-declarer-et-sur-quel-formulaire"]
+  - ["Justice.fr — Carnet d'information du logement", "https://www.justice.fr/fiche/carnet-information-logement-cil"]
 ---
 
 ## Ce que « lots séparés » change pour vous
@@ -33,7 +43,7 @@ C'est ce qu'on appelle aussi **être son propre maître d'œuvre**. C'est faisab
 
 1. **Permis de construire obtenu et affiché** sur le terrain, visible de la rue. Photographiez le panneau, avec la date : le délai de recours des tiers court à partir de l'affichage.
 2. **Étude de sol** si le terrain est en zone d'argiles moyennement ou fortement exposée (obligation issue de la loi Élan) : demandez-la au vendeur du terrain, transmettez-la au maçon.
-3. **Assurance dommages-ouvrage** souscrite **avant** l'ouverture du chantier : la dommages-ouvrage est obligatoire, y compris pour un particulier qui fait construire (article L242-1 du Code des assurances), et c'est elle qui préfinance les réparations en cas de désordre grave, sans attendre de savoir qui est responsable.
+3. **Assurance dommages-ouvrage** souscrite **avant** l'ouverture du chantier : la [dommages-ouvrage est obligatoire](https://www.service-public.gouv.fr/particuliers/vosdroits/F2032), y compris pour un particulier qui fait construire (article L242-1 du Code des assurances), et c'est elle qui préfinance les réparations en cas de désordre grave, sans attendre de savoir qui est responsable.
 4. **Devis signés**, [vérifiés](/verifier-un-devis/), avec un échéancier écrit : voir [l'acompte artisan](/guides/acompte-artisan/).
 5. **Décennale de chaque artisan vérifiée**, activité par activité : voir [vérifier la décennale d'un artisan](/guides/verifier-decennale-artisan/).
 6. **Déclaration d'ouverture de chantier** déposée en mairie.

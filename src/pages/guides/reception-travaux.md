@@ -7,6 +7,7 @@ h1: "Réception des travaux : comment faire, réserves et retenue de 5 %"
 lead: "La réception est le jour où vous déclarez accepter les travaux, avec ou sans réserves. C'est de là que partent toutes les garanties. Ce qui n'est pas écrit ce jour-là devient beaucoup plus difficile à obtenir ensuite."
 tldr: "Faites le tour <strong>avec l'artisan</strong>, pièce par pièce, en plein jour. Notez <strong>chaque défaut visible</strong> comme réserve dans le procès-verbal, avec un délai pour le reprendre. La réception déclenche la <strong>garantie de parfait achèvement (1 an)</strong>, la <strong>garantie de bon fonctionnement (2 ans)</strong> et la <strong>décennale (10 ans)</strong>. Les <strong>5 % retenus</strong> garantissent la levée des réserves."
 minutes: 7
+updated: "2026-11-26"
 cta: appli
 faq:
   - ["Qu'est-ce que la réception des travaux ?", "C'est l'acte par lequel le maître de l'ouvrage — vous — déclare accepter les travaux, avec ou sans réserves (article 1792-6 du Code civil). Elle se fait en présence de l'entreprise et se formalise par un procès-verbal signé."]
@@ -15,6 +16,12 @@ faq:
   - ["Peut-on garder les 5 % sur son propre compte ?", "Non. La loi impose que la retenue de garantie soit prévue au contrat et consignée chez un tiers accepté par les deux parties (Caisse des Dépôts, notaire, banque), ou remplacée par une caution bancaire de l'entreprise. Une retenue simplement conservée par le client n'est pas conforme."]
   - ["Quelles garanties démarrent à la réception ?", "La garantie de parfait achèvement (un an, tous les désordres signalés), la garantie de bon fonctionnement (deux ans, équipements dissociables comme volets, robinetterie, chaudière) et la garantie décennale (dix ans, désordres graves touchant la solidité ou l'usage)."]
   - ["Faut-il un professionnel pour la réception ?", "Ce n'est pas obligatoire. Pour une maison ou une grosse rénovation, se faire accompagner par un expert bâtiment ou un maître d'œuvre pendant deux heures vaut souvent son prix : il voit ce qu'un œil non averti ne voit pas."]
+published: "2026-11-09"
+sources:
+  - ["Service-Public — Garanties après la réception des travaux (parfait achèvement, bon fonctionnement, décennale)", "https://www.service-public.gouv.fr/particuliers/vosdroits/F2958"]
+  - ["Légifrance — Loi n° 71-584 du 16 juillet 1971 sur les retenues de garantie", "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000000687670"]
+  - ["Caisse des Dépôts — Consignation d'une retenue de garantie : pièces et conditions de libération", "https://consignations.caissedesdepots.fr/sites/default/files/2025-12/Marche_travaux_%20prives_retenue_garantie.pdf"]
+  - ["Service-Public — Garantie décennale des constructeurs", "https://www.service-public.gouv.fr/particuliers/vosdroits/F2034"]
 ---
 
 ## Ce que la réception déclenche
@@ -76,7 +83,7 @@ Un défaut apparent qui n'est pas noté est en principe considéré comme accept
 
 Si l'échéancier de vos devis prévoit une retenue de 5 % (c'est ce que nous recommandons dès la signature, voir [l'acompte artisan](/guides/acompte-artisan/)), elle garantit que l'artisan reviendra lever ses réserves.
 
-La loi du 16 juillet 1971, qui est d'ordre public, encadre strictement cette retenue (le détail, avec la clause et le courrier d'opposition, est dans [retenue de garantie de 5 % : comment ça marche](/guides/retenue-de-garantie-travaux/)) :
+La [loi du 16 juillet 1971](https://www.legifrance.gouv.fr/loda/id/JORFTEXT000000687670), qui est d'ordre public, encadre strictement cette retenue (le détail, avec la clause et le courrier d'opposition, est dans [retenue de garantie de 5 % : comment ça marche](/guides/retenue-de-garantie-travaux/)) :
 
 - elle doit être **prévue au devis** et ne peut pas dépasser **5 %** ;
 - la somme doit être **consignée chez un tiers** (c'est la consignation de la retenue de garantie) accepté par les deux parties — la Caisse des Dépôts, un notaire, une banque. La garder sur votre compte n'est pas conforme, et la Cour de cassation l'a sanctionné ;

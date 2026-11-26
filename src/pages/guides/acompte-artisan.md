@@ -7,6 +7,7 @@ h1: "Acompte artisan : combien payer à la signature du devis ?"
 lead: "30 % à la commande, c'est l'usage. Au-delà, l'artisan finance son activité avec votre argent et vous perdez votre seul levier. Voici la règle, les exceptions honnêtes, et la phrase à lui répondre."
 tldr: "Payez <strong>30 % au maximum à la signature</strong>, puis <strong>65 % quand l'étape est finie et vérifiée</strong>, et faites retenir <strong>5 % jusqu'à la réception</strong>. Aucun texte ne plafonne l'acompte — le « plafond de 15 % » qui circule n'existe pas. Écrivez cet échéancier sur le devis avant de signer. Un acompte de 50 % n'est justifié que si l'artisan commande pour vous du matériel coûteux — et alors il vous montre la facture du fournisseur."
 minutes: 6
+updated: "2026-11-26"
 cta: devis
 faq:
   - ["Quel est l'acompte maximum qu'un artisan peut demander ?", "Pour des travaux chez un particulier, aucun texte ne plafonne l'acompte, hors contrat de construction de maison individuelle avec un constructeur. Le « plafond de 15 % sous 12 000 € » qui circule sur internet n'existe pas. L'usage est de 30 % à la commande ; au-delà, demandez une justification, comme la facture d'un matériel commandé pour vous."]
@@ -14,11 +15,18 @@ faq:
   - ["Acompte ou arrhes, quelle différence ?", "Avec des arrhes, chacun peut renoncer : vous perdez les arrhes, ou l'artisan vous rend le double. Avec un acompte, le contrat est ferme des deux côtés. Pour les travaux sur devis, la qualification par défaut est discutée devant les juges : le plus sûr est que le devis écrive clairement le mot choisi."]
   - ["Peut-on payer un acompte le jour du démarchage à domicile ?", "Non. Pour un contrat signé chez vous après démarchage, le professionnel ne peut recevoir aucun paiement avant sept jours, et vous disposez de quatorze jours pour vous rétracter."]
   - ["Que faire si l'artisan refuse de baisser l'acompte ?", "Proposez 30 % à la commande et un paiement par étape vérifiée. S'il refuse sans raison, c'est souvent un signe de trésorerie tendue : un artisan qui a besoin de votre argent pour démarrer est un artisan qui peut ne pas finir."]
+published: "2026-11-09"
+sources:
+  - ["Assemblée nationale — Réponse ministérielle du 9 décembre 2025 (question n° 7506) : pas de montant minimum ni maximum d'acompte", "https://questions.assemblee-nationale.fr/dyn/17/questions/QANR5L17QE7506"]
+  - ["DGCCRF — Acompte, arrhes, avoir", "https://www.economie.gouv.fr/dgccrf/les-fiches-pratiques/acompte-arrhes-avoir"]
+  - ["Service-Public — Contrat signé à domicile : rétractation de 14 jours, aucun paiement avant 7 jours", "https://www.service-public.gouv.fr/particuliers/vosdroits/F23224"]
+  - ["Légifrance — Loi n° 71-584 du 16 juillet 1971 sur les retenues de garantie", "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000000687670"]
+  - ["Justice.fr — Quel contrat pour faire construire sa maison (CCMI, maîtrise d'œuvre, contrats d'entreprise)", "https://www.justice.fr/fiche/contrat-passer-professionnel-construire-maison"]
 ---
 
 ## Non, il n'existe pas de « plafond légal de 15 % »
 
-Une affirmation circule sur de nombreux sites : l'acompte serait plafonné à 15 % pour les devis de particuliers inférieurs à 12 000 €. **Aucun texte ne le prévoit.** L'acompte d'un devis de travaux entre un artisan et un particulier n'a pas de plafond légal, quel que soit son montant ; une réponse ministérielle publiée en décembre 2025 l'a rappelé.
+Une affirmation circule sur de nombreux sites : l'acompte serait plafonné à 15 % pour les devis de particuliers inférieurs à 12 000 €. **Aucun texte ne le prévoit.** L'acompte d'un devis de travaux entre un artisan et un particulier n'a pas de plafond légal, quel que soit son montant ; une [réponse ministérielle publiée le 9 décembre 2025](https://questions.assemblee-nationale.fr/dyn/17/questions/QANR5L17QE7506) l'a rappelé : aucun montant minimum ni maximum n'est fixé par la loi.
 
 Les seuls cas où la loi fixe le rythme des paiements sont le **contrat de construction de maison individuelle** avec un constructeur, qui a un échéancier légal, et les marchés publics. Pour tout le reste, c'est le devis signé qui fait la règle — d'où l'importance de négocier avant de signer. Si vous construisez sans constructeur, en signant un devis par artisan, c'est aussi votre cas : voir [construire sa maison sans constructeur](/guides/construire-maison-lots-separes/).
 

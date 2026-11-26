@@ -7,7 +7,7 @@ h1: "Valider un devis de travaux : les points à vérifier avant de signer"
 lead: "Le devis est sur la table, l'artisan attend votre réponse. Une fois signé, ce n'est plus une proposition : c'est le contrat du chantier. Voici ce qu'on relit avant, dans l'ordre, et comment signer sans se lier les mains."
 tldr: "Valider un devis, c'est <strong>signer un contrat</strong> : prix, travaux et délais deviennent fermes pour vous comme pour l'artisan. Avant de signer, relisez <strong>8 points</strong> : l'entreprise, le détail des lignes, le total et la TVA, la date de validité, les dates du chantier, l'échéancier de paiement, l'assurance décennale, et ce qui n'est <strong>pas</strong> compris. Un point flou n'est pas une raison de refuser : c'est une <strong>question à poser, et une réponse à faire écrire</strong> sur le devis avant de le signer."
 minutes: 8
-updated: "2026-11-23"
+updated: "2026-11-26"
 cta: devis
 faq:
   - ["Comment valider un devis de travaux ?", "Datez et signez le devis, avec la mention « bon pour accord » ou « bon pour travaux », après avoir fait écrire dessus tout ce qui a été convenu oralement : dates, échéancier de paiement, références des matériaux. Gardez un exemplaire signé par l'artisan. Un e-mail d'accord clair sur un devis précis vous engage aussi."]
@@ -16,6 +16,14 @@ faq:
   - ["Quelles sont les mentions obligatoires d'un devis de travaux ?", "La date, le nom et l'adresse de l'entreprise, votre nom et le lieu des travaux, le détail de chaque prestation en quantité et en prix unitaire, le taux horaire de main-d'œuvre, les frais de déplacement, le total HT et TTC avec le taux de TVA, la durée de validité de l'offre, et le caractère gratuit ou payant du devis. S'y ajoutent l'assureur décennal et la zone couverte."]
   - ["Un devis au forfait, sans détail, est-ce normal ?", "Pour un ensemble de petites tâches, oui : changer une porte, un peu de démolition, quelques raccords de plâtre se chiffrent couramment d'un bloc. Pour un lot important, demandez les quantités et les références, sinon vous ne pourrez ni comparer deux devis ni vérifier ce qui a été posé."]
   - ["Faut-il verser un acompte pour valider un devis ?", "Non, la signature suffit à vous engager. L'acompte est une condition de paiement que le devis peut prévoir : 30 % à la commande est l'usage. Pour un devis signé chez vous, le professionnel ne peut recevoir aucun paiement avant sept jours."]
+published: "2026-11-23"
+sources:
+  - ["Service-Public Entreprendre — Devis obligatoire : mentions à faire figurer", "https://entreprendre.service-public.gouv.fr/vosdroits/F31144"]
+  - ["Ministère de l'Économie — Devis : engagement après acceptation, exécution sous 30 jours à défaut de date", "https://www.economie.gouv.fr/entreprises/gerer-sa-comptabilite-et-ses-demarches/devis-obligatoire-comment-ca-marche"]
+  - ["Service-Public — Contrat signé à domicile : rétractation de 14 jours, aucun paiement avant 7 jours", "https://www.service-public.gouv.fr/particuliers/vosdroits/F23224"]
+  - ["DGCCRF — Vente hors établissement : rétractation et paiement", "https://www.economie.gouv.fr/dgccrf/les-fiches-pratiques/vente-hors-etablissement-soyez-vigilant"]
+  - ["Service-Public Entreprendre — Assurance décennale : obligation, attestation jointe aux devis et factures, sanctions", "https://entreprendre.service-public.gouv.fr/vosdroits/F32258"]
+  - ["Service-Public Entreprendre — Taux de TVA pour les travaux de rénovation d'un logement", "https://entreprendre.service-public.gouv.fr/vosdroits/F23568"]
 ---
 
 ## Ce que votre signature change
@@ -83,7 +91,7 @@ Cela dépend de l'endroit et de la manière dont vous avez signé.
 | Dans ses locaux, ou sur une foire ou un salon | Aucune |
 | Seul, plus tard, après avoir reçu le devis | En principe aucune |
 
-**Chez vous, en présence de l'artisan.** La règle vaut même si c'est vous qui l'avez fait venir. Le devis doit alors vous informer de ce droit et contenir un formulaire de rétractation. Le professionnel ne peut recevoir **aucun paiement avant sept jours**. Si l'information manque, le délai est prolongé de douze mois. Exception : les travaux d'entretien ou de réparation **urgents** que vous avez expressément demandés, comme une fuite.
+**Chez vous, en présence de l'artisan.** C'est le régime du [contrat conclu hors établissement](https://www.service-public.gouv.fr/particuliers/vosdroits/F23224). La règle vaut même si c'est vous qui l'avez fait venir. Le devis doit alors vous informer de ce droit et contenir un formulaire de rétractation. Le professionnel ne peut recevoir **aucun paiement avant sept jours**. Si l'information manque, le délai est prolongé de douze mois. Exception : les travaux d'entretien ou de réparation **urgents** que vous avez expressément demandés, comme une fuite.
 
 **Plus tard, après réflexion.** L'artisan passe, vous envoie son devis quelques jours après, vous le renvoyez signé. Vous avez eu le temps de réfléchir : en principe, il n'y a pas de délai de rétractation. C'est le cas le plus courant, et c'est pourquoi la relecture se fait avant.
 

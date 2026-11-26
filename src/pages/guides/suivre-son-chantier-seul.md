@@ -7,6 +7,7 @@ h1: "Suivre son chantier seul, sans maître d'œuvre : la méthode semaine par s
 lead: "Suivre ses travaux soi-même, ce n'est pas être sur place tous les jours. C'est savoir quoi regarder, à quel moment, et l'écrire. Voici la méthode qu'applique un maître d'œuvre, ramenée à ce qu'un particulier peut tenir."
 tldr: "Un <strong>planning</strong> écrit et partagé avec tous les artisans. Une <strong>visite par semaine</strong>, toujours le même jour, et à chaque étape qui va être recouverte. Un <strong>compte rendu de chantier</strong> envoyé après chaque visite. <strong>Aucun paiement</strong> sans vérification et photo de l'étape. <strong>Rien d'oral</strong> : chaque changement passe par un devis signé."
 minutes: 9
+updated: "2026-11-26"
 cta: appli
 faq:
   - ["Peut-on suivre son chantier seul sans maître d'œuvre ?", "Oui. Aucune loi n'oblige un particulier à prendre un maître d'œuvre pour des travaux ou une maison. Seule exception notable : un architecte est obligatoire pour déposer le permis d'une construction dont la surface de plancher dépasse 150 m². Le suivi du chantier, lui, peut être fait par vous."]
@@ -15,6 +16,12 @@ faq:
   - ["Comment coordonner les artisans entre eux ?", "Par un planning unique, partagé avec tous, et en fixant par écrit qui fait quoi aux interfaces : réservations, saignées, rebouchages, évacuation des gravats. La plupart des conflits entre corps de métier viennent de tâches que chacun croyait être à l'autre."]
   - ["Suis-je responsable si je coordonne moi-même le chantier ?", "Chaque artisan reste responsable de ses travaux et de ses garanties. En revanche, les décalages entre lots deviennent votre affaire, puisque c'est vous qui organisez l'enchaînement. Et si vous imposez une solution technique contre l'avis écrit d'un artisan, sa responsabilité peut être réduite : demandez toujours son conseil par écrit."]
   - ["Que faire si un artisan ne vient pas au jour prévu ?", "Écrivez-lui le jour même, avec la date convenue et une nouvelle date ferme. Sans réponse, une mise en demeure par lettre recommandée. Prévenez aussi l'artisan suivant : c'est souvent lui qui paie le retard du premier."]
+published: "2026-11-09"
+sources:
+  - ["Service-Public — Recours obligatoire à un architecte au-delà de 150 m²", "https://www.service-public.gouv.fr/particuliers/vosdroits/F20568"]
+  - ["Service-Public — Assurance dommages-ouvrage", "https://www.service-public.gouv.fr/particuliers/vosdroits/F2032"]
+  - ["Service-Public — Garanties après la réception des travaux (parfait achèvement, bon fonctionnement, décennale)", "https://www.service-public.gouv.fr/particuliers/vosdroits/F2958"]
+  - ["Légifrance — Loi n° 71-584 du 16 juillet 1971 sur les retenues de garantie", "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000000687670"]
 ---
 
 ## Suivre son chantier seul : ce que ça veut vraiment dire
@@ -76,7 +83,7 @@ Une demande de supplément ? **Devis écrit et signé avant de faire**, sans exc
 Suivre son chantier seul ne veut pas dire tout faire seul, ni tout savoir. Faites intervenir un professionnel ponctuellement pour :
 
 - la **structure** : ouverture de mur porteur, reprise de charpente, surélévation (bureau d'études) ;
-- le **permis** d'une construction de plus de 150 m² de surface de plancher (architecte obligatoire) ;
+- le **permis** d'une construction de plus de 150 m² de surface de plancher ([architecte obligatoire](https://www.service-public.gouv.fr/particuliers/vosdroits/F20568)) ;
 - la **réception** d'une maison ou d'une grosse rénovation, où deux heures d'expert valent souvent leur prix ;
 - un **litige** qui s'installe : expert bâtiment, puis avocat si besoin. La marche à suivre avant d'en arriver là est dans [malfaçon de travaux : que faire](/guides/malfacon-travaux-que-faire/). Et si l'artisan ne vient plus : [abandon de chantier, que faire](/guides/abandon-de-chantier-que-faire/).
 

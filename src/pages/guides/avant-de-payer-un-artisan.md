@@ -7,12 +7,19 @@ h1: "Que vérifier avant de payer un artisan ?"
 lead: "Le bon moment pour vérifier un chantier, c'est juste avant que l'étape suivante recouvre tout : les tuyaux avant le carrelage, les gaines avant le placo, le chaînage avant la charpente. Après, on ne revoit plus rien. Voici quoi regarder, lot par lot."
 tldr: "Trois règles avant tout paiement : <strong>1.</strong> le travail est <strong>fini</strong>, pas « presque », <strong>2.</strong> ce qui va être recouvert a été <strong>vu et photographié</strong>, avec la date et un mètre dans le champ, <strong>3.</strong> <strong>5 % sont retenus jusqu'à la réception</strong>, comme prévu au devis. Un supplément non prévu au devis ne se paie qu'avec un avenant signé avant les travaux."
 minutes: 8
+updated: "2026-11-26"
 cta: appli
 faq:
   - ["Doit-on payer un artisan avant la fin des travaux ?", "Uniquement ce que prévoit l'échéancier écrit sur le devis : l'acompte à la commande, puis des paiements par étape terminée et vérifiée. Ne payez pas le solde d'une étape « presque finie »."]
   - ["Que faire si le travail est mal fait ?", "Ne payez pas la part concernée. Photographiez le défaut avec un mètre dans le champ, décrivez-le par écrit à l'artisan et demandez la reprise dans un délai précis. Sans réponse, envoyez une mise en demeure par lettre recommandée."]
   - ["L'artisan demande plus que le devis, faut-il payer ?", "Pas sans avenant écrit et signé avant les travaux supplémentaires. Un supplément réalisé sans votre accord écrit n'a pas à être payé tel quel : demandez le détail par écrit et répondez par écrit."]
   - ["Pourquoi prendre des photos avant de payer ?", "Parce que ce qui est caché (tuyaux, gaines, ferraillages, isolant) ne se revoit plus. Des photos datées sont votre preuve en cas de litige, et elles servent dans dix ans à l'artisan qui devra réparer sans tout casser."]
+published: "2026-11-09"
+sources:
+  - ["Légifrance — Loi n° 71-584 du 16 juillet 1971 sur les retenues de garantie", "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000000687670"]
+  - ["Service-Public — Garanties après la réception des travaux (parfait achèvement, bon fonctionnement, décennale)", "https://www.service-public.gouv.fr/particuliers/vosdroits/F2958"]
+  - ["Service-Public — Preuve par écrit au-delà de 1 500 € (article 1359 du Code civil)", "https://www.service-public.gouv.fr/particuliers/actualites/A17903"]
+  - ["Service-Public — Accord amiable : tentative obligatoire avant le tribunal jusqu'à 5 000 €", "https://www.service-public.gouv.fr/particuliers/vosdroits/F1732"]
 ---
 
 ## La règle qui évite la plupart des litiges

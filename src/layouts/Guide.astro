@@ -5,7 +5,7 @@ import Faq from '../components/Faq.astro';
 import { L } from '../lib/links';
 import guides from '../data/guides.json';
 const { frontmatter } = Astro.props;
-const { title, description, slug, h1, lead, tldr, faq = [], minutes = 6, updated = '2026-11-09', cta = 'devis' } = frontmatter;
+const { title, description, slug, h1, lead, tldr, faq = [], minutes = 6, updated = '2026-11-09', published, sources = [], cta = 'devis' } = frontmatter;
 const here = Astro.url.pathname;
 const path = `/guides/${slug}/`;
 const site = 'https://travauxsanspiege.fr';
@@ -16,7 +16,8 @@ const related = voisins.length ? voisins : guides.filter((g) => g.slug !== slug)
 const dateFr = new Date(updated + 'T12:00:00').toLocaleDateString('fr-FR', { day: 'numeric', month: 'long', year: 'numeric' });
 const article = {
   "@context": "https://schema.org", "@type": "Article", headline: h1, description, inLanguage: "fr-FR",
-  datePublished: updated, dateModified: updated, mainEntityOfPage: site + path,
+  datePublished: published || updated, dateModified: updated, mainEntityOfPage: site + path,
+  ...(sources.length ? { citation: sources.map((s: [string, string]) => ({ "@type": "WebPage", name: s[0], url: s[1] })) } : {}),
   author: { "@type": "Organization", name: "Travaux Sans Piège", url: site, description: "Fondé par un maître d'œuvre bâtiment (10 ans de chantiers)." },
   publisher: { "@type": "Organization", name: "Kaërt Groupe", url: "https://kaertgroupe.com" }
 };
@@ -44,6 +45,7 @@ const c = ctas[cta] || ctas.devis;
     <div class="tldr"><div class="lbl">L'essentiel</div><p set:html={tldr} /></div>
     <slot />
     <div class="cta-g"><div><h3>{c[0]}</h3><p>{c[1]}</p></div><a class="btn w" href={L(c[3], here)}>{c[2]}</a></div>
+    {sources.length > 0 && <section class="srcs"><h2>Sources officielles</h2><ul>{sources.map((s: [string, string]) => <li><a href={s[1]} rel="noopener" target="_blank">{s[0]}</a></li>)}</ul><p class="srcs-d">Liens vérifiés le {dateFr}.</p></section>}
     <p class="disc">Ce guide donne une information générale, à jour à la date indiquée. Il ne remplace pas un conseil juridique adapté à votre situation : en cas de litige, faites-vous accompagner par un professionnel.</p>
   </div></article>
   {faq.length > 0 && <Faq items={faq} title="Questions fréquentes" />}

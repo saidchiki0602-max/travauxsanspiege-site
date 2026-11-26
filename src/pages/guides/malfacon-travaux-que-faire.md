@@ -7,7 +7,7 @@ h1: "Malfaçon de travaux : que faire, dans quel ordre, et dans quels délais"
 lead: "Des travaux mal faits ne se règlent ni par téléphone ni en refusant de payer sans rien dire. Ils se règlent par écrit, dans un ordre précis, et la marche à suivre dépend d'une seule question : la réception a-t-elle eu lieu ?"
 tldr: "<strong>Photographiez</strong> le défaut et <strong>écrivez</strong> à l'artisan. Sans réponse, <strong>mise en demeure</strong> par lettre recommandée, avec un délai. <strong>Avant la réception</strong> : ne payez pas la part concernée et ne signez pas sans réserve. <strong>Dans l'année qui suit</strong> : garantie de parfait achèvement. Ensuite, selon le défaut : garantie de 2 ans ou décennale. Si rien ne bouge : conciliateur de justice (gratuit), expert, puis tribunal."
 minutes: 9
-updated: "2026-11-16"
+updated: "2026-11-26"
 cta: appli
 faq:
   - ["Que faire en cas de malfaçon sur des travaux ?", "Constatez le défaut par des photos datées, signalez-le par écrit à l'entreprise, puis envoyez une mise en demeure par lettre recommandée si elle ne réagit pas. La suite dépend du moment : avant la réception, vous retenez le paiement et vous émettez des réserves ; après, vous faites jouer les garanties."]
@@ -16,6 +16,13 @@ faq:
   - ["Peut-on faire refaire les travaux par un autre artisan ?", "Oui, mais pas tout de suite. Après une mise en demeure restée sans effet, vous pouvez faire exécuter les travaux par une autre entreprise, dans un délai et à un coût raisonnables, puis en demander le remboursement au premier artisan. Faites constater l'état des lieux avant toute reprise, sinon vous perdez la preuve."]
   - ["Faut-il un expert en cas de malfaçon ?", "Pas toujours. Pour un défaut simple et visible, des photos et un échange écrit suffisent souvent. Un expert devient utile quand l'artisan conteste, quand la cause n'est pas évidente ou quand les sommes sont importantes. Son rapport pèse dans une négociation, et une expertise ordonnée par un juge s'impose aux deux parties."]
   - ["Le conciliateur de justice est-il obligatoire ?", "Pour une demande en justice qui ne dépasse pas 5 000 €, une tentative de règlement amiable est obligatoire avant de saisir le tribunal : conciliateur de justice, médiation ou procédure participative. Le conciliateur est gratuit."]
+published: "2026-11-16"
+sources:
+  - ["Service-Public — Garanties après la réception des travaux (parfait achèvement, bon fonctionnement, décennale)", "https://www.service-public.gouv.fr/particuliers/vosdroits/F2958"]
+  - ["Service-Public — Assurance dommages-ouvrage", "https://www.service-public.gouv.fr/particuliers/vosdroits/F2032"]
+  - ["Service-Public — Accord amiable : tentative obligatoire avant le tribunal jusqu'à 5 000 €", "https://www.service-public.gouv.fr/particuliers/vosdroits/F1732"]
+  - ["Service-Public Entreprendre — Médiation de la consommation : obligation du professionnel", "https://entreprendre.service-public.gouv.fr/vosdroits/F33338"]
+  - ["Ministère de l'Économie — Médiation de la consommation : trouver et saisir le médiateur", "https://www.economie.gouv.fr/mediation-conso"]
 ---
 
 ## D'abord : constater et écrire, quel que soit le moment
@@ -86,7 +93,7 @@ Si l'artisan ne revient plus du tout, ce n'est plus une malfaçon mais un [aband
 | Recours | Coût | Quand l'utiliser |
 |---|---|---|
 | Médiateur de la consommation de l'artisan | Gratuit | Ses coordonnées doivent figurer sur le devis ou la facture. À tenter en premier |
-| Conciliateur de justice | Gratuit | Litige simple, artisan qui répond encore. Obligatoire avant le tribunal jusqu'à 5 000 € |
+| Conciliateur de justice | Gratuit | Litige simple, artisan qui répond encore. [Obligatoire avant le tribunal jusqu'à 5 000 €](https://www.service-public.gouv.fr/particuliers/vosdroits/F1732) |
 | Votre protection juridique | Comprise dans votre assurance | Vérifiez votre contrat d'habitation ou de carte bancaire : elle peut financer un expert ou un avocat |
 | Expert en bâtiment | Plusieurs centaines d'euros | Cause incertaine, artisan qui conteste, enjeu important |
 | Tribunal | Variable | Quand l'amiable a échoué. Le juge peut ordonner une expertise qui s'impose à tous |

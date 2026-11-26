@@ -7,6 +7,7 @@ h1: "Retenue de garantie de 5 % : comment ça marche pour un particulier"
 lead: "Garder 5 % jusqu'à ce que tout soit repris : l'idée est simple et tout le monde la conseille. La loi qui l'encadre l'est beaucoup moins, et elle protège d'abord l'artisan. Voici ce qu'elle exige vraiment, et la façon de garder un levier sans se mettre en tort."
 tldr: "La retenue de garantie est <strong>de 5 % au plus</strong> et sert à garantir la reprise des <strong>réserves de la réception</strong>. Elle n'existe que si elle est <strong>écrite au devis</strong>. La somme doit être <strong>consignée chez un tiers</strong>, pas gardée sur votre compte. Elle est <strong>libérée un an après la réception</strong>, sauf opposition motivée envoyée en recommandé. Sans clause ou sans consignation, vous ne pouvez pas l'opposer à l'artisan."
 minutes: 7
+updated: "2026-11-26"
 cta: appli
 faq:
   - ["La retenue de garantie de 5 % est-elle obligatoire ?", "Non. Elle n'existe que si le devis ou le contrat la prévoit. Sans clause écrite, vous ne pouvez pas l'appliquer de vous-même, ni l'imposer en cours de chantier."]
@@ -15,6 +16,11 @@ faq:
   - ["Comment bloquer la retenue si les réserves ne sont pas levées ?", "Avant la fin de l'année qui suit la réception, envoyez au consignataire une lettre recommandée qui s'oppose à la libération et qui explique quelles obligations l'artisan n'a pas remplies. Une opposition sans motif précis ne vaut rien."]
   - ["L'artisan peut-il refuser la retenue de garantie ?", "Il peut refuser de signer un devis qui la prévoit : c'est une négociation. Il peut aussi la remplacer par une caution bancaire du même montant ; vous lui payez alors la totalité, et c'est la banque qui garantit."]
   - ["La retenue de garantie couvre-t-elle les défauts apparus après la réception ?", "Non. Elle garantit seulement la reprise des réserves écrites dans le procès-verbal de réception. Un défaut qui apparaît ensuite relève de la garantie de parfait achèvement, pendant un an."]
+published: "2026-11-26"
+sources:
+  - ["Légifrance — Loi n° 71-584 du 16 juillet 1971 sur les retenues de garantie", "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000000687670"]
+  - ["Caisse des Dépôts — Consignation d'une retenue de garantie : pièces et conditions de libération", "https://consignations.caissedesdepots.fr/sites/default/files/2025-12/Marche_travaux_%20prives_retenue_garantie.pdf"]
+  - ["Service-Public — Garanties après la réception des travaux (parfait achèvement, bon fonctionnement, décennale)", "https://www.service-public.gouv.fr/particuliers/vosdroits/F2958"]
 ---
 
 ## À quoi elle sert, exactement
@@ -27,7 +33,7 @@ Elle ne sert donc pas à tout :
 - elle ne couvre **pas les défauts apparus après** la réception : ceux-là relèvent de la garantie de parfait achèvement ;
 - elle ne joue **pas sans réception**. Sur un chantier [abandonné](/guides/abandon-de-chantier-que-faire/), il n'y a pas de retenue de garantie à faire valoir : on suspend simplement les paiements de ce qui n'est pas fait.
 
-Elle est encadrée par une loi du 16 juillet 1971, à laquelle aucun contrat ne peut déroger. Une clause qui prévoirait 10 %, ou une libération après deux ans, est nulle.
+Elle est encadrée par une [loi du 16 juillet 1971](https://www.legifrance.gouv.fr/loda/id/JORFTEXT000000687670), à laquelle aucun contrat ne peut déroger. Une clause qui prévoirait 10 %, ou une libération après deux ans, est nulle.
 
 ## Les quatre règles
 

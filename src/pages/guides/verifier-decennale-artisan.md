@@ -7,6 +7,7 @@ h1: "Vérifier la décennale d'un artisan : les 4 contrôles"
 lead: "Une attestation peut être fausse, périmée pour impayé, ou vraie mais ne pas couvrir les travaux que l'artisan va faire chez vous. Dans les trois cas, un défaut qui apparaît dans cinq ans est pour vous. Voici les quatre contrôles qui l'évitent."
 tldr: "Exigez l'attestation <strong>avant de signer</strong>, puis vérifiez : <strong>1.</strong> qu'elle couvre la date d'ouverture de votre chantier, <strong>2.</strong> qu'elle suit le modèle officiel (assureur, numéro de contrat, activités), <strong>3.</strong> que <strong>chaque lot du devis</strong> figure dans les activités assurées, <strong>4.</strong> que l'assureur confirme le contrat. Une photo d'attestation ne suffit pas."
 minutes: 7
+updated: "2026-11-26"
 cta: devis
 faq:
   - ["Comment savoir si l'assurance décennale d'un artisan est valide ?", "Demandez l'attestation, vérifiez qu'elle couvre la date d'ouverture de votre chantier et les activités de votre devis, puis contactez l'assureur indiqué avec le numéro de contrat pour qu'il confirme que le contrat est en vigueur."]
@@ -14,13 +15,19 @@ faq:
   - ["Que risque un artisan qui travaille sans décennale ?", "Jusqu'à 75 000 € d'amende et six mois d'emprisonnement (article L243-3 du Code des assurances). Pour vous, le risque est plus concret : en cas de désordre grave, personne ne paie la réparation."]
   - ["L'attestation doit-elle être de l'année en cours ?", "Ce qui compte, c'est que le contrat soit en vigueur à la date d'ouverture de votre chantier. Une attestation récente, datée de moins de trois mois, est le meilleur indice ; une attestation ancienne prouve seulement que l'artisan était assuré à l'époque."]
   - ["Que faire si une activité du devis n'est pas couverte ?", "Ne signez pas en l'état. Soit l'artisan fait ajouter l'activité à son contrat et vous envoie une nouvelle attestation, soit cette partie des travaux sort de son devis et va à une entreprise assurée pour elle."]
+published: "2026-11-09"
+sources:
+  - ["Service-Public Entreprendre — Assurance décennale : obligation, attestation jointe aux devis et factures, sanctions", "https://entreprendre.service-public.gouv.fr/vosdroits/F32258"]
+  - ["Service-Public — Garantie décennale des constructeurs", "https://www.service-public.gouv.fr/particuliers/vosdroits/F2034"]
+  - ["Service-Public — Garanties après la réception des travaux (parfait achèvement, bon fonctionnement, décennale)", "https://www.service-public.gouv.fr/particuliers/vosdroits/F2958"]
+  - ["Service-Public — Assurance dommages-ouvrage", "https://www.service-public.gouv.fr/particuliers/vosdroits/F2032"]
 ---
 
 ## Pourquoi la décennale compte autant
 
 La garantie décennale couvre pendant dix ans après [la réception des travaux](/guides/reception-travaux/) les désordres graves : ceux qui compromettent la solidité de l'ouvrage ou le rendent impropre à son usage. Une fissure structurelle, une toiture qui fuit, un plancher qui s'affaisse, une installation de chauffage intégrée qui ne chauffe plus.
 
-Tout professionnel qui réalise ce type de travaux doit être assuré (article L241-1 du Code des assurances). Mais l'obligation ne suffit pas : sur le terrain, on rencontre régulièrement trois situations.
+Tout professionnel qui réalise ce type de travaux [doit être assuré](https://entreprendre.service-public.gouv.fr/vosdroits/F32258) (article L241-1 du Code des assurances). Mais l'obligation ne suffit pas : sur le terrain, on rencontre régulièrement trois situations.
 
 - **L'attestation est fausse ou trafiquée.** Plus rare, mais ça existe.
 - **Le contrat a été résilié**, souvent pour impayé, alors que l'attestation imprimée semble toujours valable.

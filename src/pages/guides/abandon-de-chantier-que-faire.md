@@ -7,7 +7,7 @@ h1: "Abandon de chantier : que faire quand l'artisan ne vient plus"
 lead: "Un artisan qui ne revient pas, ce n'est pas encore un chantier perdu. Mais chaque semaine sans écrit joue contre vous. Voici l'ordre des gestes, du premier message à la reprise par une autre entreprise, et le cas à part de l'entreprise en faillite."
 tldr: "<strong>Relancez par écrit</strong> et notez les dates d'absence. Sans réponse : <strong>mise en demeure</strong> par lettre recommandée, avec un délai et l'annonce que vous romprez le contrat. <strong>Ne payez plus rien</strong> tant que le chantier n'a pas repris. Faites <strong>constater l'état du chantier</strong> avant qu'une autre entreprise y touche. Délai expiré : vous <strong>notifiez la fin du contrat</strong> par écrit, puis vous faites finir par un autre artisan. Si l'entreprise est en liquidation : <strong>déclaration de créance sous deux mois</strong>."
 minutes: 11
-updated: "2026-11-19"
+updated: "2026-11-26"
 cta: appli
 faq:
   - ["Au bout de combien de temps parle-t-on d'abandon de chantier ?", "Aucun texte ne fixe de durée. Quelques jours d'absence annoncés ne sont pas un abandon. On en parle quand le chantier est à l'arrêt sans explication et que l'artisan ne répond plus à vos messages écrits. En pratique, après une à deux semaines sans activité ni réponse, passez à la mise en demeure."]
@@ -16,6 +16,12 @@ faq:
   - ["Peut-on faire finir les travaux par un autre artisan ?", "Oui, mais seulement après une mise en demeure restée sans effet et après avoir fait constater l'état du chantier. Vous pouvez alors faire terminer par une autre entreprise, dans un délai et à un coût raisonnables, et réclamer le surcoût au premier artisan."]
   - ["Comment récupérer son acompte après un abandon de chantier ?", "Une fois le contrat rompu par écrit, l'entreprise doit vous rendre ce que vous avez payé au-delà des travaux réellement faits. Si elle ne rembourse pas : médiateur de la consommation, conciliateur de justice, puis tribunal. Si elle est en liquidation, la somme se réclame par une déclaration de créance."]
   - ["Que faire si l'entreprise est en liquidation judiciaire ?", "Vous déclarez votre créance au mandataire ou au liquidateur dans les deux mois qui suivent la publication du jugement au BODACC. Passé ce délai, vous ne participez plus aux répartitions. Faites constater l'état du chantier, puis faites finir par une autre entreprise."]
+published: "2026-11-19"
+sources:
+  - ["DGCCRF — Abandon de chantier : quels sont vos recours ?", "https://www.economie.gouv.fr/dgccrf/les-fiches-pratiques/abandon-de-chantier-quels-sont-vos-recours"]
+  - ["Service-Public — Accord amiable : tentative obligatoire avant le tribunal jusqu'à 5 000 €", "https://www.service-public.gouv.fr/particuliers/vosdroits/F1732"]
+  - ["Service-Public Entreprendre — Médiation de la consommation : obligation du professionnel", "https://entreprendre.service-public.gouv.fr/vosdroits/F33338"]
+  - ["Service-Public Entreprendre — Assurance décennale : obligation, attestation jointe aux devis et factures, sanctions", "https://entreprendre.service-public.gouv.fr/vosdroits/F32258"]
 ---
 
 ## D'abord : abandon, ou simple retard ?
@@ -91,7 +97,7 @@ Trois précisions honnêtes :
 
 ## Étape 6 : faire finir par une autre entreprise
 
-Une fois la mise en demeure restée sans effet et l'état du chantier constaté, vous pouvez faire terminer les travaux par un autre artisan et réclamer le surcoût au premier. La loi pose deux limites : **un délai raisonnable et un coût raisonnable**. Concrètement :
+Une fois la mise en demeure restée sans effet et l'état du chantier constaté, vous pouvez faire terminer les travaux par un autre artisan et réclamer le surcoût au premier. La loi (article 1222 du Code civil, rappelé par la [DGCCRF](https://www.economie.gouv.fr/dgccrf/les-fiches-pratiques/abandon-de-chantier-quels-sont-vos-recours)) pose deux limites : **un délai raisonnable et un coût raisonnable**. Concrètement :
 
 - gardez les devis de reprise comparés et les factures ;
 - faites reprendre **ce qui était prévu au devis d'origine**, pas une version améliorée ;
