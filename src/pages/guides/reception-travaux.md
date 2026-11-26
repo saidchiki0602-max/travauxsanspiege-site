@@ -76,7 +76,7 @@ Un défaut apparent qui n'est pas noté est en principe considéré comme accept
 
 Si l'échéancier de vos devis prévoit une retenue de 5 % (c'est ce que nous recommandons dès la signature, voir [l'acompte artisan](/guides/acompte-artisan/)), elle garantit que l'artisan reviendra lever ses réserves.
 
-La loi du 16 juillet 1971, qui est d'ordre public, encadre strictement cette retenue :
+La loi du 16 juillet 1971, qui est d'ordre public, encadre strictement cette retenue (le détail, avec la clause et le courrier d'opposition, est dans [retenue de garantie de 5 % : comment ça marche](/guides/retenue-de-garantie-travaux/)) :
 
 - elle doit être **prévue au devis** et ne peut pas dépasser **5 %** ;
 - la somme doit être **consignée chez un tiers** (c'est la consignation de la retenue de garantie) accepté par les deux parties — la Caisse des Dépôts, un notaire, une banque. La garder sur votre compte n'est pas conforme, et la Cour de cassation l'a sanctionné ;

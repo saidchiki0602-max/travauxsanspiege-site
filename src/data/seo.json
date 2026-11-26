@@ -213,5 +213,18 @@
     ],
     "intention": "Un particulier qui a un devis en main et s'apprête à le signer. Il veut savoir ce que la signature engage, quoi relire, et s'il pourra revenir en arrière.",
     "pourquoi": "Le 23 novembre 2026, la Search Console montrait le site en position 59 sur « valider un devis » sans page dédiée. L'outil Vérifier un devis vise la vérification elle-même ; ce guide prend le moment de la signature (engagement, rétractation, formule, précisions à ajouter) et renvoie vers l'outil, pour ne pas se concurrencer."
+  },
+  "guides/retenue-de-garantie-travaux": {
+    "requete": "retenue de garantie 5 %",
+    "variantes": [
+      "retenue de garantie travaux",
+      "retenue de garantie particulier",
+      "consignation",
+      "caution bancaire",
+      "loi du 16 juillet 1971",
+      "libération de la retenue"
+    ],
+    "intention": "Un particulier qui veut garder 5 % jusqu'à la levée des réserves, ou à qui un artisan réclame la somme retenue. Il veut savoir s'il en a le droit et comment faire.",
+    "pourquoi": "Les autres guides renvoient déjà à la retenue de 5 % sans l'expliquer en entier. Les résultats en tête sont écrits pour les entreprises ; la version client, avec la clause, l'opposition type et l'alternative honnête pour un petit chantier, manque."
   }
 }

@@ -108,5 +108,11 @@
       "verifier-decennale-artisan",
       "travaux-supplementaires-sans-devis"
     ]
+  },
+  {
+    "slug": "retenue-de-garantie-travaux",
+    "short": "Retenue de 5 %",
+    "title": "Retenue de garantie de 5 % : comment ça marche",
+    "teaser": "À prévoir au devis, à consigner chez un tiers, libérée à un an : les règles, et quoi faire sur un petit chantier."
   }
 ]
