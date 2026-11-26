@@ -18,7 +18,7 @@ const article = {
   "@context": "https://schema.org", "@type": "Article", headline: h1, description, inLanguage: "fr-FR",
   datePublished: published || updated, dateModified: updated, mainEntityOfPage: site + path,
   ...(sources.length ? { citation: sources.map((s: [string, string]) => ({ "@type": "WebPage", name: s[0], url: s[1] })) } : {}),
-  author: { "@type": "Organization", name: "Travaux Sans Piège", url: site, description: "Fondé par un maître d'œuvre bâtiment (10 ans de chantiers)." },
+  author: { "@type": "Organization", name: "Travaux Sans Piège", url: site },
   publisher: { "@type": "Organization", name: "Kaërt Groupe", url: "https://kaertgroupe.com" }
 };
 const crumbs = { "@context": "https://schema.org", "@type": "BreadcrumbList", itemListElement: [
