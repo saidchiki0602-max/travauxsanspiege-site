@@ -45,7 +45,7 @@ const c = ctas[cta] || ctas.devis;
     <div class="tldr"><div class="lbl">L'essentiel</div><p set:html={tldr} /></div>
     <slot />
     <div class="cta-g"><div><h3>{c[0]}</h3><p>{c[1]}</p></div><a class="btn w" href={L(c[3], here)}>{c[2]}</a></div>
-    {sources.length > 0 && <section class="srcs"><h2>Sources officielles</h2><ul>{sources.map((s: [string, string]) => <li><a href={s[1]} rel="noopener" target="_blank">{s[0]}</a></li>)}</ul><p class="srcs-d">Liens vérifiés le {dateFr}.</p></section>}
+    {sources.length > 0 && <section class="srcs"><h2>Sources officielles</h2><ul>{sources.map((s: [string, string]) => <li><a href={s[1]} rel="noopener" target="_blank">{s[0]}</a></li>)}</ul><p class="srcs-d">Liens vérifiés le {dateFr}. <a href={L('/methode/', here)}>Comment nos guides sont vérifiés</a></p></section>}
     <p class="disc">Ce guide donne une information générale, à jour à la date indiquée. Il ne remplace pas un conseil juridique adapté à votre situation : en cas de litige, faites-vous accompagner par un professionnel.</p>
   </div></article>
   {faq.length > 0 && <Faq items={faq} title="Questions fréquentes" />}

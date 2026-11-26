@@ -1,0 +1,70 @@
+{
+ "title": "Comment nos guides de travaux sont vérifiés",
+ "description": "Comment nos guides de travaux sont vérifiés : qui édite Travaux Sans Piège, d'où viennent les règles citées et comment signaler une erreur.",
+ "h1": "Comment nos guides de travaux sont vérifiés",
+ "lead": "Un guide qui parle de droit ne vaut que si l'on peut le contrôler. Voici qui écrit ceux de Travaux Sans Piège, d'où viennent les règles citées, et quoi faire si vous trouvez une erreur.",
+ "sections": [
+  [
+   "Qui édite Travaux Sans Piège",
+   [
+    "Travaux Sans Piège est édité par <a href=\"https://kaertgroupe.com/\">Kaërt Groupe</a>, une société bretonne qui conçoit des logiciels pour le bâtiment. Les guides sont publiés au nom du site : aucun n'est signé par une personne, et l'éditeur en répond.",
+    "Le site ne vend pas de travaux, ne met pas en relation avec des artisans et ne touche aucune commission sur un chantier. Il vit de son application, vendue aux particuliers."
+   ]
+  ],
+  [
+   "Comment un guide de travaux est écrit",
+   [
+    "Chaque guide part d'une question que se pose un particulier en cours de chantier : combien verser à la signature, que faire quand l'artisan ne revient pas, que noter le jour de la réception. Il répond en tête de page, puis détaille.",
+    "Les guides sont rédigés avec l'aide d'outils d'intelligence artificielle. Ils sont ensuite relus par l'éditeur. Aucune règle n'est publiée sur la seule foi de ces outils : c'est l'objet du contrôle décrit ci-dessous."
+   ]
+  ],
+  [
+   "Comment chaque règle est vérifiée",
+   [
+    "Avant publication, chaque règle de droit est retrouvée sur une source officielle : un délai, un pourcentage, une obligation, une sanction. La page est ouverte et lue ; une adresse qui ne répond pas n'est pas citée.",
+    "Seuls des sites publics sont retenus : Service-Public, Légifrance, la DGCCRF, impots.gouv.fr, l'Assemblée nationale, la Caisse des Dépôts. Ils sont listés à la fin de chaque guide, dans le bloc « Sources officielles », et les règles principales renvoient au texte dans la phrase même.",
+    "Quand une source officielle ne tranche pas un point, le guide le dit au lieu de l'affirmer."
+   ]
+  ],
+  [
+   "Les dates affichées",
+   [
+    "Chaque guide porte la date de sa dernière vérification. Quand une règle change, le guide est corrigé et la date mise à jour. Les modèles à télécharger suivent la même règle."
+   ]
+  ],
+  [
+   "Ce que les guides ne sont pas",
+   [
+    "Ils donnent une information générale. Ils ne remplacent ni un avocat, ni un expert du bâtiment, ni votre assureur : en cas de litige, faites-vous accompagner. Ils ne recommandent aucun artisan et aucune marque. Quand ils renvoient vers un outil de Travaux Sans Piège ou d'un autre site de Kaërt Groupe, c'est indiqué."
+   ]
+  ],
+  [
+   "Signaler une erreur",
+   [
+    "Une règle vous paraît fausse, dépassée ou mal expliquée ? Écrivez à <a href=\"mailto:contact@travauxsanspiege.fr\">contact@travauxsanspiege.fr</a> en indiquant le guide et la phrase. La correction est faite après contrôle sur la source, et la date du guide est mise à jour."
+   ]
+  ]
+ ],
+ "faq": [
+  [
+   "Qui écrit les guides de Travaux Sans Piège ?",
+   "Les guides sont publiés par Kaërt Groupe, l'éditeur du site. Ils sont rédigés avec l'aide d'outils d'intelligence artificielle, relus par l'éditeur, et chaque règle de droit est contrôlée sur une source officielle avant publication."
+  ],
+  [
+   "D'où viennent les règles citées dans les guides ?",
+   "De sites publics uniquement : Service-Public, Légifrance, la DGCCRF, impots.gouv.fr, l'Assemblée nationale, la Caisse des Dépôts. Les sources de chaque guide sont listées en fin de page."
+  ],
+  [
+   "Les guides sont-ils à jour ?",
+   "Chaque guide affiche la date de sa dernière vérification. Quand une règle change, le guide est corrigé et la date mise à jour."
+  ],
+  [
+   "Les guides remplacent-ils un conseil juridique ?",
+   "Non. Ils donnent une information générale. En cas de litige avec un artisan, faites-vous accompagner par un professionnel : avocat, expert du bâtiment ou protection juridique de votre assurance."
+  ],
+  [
+   "Comment signaler une erreur dans un guide ?",
+   "En écrivant à contact@travauxsanspiege.fr avec le nom du guide et la phrase concernée. La correction est faite après contrôle sur la source officielle."
+  ]
+ ]
+}

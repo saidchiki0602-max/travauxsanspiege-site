@@ -226,5 +226,16 @@
     ],
     "intention": "Un particulier qui veut garder 5 % jusqu'à la levée des réserves, ou à qui un artisan réclame la somme retenue. Il veut savoir s'il en a le droit et comment faire.",
     "pourquoi": "Les autres guides renvoient déjà à la retenue de 5 % sans l'expliquer en entier. Les résultats en tête sont écrits pour les entreprises ; la version client, avec la clause, l'opposition type et l'alternative honnête pour un petit chantier, manque."
+  },
+  "methode": {
+    "requete": "comment nos guides de travaux sont vérifiés",
+    "variantes": [
+      "guide de travaux",
+      "sources officielles",
+      "signaler une erreur",
+      "qui édite Travaux Sans Piège"
+    ],
+    "intention": "Un lecteur, un moteur ou une IA qui veut savoir qui est derrière les guides et si l'on peut s'y fier.",
+    "pourquoi": "Page de confiance, pas de trafic : elle dit qui édite, comment les règles sont contrôlées et comment corriger. Les moteurs et les IA cherchent cette information avant de citer un site récent."
   }
 }

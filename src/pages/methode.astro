@@ -1,0 +1,24 @@
+---
+import Base from '../layouts/Base.astro';
+import Faq from '../components/Faq.astro';
+import { L } from '../lib/links';
+import d from '../data/pages/methode.json';
+const here = Astro.url.pathname;
+const site = 'https://travauxsanspiege.fr';
+const crumbs = { "@context": "https://schema.org", "@type": "BreadcrumbList", itemListElement: [{ "@type": "ListItem", position: 1, name: "Accueil", item: site + '/' }, { "@type": "ListItem", position: 2, name: d.h1, item: site + '/methode/' }] };
+const about = { "@context": "https://schema.org", "@type": "AboutPage", name: d.h1, description: d.description, url: site + '/methode/', inLanguage: "fr-FR", publisher: { "@type": "Organization", name: "Kaërt Groupe", url: "https://kaertgroupe.com" } };
+---
+<Base title={d.title} description={d.description} path="/methode/">
+  <script type="application/ld+json" slot="head" set:html={JSON.stringify(crumbs)} />
+  <script type="application/ld+json" slot="head" set:html={JSON.stringify(about)} />
+  <header class="ghero"><div class="wrap">
+    <div class="crumbs" style="padding-top:0;color:rgba(255,255,255,.55)"><a href={L('/', here)} style="color:rgba(255,255,255,.6)">Accueil</a> › <a href={L('/guides/', here)} style="color:rgba(255,255,255,.6)">Guides</a></div>
+    <h1 style="margin-top:18px">{d.h1}</h1>
+    <p class="lead">{d.lead}</p>
+  </div></header>
+  <article class="wrap"><div class="prose">
+    {d.sections.map((s: any) => <><h2>{s[0]}</h2>{s[1].map((p: string) => <p set:html={p} />)}</>)}
+    <div class="cta-g"><div><h3>Lire les guides</h3><p>Devis, acompte, suivi de chantier, réception, litiges : chaque guide cite ses sources.</p></div><a class="btn w" href={L('/guides/', here)}>Voir les guides</a></div>
+  </div></article>
+  <Faq items={d.faq} title="Questions sur nos guides" />
+</Base>
