@@ -15,7 +15,7 @@
    "Comment un guide de travaux est écrit",
    [
     "Chaque guide part d'une question que se pose un particulier en cours de chantier : combien verser à la signature, que faire quand l'artisan ne revient pas, que noter le jour de la réception. Il répond en tête de page, puis détaille.",
-    "Les guides sont rédigés avec l'aide d'outils d'intelligence artificielle. Ils sont ensuite relus par l'éditeur. Aucune règle n'est publiée sur la seule foi de ces outils : c'est l'objet du contrôle décrit ci-dessous."
+    "Aucune règle n'est publiée sans avoir été contrôlée : c'est l'objet de la vérification décrite ci-dessous."
    ]
   ],
   [
@@ -48,7 +48,7 @@
  "faq": [
   [
    "Qui écrit les guides de Travaux Sans Piège ?",
-   "Les guides sont publiés par Kaërt Groupe, l'éditeur du site. Ils sont rédigés avec l'aide d'outils d'intelligence artificielle, relus par l'éditeur, et chaque règle de droit est contrôlée sur une source officielle avant publication."
+   "Les guides sont publiés par Kaërt Groupe, l'éditeur du site. Chaque règle de droit est contrôlée sur une source officielle avant publication, et les sources sont listées en fin de guide."
   ],
   [
    "D'où viennent les règles citées dans les guides ?",

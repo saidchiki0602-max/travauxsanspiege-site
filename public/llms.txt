@@ -33,4 +33,4 @@
 - [Tous les guides](https://travauxsanspiege.fr/guides/) · [Mentions légales](https://travauxsanspiege.fr/mentions-legales/) · [Confidentialité](https://travauxsanspiege.fr/confidentialite/)
 
 ## Méthode
-- [Comment nos guides de travaux sont vérifiés](https://travauxsanspiege.fr/methode/) : éditeur (Kaërt Groupe), rédaction assistée par IA et relue, chaque règle de droit contrôlée sur une source officielle (Service-Public, Légifrance, DGCCRF, impots.gouv.fr), sources listées en fin de guide, date de dernière vérification, signalement d'erreur à contact@travauxsanspiege.fr.
+- [Comment nos guides de travaux sont vérifiés](https://travauxsanspiege.fr/methode/) : éditeur (Kaërt Groupe), chaque règle de droit contrôlée sur une source officielle (Service-Public, Légifrance, DGCCRF, impots.gouv.fr), sources listées en fin de guide, date de dernière vérification, signalement d'erreur à contact@travauxsanspiege.fr.
